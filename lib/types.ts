@@ -1,4 +1,4 @@
-export type Tone = 0 | 1 | 2 | 3;      // 0 søt → 3 cheeky (PG-13)
+export type Tone = 0 | 1 | 2 | 3 | 4; // 4 = Spicy (18+)
 export type Lang = "no" | "en";
 
 export type Compliment = {

@@ -4,13 +4,13 @@ import { useEffect, useRef, useState } from "react";
 import { useAppState } from "./AppState";
 import type { Tone } from "@/lib/types";
 
-// Plan for PNG-ikoner (legg disse når du har):
-// /public/images/tone/0.png ... /public/images/tone/3.png
-const TONES: { value: Tone; label: string; icon?: string; emoji: string }[] = [
-  { value: 0, label: "Søt",    icon: "/images/tone/0.png", emoji: "🌸" },
-  { value: 1, label: "Lekent", icon: "/images/tone/1.png", emoji: "🙂" },
-  { value: 2, label: "Vittig",  icon: "/images/tone/2.png", emoji: "🧠" },
-  { value: 3, label: "Cheeky", icon: "/images/tone/3.png", emoji: "😉" },
+// PNG-ikoner kan legges i /public/images/tone/{0..4}.png
+const TONES: { value: Tone; label: string; emoji: string; icon?: string }[] = [
+  { value: 0, label: "Søt",     emoji: "🌸", icon: "/images/tone/0.png" },
+  { value: 1, label: "Lekent",  emoji: "🙂", icon: "/images/tone/1.png" },
+  { value: 2, label: "Vittig",  emoji: "🧠", icon: "/images/tone/2.png" },
+  { value: 3, label: "Cheeky",  emoji: "😉", icon: "/images/tone/3.png" },
+  { value: 4, label: "Spicy 18+", emoji: "🌶️", icon: "/images/tone/4.png" },
 ];
 
 export default function ToneMenu() {
@@ -19,13 +19,11 @@ export default function ToneMenu() {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    function onDoc(e: MouseEvent) {
+    const onDoc = (e: MouseEvent) => {
       if (!ref.current) return;
       if (!ref.current.contains(e.target as Node)) setOpen(false);
-    }
-    function onKey(e: KeyboardEvent) {
-      if (e.key === "Escape") setOpen(false);
-    }
+    };
+    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") setOpen(false); };
     document.addEventListener("click", onDoc);
     document.addEventListener("keydown", onKey);
     return () => {
@@ -46,7 +44,6 @@ export default function ToneMenu() {
         title="Tone"
       >
         <span className="inline-flex items-center gap-2">
-          {/* viser emoji alltid – PNG kan legges til uten å endre kode */}
           <span aria-hidden>{current.emoji}</span>
           <span className="hidden md:inline">{current.label}</span>
           <span className="text-xs">({tone})</span>
