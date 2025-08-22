@@ -7,11 +7,10 @@ import { loadCompliments, poolByTone, pickRandom } from "@/lib/compliments";
 import { useAppState } from "./components/AppState";
 
 export default function Page() {
-  const { lang, tone, current, setCurrent } = useAppState();
+  const { lang, tone, current, setCurrent, isFav, toggleFavorite } = useAppState();
   const [all, setAll] = useState<Compliment[]>([]);
   const [copied, setCopied] = useState(false);
 
-  // Last inn (eller bytt) datasett når språk endres – men IKKE velg nytt
   useEffect(() => {
     let alive = true;
     loadCompliments(lang)
@@ -20,7 +19,6 @@ export default function Page() {
     return () => { alive = false; };
   }, [lang]);
 
-  // Nytt kompliment KUN på knapp (eller Space)
   const next = useCallback(() => {
     const pool = poolByTone(all, tone);
     const n = pickRandom(pool);
@@ -36,16 +34,16 @@ export default function Page() {
     } catch {}
   }, [current]);
 
-  // Tastatursnarveier
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
       const k = e.key.toLowerCase();
       if (k === " ") { e.preventDefault(); next(); }
       if (k === "c") { copy(); }
+      if (k === "f") { toggleFavorite(); }
     }
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [next, copy]);
+  }, [next, copy, toggleFavorite]);
 
   const loading = all.length === 0;
 
@@ -63,15 +61,12 @@ export default function Page() {
       </ComplimentCard>
 
       <div className="w-full max-w-2xl flex items-center gap-2">
-        <button
-          className="btn btn-primary w-full"
-          onClick={next}
-          disabled={loading}
-        >
+        <button className="btn btn-primary w-full" onClick={next} disabled={loading}>
           {lang === "no" ? "Gi meg et kompliment" : "Give me a compliment"}
         </button>
-        <button className="btn btn-ghost" onClick={copy} aria-label="Copy" disabled={!current}>
-          📋
+        <button className="btn btn-ghost" onClick={copy} aria-label="Copy" disabled={!current}>📋</button>
+        <button className="btn btn-ghost" onClick={toggleFavorite} aria-label="Favorite" disabled={!current}>
+          {isFav ? "❤️" : "🤍"}
         </button>
       </div>
 
