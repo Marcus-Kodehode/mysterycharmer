@@ -1,43 +1,106 @@
 @import "tailwindcss";
 /* Design tokens – v4-style */
-@theme {
-  /* Brand-farger */
-  --color-brand-50: #fff1f3;
-  --color-brand-100: #ffe4e9;
-  --color-brand-200: #fecdd3;
-  --color-brand-300: #fda4af;
-  --color-brand-400: #fb7185;
-  --color-brand-500: #f43f5e; /* aksent */
-  --color-brand-600: #e11d48;
-  --color-brand-700: #be123c;
-  --color-brand-800: #9f1239;
-  --color-brand-900: #881337;
-  --color-brand-950: #4c0519;
-
-  /* Custom shadow => gir utility 'shadow-soft' */
-  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.25);
-}
-
+/* === Theme tokens (HSL) === */
 :root {
-  color-scheme: dark;
+  /* surfaces */
+  --surface-0: 344 45% 10%;  /* dyp bakgrunn */
+  --surface-1: 344 38% 13%;
+  --surface-2: 344 32% 17%;
+
+  /* brand (rose / hot pink) */
+  --brand-300: 343 90% 72%;
+  --brand-400: 343 86% 66%;
+  --brand-500: 343 85% 58%;
+  --brand-600: 343 78% 50%;
+
+  /* text */
+  --text-strong: 0 0% 98%;
+  --text:        0 0% 92%;
+  --muted:       0 0% 70%;
 }
-html,
-body,
-#__next {
+
+/* === App-bakgrunn: myk rose-gradient + to radiale glows === */
+html, body, #__next, #__app {
   height: 100%;
 }
+body {
+  color: hsl(var(--text));
+  background:
+    radial-gradient(1100px 700px at 85% -10%, hsl(var(--brand-600) / .18), transparent 45%),
+    radial-gradient(900px 600px at 0% 100%, hsl(var(--brand-400) / .14), transparent 50%),
+    linear-gradient(to bottom, hsl(var(--surface-1)), hsl(var(--surface-0)));
+}
 
-/* Egne hjelpeklasser (v4 støtter @apply) */
+/* === Cards (glass-rose) === */
 .card {
-  @apply rounded-2xl bg-white/5 backdrop-blur p-6 shadow-soft border border-white/10;
+  background: hsl(var(--surface-2) / .85);
+  border: 1px solid hsl(var(--text) / .08);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 14px;
+  box-shadow: 0 10px 30px hsl(var(--brand-600) / .18);
 }
+
+/* === Buttons === */
 .btn {
-  @apply inline-flex items-center justify-center rounded-xl px-5 py-3 font-medium transition
-         border border-white/10 bg-white/5 hover:bg-white/10 active:scale-[0.99];
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  padding: .5rem .9rem;
+  border-radius: 12px;
+  font-size: .925rem;
+  line-height: 1.2;
+  border: 1px solid hsl(var(--text) / .10);
+  background: hsl(var(--surface-2) / .6);
+  transition: transform .12s ease, filter .12s ease, background-color .12s ease;
 }
+.btn:hover { background: hsl(var(--surface-2) / .8); }
+.btn:focus-visible { outline: 2px solid hsl(var(--brand-400)); outline-offset: 2px; }
+
 .btn-primary {
-  @apply bg-brand-500 hover:bg-brand-400 text-white border-brand-500;
+  border: none;
+  color: white;
+  background: linear-gradient(180deg, hsl(var(--brand-400)), hsl(var(--brand-600)));
+  box-shadow: 0 8px 22px hsl(var(--brand-600) / .35);
 }
+.btn-primary:hover { filter: brightness(1.05); transform: translateY(-1px); }
+.btn-primary:active { transform: translateY(0); }
+
 .btn-ghost {
-  @apply bg-transparent hover:bg-white/10;
+  background: hsl(var(--surface-2) / .45);
+}
+.btn-ghost:hover { background: hsl(var(--surface-2) / .7); }
+
+/* === Header/footer glass i rose === */
+.header-glass {
+  background: hsl(var(--surface-2) / .6);
+  border-bottom: 1px solid hsl(var(--text) / .10);
+  backdrop-filter: blur(8px);
+}
+.footer-glass {
+  background: hsl(var(--surface-1) / .7);
+  border-top: 1px solid hsl(var(--text) / .10);
+}
+
+/* === Sitat/quote-kort (brukes i ComplimentCard) === */
+.quote-card {
+  padding: 1.2rem 1.1rem;
+  border-radius: 16px;
+}
+.quote-text {
+  font-size: clamp(1.35rem, 2.8vw + .6rem, 1.7rem);
+  font-weight: 700;
+  letter-spacing: .2px;
+  color: hsl(var(--text-strong));
+}
+.quote-subtle { color: hsl(var(--muted)); }
+
+/* Små chips/merker hvis du vil bruke */
+.chip {
+  display: inline-flex; align-items: center; gap: .35rem;
+  padding: .25rem .55rem; border-radius: 9999px;
+  background: hsl(var(--surface-2) / .6);
+  border: 1px solid hsl(var(--text) / .10);
+  font-size: .75rem;
 }

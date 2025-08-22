@@ -7,6 +7,7 @@ import { createPortal } from "react-dom";
 import { useAppState } from "../core/AppState";
 import { t, catLabel } from "@/lib/i18n";
 import type { Category, Lang } from "@/lib/types";
+import Logo from "../brand/Logo";
 
 const CATS: { value: Category; emoji: string }[] = [
   { value: "classic", emoji: "💌" },
@@ -121,6 +122,7 @@ export default function MobileMenu({
 
 
           {/* HISTORIKK */}
+          <Logo variant="lockup" size={20} className="text-base" />
           <Link
             href="/history"
             onClick={onClose}

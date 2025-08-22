@@ -6,14 +6,18 @@ import { useAppState } from "../core/AppState";
 import LanguageMenu from "../menus/LanguageMenu";
 import CategoryMenu from "../menus/CategoryMenu";
 import MobileMenu from "./MobileMenu";
+import Logo from "../brand/Logo";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
   const { favCount, history } = useAppState();
 
   return (
-    <header className="relative z-50 border-b border-white/10 bg-black/10 backdrop-blur">
+    <header className="relative z-50 border-b border-white/10 bg-black/10 backdrop-blur header-glass">
       <div className="mx-auto max-w-5xl px-4 py-3 flex items-center gap-3">
+        <Link href="/" aria-label="Home" className="mr-auto">
+        <Logo variant="wordmark" className="text-lg" />
+        </Link>
         <Link href="/" className="text-lg tracking-wide" aria-label="Home">
           mystery<span className="text-brand-400">charmer</span>
         </Link>
