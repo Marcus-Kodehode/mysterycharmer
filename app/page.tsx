@@ -11,20 +11,16 @@ export default function Page() {
   const [all, setAll] = useState<Compliment[]>([]);
   const [copied, setCopied] = useState(false);
 
-  // Last inn data basert på språk
+  // Last inn (eller bytt) datasett når språk endres – men IKKE velg nytt
   useEffect(() => {
+    let alive = true;
     loadCompliments(lang)
-      .then((data) => setAll(data))
-      .catch(() => setAll([]));
+      .then((data) => alive && setAll(data))
+      .catch(() => alive && setAll([]));
+    return () => { alive = false; };
   }, [lang]);
 
-  // Sett første/ny når tone eller liste endres
-  useEffect(() => {
-    const pool = poolByTone(all, tone);
-    const first = pickRandom(pool);
-    if (first) setCurrent(first);
-  }, [all, tone, setCurrent]);
-
+  // Nytt kompliment KUN på knapp (eller Space)
   const next = useCallback(() => {
     const pool = poolByTone(all, tone);
     const n = pickRandom(pool);
@@ -40,21 +36,18 @@ export default function Page() {
     } catch {}
   }, [current]);
 
-  // Snarveier – bruk stabile callbacks i deps
+  // Tastatursnarveier
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
       const k = e.key.toLowerCase();
-      if (k === " ") {
-        e.preventDefault();
-        next();
-      }
-      if (k === "c") {
-        copy();
-      }
+      if (k === " ") { e.preventDefault(); next(); }
+      if (k === "c") { copy(); }
     }
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, [next, copy]);
+
+  const loading = all.length === 0;
 
   return (
     <section className="mx-auto max-w-4xl px-4 py-12 min-h-[calc(100dvh-120px)] flex flex-col items-center justify-center gap-8">
@@ -66,15 +59,18 @@ export default function Page() {
       </p>
 
       <ComplimentCard>
-        {current?.text ??
-          (lang === "no" ? "Klar for litt sjarm?" : "Ready for some charm?")}
+        {current?.text ?? (lang === "no" ? "Klar for litt sjarm?" : "Ready for some charm?")}
       </ComplimentCard>
 
       <div className="w-full max-w-2xl flex items-center gap-2">
-        <button className="btn btn-primary w-full" onClick={next}>
+        <button
+          className="btn btn-primary w-full"
+          onClick={next}
+          disabled={loading}
+        >
           {lang === "no" ? "Gi meg et kompliment" : "Give me a compliment"}
         </button>
-        <button className="btn btn-ghost" onClick={copy} aria-label="Copy">
+        <button className="btn btn-ghost" onClick={copy} aria-label="Copy" disabled={!current}>
           📋
         </button>
       </div>
