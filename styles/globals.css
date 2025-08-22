@@ -3,15 +3,14 @@
 /* === Theme tokens (HSL) === */
 :root {
   /* surfaces */
-  --surface-0: 344 45% 10%;  /* dyp bakgrunn */
-  --surface-1: 344 38% 13%;
-  --surface-2: 344 32% 17%;
+  --surface-0: 337 42% 8%;
+  --surface-1: 337 38% 10%;
+  --surface-2: 337 32% 14%;
 
   /* brand (rose / hot pink) */
-  --brand-300: 343 90% 72%;
-  --brand-400: 343 86% 66%;
-  --brand-500: 343 85% 58%;
-  --brand-600: 343 78% 50%;
+  --brand-400: 343 90% 70%; /* #ff6b9e-ish */
+  --brand-500: 343 78% 60%;
+  --brand-600: 343 68% 48%; /* #d12b62-ish */
 
   /* text */
   --text-strong: 0 0% 98%;
