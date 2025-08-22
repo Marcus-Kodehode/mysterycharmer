@@ -1,0 +1,245 @@
+[
+  { "key": "001", "text": "Eres lo más parecido a un amanecer en forma humana.",
+   "categories": ["classic"] },
+
+  { "key": "002", "text": "Hay algo en ti que hace que todo lo demás baje el ritmo.",
+   "categories": ["classic"] },
+
+  { "key": "003", "text": "Tienes esa presencia que la gente nota, incluso sin intentarlo.",
+   "categories": ["classic"] },
+
+  { "key": "004", "text": "Eres como un botón de pausa que no sabía que necesitaba.",
+   "categories": ["classic"] },
+
+  { "key": "005", "text": "Todo se siente un poco más tranquilo cuando estás cerca.",
+   "categories": ["classic"] },
+
+  { "key": "006", "text": "Me recuerdas que lo mejor no necesita gritar.",
+   "categories": ["classic"] },
+
+  { "key": "007", "text": "Me haces creer en el momento indicado.",
+   "categories": ["classic"] },
+
+  { "key": "008", "text": "Algunas personas brillan; tú resplandeces.",
+   "categories": ["classic"] },
+
+  { "key": "009", "text": "Eres una especie de silencio que no se siente vacío.",
+   "categories": ["classic"] },
+
+  { "key": "010", "text": "Eres el tipo de persona sobre la que se escriben canciones de amor ridículamente cursis.",
+   "categories": ["classic"] },
+
+  { "key": "011", "text": "Hay algo en tu mirada que se siente familiar, en el mejor sentido.",
+   "categories": ["classic"] },
+
+  { "key": "012", "text": "Me recuerdas que la verdadera atracción empieza cuando uno se siente seguro.",
+   "categories": ["classic"] },
+
+  { "key": "013", "text": "Tienes una calma de la que podría aprender.",
+   "categories": ["classic"] },
+
+  { "key": "014", "text": "Es difícil no sonreír cuando tú lo haces.",
+   "categories": ["classic"] },
+
+  { "key": "015", "text": "Hay algo muy auténtico en ti, y se nota.",
+   "categories": ["classic"] },
+
+  { "key": "016", "text": "Eres un recordatorio de que se puede ser bello y genuino a la vez.",
+   "categories": ["classic"] },
+
+  { "key": "017", "text": "Contigo se siente como volver a casa, sin saber por qué.",
+   "categories": ["classic"] },
+
+  { "key": "018", "text": "Eres la mejor parte de las casualidades.",
+   "categories": ["classic"] },
+
+  { "key": "019", "text": "Hay algo bellamente natural en ti.",
+   "categories": ["classic"] },
+
+  { "key": "020", "text": "Eres la parte silenciosa de un mundo que no deja de hacer ruido.",
+   "categories": ["classic"] },
+
+
+  { "key": "021", "text": "Eres como un buen commit: pequeño, pero lo cambia todo.",
+   "categories": ["nerdy"] },
+
+  { "key": "022", "text": "Cero bugs, solo mariposas.",
+   "categories": ["nerdy"] },
+
+  { "key": "023", "text": "Creí que estaba estable; llegaste y desajustaste todo mi código.",
+   "categories": ["nerdy"] },
+
+  { "key": "024", "text": "¿Eres una API? Porque quiero conectarme contigo 24/7.",
+   "categories": ["nerdy"] },
+
+  { "key": "025", "text": "Acabas de disparar mi pulso como una prueba de estrés.",
+   "categories": ["nerdy"] },
+
+  { "key": "026", "text": "Si fuéramos un algoritmo, estaríamos optimizados para la atracción.",
+   "categories": ["nerdy"] },
+
+  { "key": "027", "text": "Eres la variable desconocida que hace que mi ecuación valga la pena.",
+   "categories": ["nerdy"] },
+
+  { "key": "028", "text": "Intenté depurar mis sentimientos y descubrí que solo eras tú.",
+   "categories": ["nerdy"] },
+
+  { "key": "029", "text": "Debes ser un breakpoint, porque detienes por completo mi hilo de pensamiento.",
+   "categories": ["nerdy"] },
+
+  { "key": "030", "text": "¿Eres una entrada? Porque cada vez que apareces, obtengo salidas para las que no estaba preparado.",
+   "categories": ["nerdy"] },
+
+  { "key": "031", "text": "Acabas de hacer overclock a mi CPU mental.",
+   "categories": ["nerdy"] },
+
+  { "key": "032", "text": "No necesito IA para saber que eres una buena elección.",
+   "categories": ["nerdy"] },
+
+  { "key": "033", "text": "Eres como un merge perfecto: todo encaja.",
+   "categories": ["nerdy"] },
+
+  { "key": "034", "text": "¿Eres Wi-Fi? Porque me siento conectado solo con verte.",
+   "categories": ["nerdy"] },
+
+  { "key": "035", "text": "Algo en ti activa todo mi sistema, en el mejor sentido.",
+   "categories": ["nerdy"] },
+
+  { "key": "036", "text": "Intenté cachear mis sentimientos, pero mi corazón se actualiza en tiempo real.",
+   "categories": ["nerdy"] },
+
+  { "key": "037", "text": "Haríamos un pull request sólido: compatibles, limpios y un poco intensos.",
+   "categories": ["nerdy"] },
+
+  { "key": "038", "text": "Eres el único bug que espero que nunca se arregle.",
+   "categories": ["nerdy"] },
+
+  { "key": "039", "text": "Si el amor fuera una matriz, serías 1 en todas las dimensiones.",
+   "categories": ["nerdy"] },
+
+  { "key": "040", "text": "No sé qué código estás ejecutando, pero me hiciste hacer un crash precioso.",
+   "categories": ["nerdy"] },
+
+
+
+  { "key": "041", "text": "Tu sonrisa es una prueba de concentración que nunca apruebo.",
+   "categories": ["cheeky"] },
+
+  { "key": "042", "text": "Si te miro fijamente, es porque intento entender cómo es posible que existas.",
+   "categories": ["cheeky"] },
+
+  { "key": "043", "text": "Me lo pones innecesariamente difícil para fingir que estoy ocupado con otra cosa.",
+   "categories": ["cheeky"] },
+
+  { "key": "044", "text": "Casi es grosero lo bien que te ves ahora mismo.",
+   "categories": ["cheeky"] },
+
+  { "key": "045", "text": "No creo que te des cuenta del caos que causas en mi cabeza.",
+   "categories": ["cheeky"] },
+
+  { "key": "046", "text": "Deberías venir con un letrero de “no te encariñes demasiado”.",
+   "categories": ["cheeky"] },
+
+  { "key": "047", "text": "No debería ser legal verte tan bien y tan impasible a la vez.",
+   "categories": ["cheeky"] },
+
+  { "key": "048", "text": "Sabes que no es justo mirarme así de vuelta, ¿verdad?",
+   "categories": ["cheeky"] },
+
+  { "key": "049", "text": "Probablemente deberían facturarte por todos los pensamientos que me robas.",
+   "categories": ["cheeky"] },
+
+  { "key": "050", "text": "Eres lo justo para hacerme perder el hilo.",
+   "categories": ["cheeky"] },
+
+  { "key": "051", "text": "Eres peligrosamente irresistible; debería tomar apuntes.",
+   "categories": ["cheeky"] },
+
+  { "key": "052", "text": "Eres de esas personas que uno finge no haber visto… y falla.",
+   "categories": ["cheeky"] },
+
+  { "key": "053", "text": "Intenté mantener la mirada, pero mi cerebro dijo que no.",
+   "categories": ["cheeky"] },
+
+  { "key": "054", "text": "Eres la prueba de que robar atención es real.",
+   "categories": ["cheeky"] },
+
+  { "key": "055", "text": "Haces muy difícil que me concentre en lo que realmente iba a decir.",
+   "categories": ["cheeky"] },
+
+  { "key": "056", "text": "¿Podrías dejar de ser tan irresistible? Estoy intentando comportarme.",
+   "categories": ["cheeky"] },
+
+  { "key": "057", "text": "Pareces una distracción de la que me arrepentiré feliz.",
+   "categories": ["cheeky"] },
+
+  { "key": "058", "text": "Eres inquietantemente dulce; debería contar como problema.",
+   "categories": ["cheeky"] },
+
+  { "key": "059", "text": "Esa sonrisa es una señal de alerta disfrazada.",
+   "categories": ["cheeky"] },
+
+  { "key": "060", "text": "Entiendo por qué la gente pierde el enfoque a tu alrededor. Yo también, ya.",
+  "categories": ["cheeky"] },
+
+
+  { "key": "061", "text": "Pareces un problema que definitivamente debería evitar… pero no lo haré.",
+   "categories": ["spicy", "cheeky"] },
+
+  { "key": "062", "text": "Tus ojos prometen cosas que la conversación no se atreve a decir.",
+   "categories": ["spicy", "cheeky"] },
+
+  { "key": "063", "text": "¿Esto es coqueteo o solo estás saboteando mi juicio?",
+   "categories": ["spicy", "cheeky"] },
+
+  { "key": "064", "text": "Tú no eres el peligro; mis pensamientos sí cuando estás cerca.",
+   "categories": ["spicy", "cheeky"] },
+
+  { "key": "065", "text": "Hay algo en ti que hace que la inocencia se sienta… opcional.",
+   "categories": ["spicy", "cheeky"] },
+
+  { "key": "066", "text": "Eres una distracción con efectos secundarios que no quiero evitar.",
+   "categories": ["spicy", "cheeky"] },
+
+  { "key": "067", "text": "¿Esa sonrisa? Directo a la categoría “piénsalo dos veces… y hazlo igual”.",
+   "categories": ["spicy", "cheeky"] },
+
+  { "key": "068", "text": "Tienes esa mirada que hace que meterse en líos suene razonable.",
+   "categories": ["spicy", "cheeky"] },
+
+  { "key": "069", "text": "Mis pensamientos no se portan bien cuando estás cerca.",
+   "categories": ["spicy", "cheeky"] },
+
+  { "key": "070", "text": "Eres un “ven aquí” sin decir una palabra.",
+   "categories": ["spicy", "cheeky"] },
+
+  { "key": "071", "text": "Si las miradas desvistieran, yo ya estaría en problemas.",
+   "categories": ["spicy", "cheeky"] },
+
+  { "key": "072", "text": "Tienes el papel principal en mis pensamientos, y estoy considerando una secuela.",
+   "categories": ["spicy", "cheeky"] },
+
+  { "key": "073", "text": "Seamos honestos: la química aquí no es precisamente sutil.",
+   "categories": ["spicy", "cheeky"] },
+
+  { "key": "074", "text": "No solo eres adorable: eres fantasías con consecuencias.",
+   "categories": ["spicy", "cheeky"] },
+
+  { "key": "075", "text": "Me haces pensar en todo menos en cosas inocentes.",
+   "categories": ["spicy", "cheeky"] },
+
+  { "key": "076", "text": "Si la atracción fuera un delito, yo sería cómplice.",
+   "categories": ["spicy", "cheeky"] },
+
+  { "key": "077", "text": "No solo te llevas mi mirada; también te llevas los pensamientos después.",
+   "categories": ["spicy", "cheeky"] },
+
+  { "key": "078", "text": "Eres una tentación disfrazada de casualidad.",
+   "categories": ["spicy", "cheeky"] },
+
+  { "key": "079", "text": "Me dan ganas de tomar malas decisiones con excelente compañía.",
+   "categories": ["spicy", "cheeky"] },
+   
+  { "key": "080", "text": "Das ese tipo de energía imposible de ignorar… o de dormir.",
+   "categories": ["spicy", "cheeky"] }
+]
