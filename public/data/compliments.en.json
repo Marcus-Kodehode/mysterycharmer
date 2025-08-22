@@ -1,0 +1,14 @@
+[
+  { "id": "en-1",  "text": "You make the room a little warmer just by being here.", "lang": "en", "tone": 0, "categories": ["classic"], "risk": 0 },
+  { "id": "en-2",  "text": "You're a good day in human form.", "lang": "en", "tone": 1, "categories": ["classic"], "risk": 0 },
+  { "id": "en-3",  "text": "Your calm is contagious.", "lang": "en", "tone": 0, "categories": ["classic"], "risk": 0 },
+  { "id": "en-4",  "text": "Your gaze feels like a weekend trip.", "lang": "en", "tone": 1, "categories": ["classic"], "risk": 0 },
+  { "id": "en-5",  "text": "Rare mix: kind and sharp.", "lang": "en", "tone": 2, "categories": ["classic"], "risk": 0 },
+  { "id": "en-6",  "text": "You're like a perfect commit: small, yet everything gets better.", "lang": "en", "tone": 2, "categories": ["nerdy"], "risk": 0 },
+  { "id": "en-7",  "text": "Zero bugs, only butterflies.", "lang": "en", "tone": 2, "categories": ["nerdy"], "risk": 0 },
+  { "id": "en-8",  "text": "That smile is a gentle problem for my focus.", "lang": "en", "tone": 3, "categories": ["cheeky"], "risk": 1 },
+  { "id": "en-9",  "text": "You showed up and the room got brighter.", "lang": "en", "tone": 1, "categories": ["classic"], "risk": 0 },
+  { "id": "en-10", "text": "You make hard days easier.", "lang": "en", "tone": 0, "categories": ["classic"], "risk": 0 },
+  { "id": "en-11", "text": "You're my favorite excuse for spontaneity.", "lang": "en", "tone": 2, "categories": ["witty"], "risk": 0 },
+  { "id": "en-12", "text": "You make my heartbeat take shortcuts.", "lang": "en", "tone": 3, "categories": ["cheeky"], "risk": 1 }
+]

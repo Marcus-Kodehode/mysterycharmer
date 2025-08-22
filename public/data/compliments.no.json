@@ -1,0 +1,14 @@
+[
+  { "id": "no-1",  "text": "Du gjør rommet litt varmere bare ved å være her.", "lang": "no", "tone": 0, "categories": ["classic"], "risk": 0 },
+  { "id": "no-2",  "text": "Du er en god dag i menneskeform.", "lang": "no", "tone": 1, "categories": ["classic"], "risk": 0 },
+  { "id": "no-3",  "text": "Den roen din smitter.", "lang": "no", "tone": 0, "categories": ["classic"], "risk": 0 },
+  { "id": "no-4",  "text": "Blikket ditt føles som ferie.", "lang": "no", "tone": 1, "categories": ["classic"], "risk": 0 },
+  { "id": "no-5",  "text": "Du har en sjelden kombinasjon av snill og skarp.", "lang": "no", "tone": 2, "categories": ["classic"], "risk": 0 },
+  { "id": "no-6",  "text": "Du er som en perfekt commit: liten, men gjør alt bedre.", "lang": "no", "tone": 2, "categories": ["nerdy"], "risk": 0 },
+  { "id": "no-7",  "text": "Null bugs, bare sommerfugler.", "lang": "no", "tone": 2, "categories": ["nerdy"], "risk": 0 },
+  { "id": "no-8",  "text": "Smilet ditt er en konsentrasjonstest jeg neppe består.", "lang": "no", "tone": 3, "categories": ["cheeky"], "risk": 1 },
+  { "id": "no-9",  "text": "Du dukket opp, og resten fikk litt mindre lys.", "lang": "no", "tone": 1, "categories": ["classic"], "risk": 0 },
+  { "id": "no-10", "text": "Du gjør vanskelige dager enklere.", "lang": "no", "tone": 0, "categories": ["classic"], "risk": 0 },
+  { "id": "no-11", "text": "Du er det beste argumentet for spontanitet.", "lang": "no", "tone": 2, "categories": ["witty"], "risk": 0 },
+  { "id": "no-12", "text": "Du får pulsen min til å ta snarveier.", "lang": "no", "tone": 3, "categories": ["cheeky"], "risk": 1 }
+]
