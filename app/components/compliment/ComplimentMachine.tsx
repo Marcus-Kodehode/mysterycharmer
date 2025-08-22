@@ -10,7 +10,8 @@ import CopyToast from "./CopyToast";
 import { t } from "@/lib/i18n";
 
 export default function ComplimentMachine() {
-  const { lang, category, current, setCurrent, isFav, toggleFavorite } = useAppState();
+  const { lang, category, current, setCurrent, isFav, toggleFavorite } =
+    useAppState();
   const [all, setAll] = useState<Compliment[]>([]);
   const [copied, setCopied] = useState(false);
 
@@ -19,7 +20,9 @@ export default function ComplimentMachine() {
     loadCompliments(lang)
       .then((data) => alive && setAll(data))
       .catch(() => alive && setAll([]));
-    return () => { alive = false; };
+    return () => {
+      alive = false;
+    };
   }, [lang]);
 
   const next = useCallback(() => {
@@ -40,22 +43,27 @@ export default function ComplimentMachine() {
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
       const k = e.key.toLowerCase();
-      if (k === " ") { e.preventDefault(); next(); }
-      if (k === "c") { copy(); }
-      if (k === "f") { toggleFavorite(); }
+      if (k === " ") {
+        e.preventDefault();
+        next();
+      }
+      if (k === "c") {
+        copy();
+      }
+      if (k === "f") {
+        toggleFavorite();
+      }
     }
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, [next, copy, toggleFavorite]);
 
-  const hasCategory = all.some(c => (c.categories ?? []).includes(category));
+  const hasCategory = all.some((c) => (c.categories ?? []).includes(category));
   const disabled = all.length === 0 || !hasCategory;
 
   return (
     <>
-      <ComplimentCard>
-        {current?.text ?? t(lang, "ready")}
-      </ComplimentCard>
+      <ComplimentCard>{current?.text ?? t(lang, "ready")}</ComplimentCard>
 
       <ActionsBar
         disabled={disabled}

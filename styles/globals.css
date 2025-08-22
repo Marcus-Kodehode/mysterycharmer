@@ -2,7 +2,7 @@
 /* Design tokens – v4-style */
 @theme {
   /* Brand-farger */
-  --color-brand-50:  #fff1f3;
+  --color-brand-50: #fff1f3;
   --color-brand-100: #ffe4e9;
   --color-brand-200: #fecdd3;
   --color-brand-300: #fda4af;
@@ -15,11 +15,17 @@
   --color-brand-950: #4c0519;
 
   /* Custom shadow => gir utility 'shadow-soft' */
-  --shadow-soft: 0 10px 30px rgba(0,0,0,.25);
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.25);
 }
 
-:root { color-scheme: dark; }
-html, body, #__next { height: 100%; }
+:root {
+  color-scheme: dark;
+}
+html,
+body,
+#__next {
+  height: 100%;
+}
 
 /* Egne hjelpeklasser (v4 støtter @apply) */
 .card {
@@ -29,5 +35,9 @@ html, body, #__next { height: 100%; }
   @apply inline-flex items-center justify-center rounded-xl px-5 py-3 font-medium transition
          border border-white/10 bg-white/5 hover:bg-white/10 active:scale-[0.99];
 }
-.btn-primary { @apply bg-brand-500 hover:bg-brand-400 text-white border-brand-500; }
-.btn-ghost   { @apply bg-transparent hover:bg-white/10; }
+.btn-primary {
+  @apply bg-brand-500 hover:bg-brand-400 text-white border-brand-500;
+}
+.btn-ghost {
+  @apply bg-transparent hover:bg-white/10;
+}

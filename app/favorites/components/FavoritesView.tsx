@@ -16,23 +16,36 @@ export default function FavoritesView() {
 
   useEffect(() => {
     let alive = true;
-    loadCompliments(lang).then((data) => { if (!alive) return; setAll(data); setFavKeys(getFavorites()); })
-      .catch(() => { if (!alive) return; setAll([]); setFavKeys(getFavorites()); });
-    return () => { alive = false; };
+    loadCompliments(lang)
+      .then((data) => {
+        if (!alive) return;
+        setAll(data);
+        setFavKeys(getFavorites());
+      })
+      .catch(() => {
+        if (!alive) return;
+        setAll([]);
+        setFavKeys(getFavorites());
+      });
+    return () => {
+      alive = false;
+    };
   }, [lang]);
 
-  const byKey = useMemo(() => new Map(all.map(c => [c.key, c])), [all]);
-  const favs = favKeys.map(k => byKey.get(k)).filter(Boolean) as Compliment[];
+  const byKey = useMemo(() => new Map(all.map((c) => [c.key, c])), [all]);
+  const favs = favKeys.map((k) => byKey.get(k)).filter(Boolean) as Compliment[];
 
   return (
     <PageSection>
-      <h2 className="text-xl font-semibold mb-4">{t(lang, "favorites_title")}</h2>
+      <h2 className="text-xl font-semibold mb-4">
+        {t(lang, "favorites_title")}
+      </h2>
 
       {!favs.length ? (
         <EmptyState>{t(lang, "empty_favorites")}</EmptyState>
       ) : (
         <ul className="space-y-3">
-          {favs.map(c => (
+          {favs.map((c) => (
             <li key={c.key} className="card">
               <p className="text-sm">{c.text}</p>
             </li>

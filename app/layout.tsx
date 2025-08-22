@@ -6,11 +6,18 @@ import "../styles/globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="no" className={inter.className}>
       <body className="min-h-dvh bg-gradient-to-b from-zinc-950 to-zinc-900 text-zinc-100 antialiased">
-        <a href="#content" className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 btn btn-primary">
+        <a
+          href="#content"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 btn btn-primary"
+        >
           Hopp til innhold
         </a>
 

@@ -2,10 +2,25 @@ import type { Lang } from "./types";
 import type { Category } from "./types";
 
 type Keys =
-  | "ready" | "tagline" | "cta" | "copied"
-  | "history_title" | "favorites_title" | "clear" | "empty_history" | "empty_favorites"
-  | "category" | "history_nav" | "favorites_nav" | "fav_add" | "fav_remove" | "no_current"
-  | "cat_classic" | "cat_nerdy" | "cat_cheeky" | "cat_spicy";
+  | "ready"
+  | "tagline"
+  | "cta"
+  | "copied"
+  | "history_title"
+  | "favorites_title"
+  | "clear"
+  | "empty_history"
+  | "empty_favorites"
+  | "category"
+  | "history_nav"
+  | "favorites_nav"
+  | "fav_add"
+  | "fav_remove"
+  | "no_current"
+  | "cat_classic"
+  | "cat_nerdy"
+  | "cat_cheeky"
+  | "cat_spicy";
 
 const UI: Record<Lang, Record<Keys, string>> = {
   no: {
@@ -80,7 +95,7 @@ const UI: Record<Lang, Record<Keys, string>> = {
     cat_cheeky: "Pícaro",
     cat_spicy: "Picante 18+",
   },
-    sw: {
+  sw: {
     ready: "Uko tayari kwa mvuto kidogo?",
     tagline: "Flirting yenye ustaarabu, sentensi moja kwa wakati.",
     cta: "Nipe sifa",
@@ -112,9 +127,13 @@ export function t(lang: Lang, key: Keys): string {
 
 export function catLabel(lang: Lang, cat: Category): string {
   switch (cat) {
-    case "classic": return t(lang, "cat_classic");
-    case "nerdy":   return t(lang, "cat_nerdy");
-    case "cheeky":  return t(lang, "cat_cheeky");
-    case "spicy":   return t(lang, "cat_spicy");
+    case "classic":
+      return t(lang, "cat_classic");
+    case "nerdy":
+      return t(lang, "cat_nerdy");
+    case "cheeky":
+      return t(lang, "cat_cheeky");
+    case "spicy":
+      return t(lang, "cat_spicy");
   }
 }

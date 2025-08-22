@@ -2,581 +2,401 @@
   {
     "key": "001",
     "text": "Du er det nærmeste jeg har kommet en soloppgang i menneskeform.",
-    "categories": [
-      "classic"
-    ]
+    "categories": ["classic"]
   },
   {
     "key": "002",
     "text": "Noe med deg får alt annet til å senke tempoet.",
-    "categories": [
-      "classic"
-    ]
+    "categories": ["classic"]
   },
   {
     "key": "003",
     "text": "Du har den typen tilstedeværelse man legger merke til – selv uten å prøve.",
-    "categories": [
-      "classic"
-    ]
+    "categories": ["classic"]
   },
   {
     "key": "004",
     "text": "Du er som en pauseknapp jeg ikke visste jeg trengte.",
-    "categories": [
-      "classic"
-    ]
+    "categories": ["classic"]
   },
   {
     "key": "005",
     "text": "Ting føles litt roligere når du er i nærheten.",
-    "categories": [
-      "classic"
-    ]
+    "categories": ["classic"]
   },
   {
     "key": "006",
     "text": "Du minner meg på at de fineste tingene ikke roper høyt.",
-    "categories": [
-      "classic"
-    ]
+    "categories": ["classic"]
   },
   {
     "key": "007",
     "text": "Du gjør det plutselig lett å tro på timing.",
-    "categories": [
-      "classic"
-    ]
+    "categories": ["classic"]
   },
   {
     "key": "008",
     "text": "Noen mennesker glitrer – du lyser.",
-    "categories": [
-      "classic"
-    ]
+    "categories": ["classic"]
   },
   {
     "key": "009",
     "text": "Du er en slags stillhet som ikke føles tom.",
-    "categories": [
-      "classic"
-    ]
+    "categories": ["classic"]
   },
   {
     "key": "010",
     "text": "Du er den typen folk skriver dumme kjærlighetssanger om.",
-    "categories": [
-      "classic"
-    ]
+    "categories": ["classic"]
   },
   {
     "key": "011",
     "text": "Det er noe med blikket ditt som føles kjent på en god måte.",
-    "categories": [
-      "classic"
-    ]
+    "categories": ["classic"]
   },
   {
     "key": "012",
     "text": "Du minner meg på at ekte tiltrekning starter med trygghet.",
-    "categories": [
-      "classic"
-    ]
+    "categories": ["classic"]
   },
   {
     "key": "013",
     "text": "Du har en ro jeg kunne lært noe av.",
-    "categories": [
-      "classic"
-    ]
+    "categories": ["classic"]
   },
   {
     "key": "014",
     "text": "Det er vanskelig å ikke smile når du gjør det.",
-    "categories": [
-      "classic"
-    ]
+    "categories": ["classic"]
   },
   {
     "key": "015",
     "text": "Det er noe veldig ekte med deg – og det merkes.",
-    "categories": [
-      "classic"
-    ]
+    "categories": ["classic"]
   },
   {
     "key": "016",
     "text": "Du er en påminnelse om at folk kan være både fine og ekte.",
-    "categories": [
-      "classic"
-    ]
+    "categories": ["classic"]
   },
   {
     "key": "017",
     "text": "Du føles som å komme hjem – uten at man skjønner hvorfor.",
-    "categories": [
-      "classic"
-    ]
+    "categories": ["classic"]
   },
   {
     "key": "018",
     "text": "Du er det fineste ved tilfeldigheter.",
-    "categories": [
-      "classic"
-    ]
+    "categories": ["classic"]
   },
   {
     "key": "019",
     "text": "Det er noe veldig uanstrengt vakkert med deg.",
-    "categories": [
-      "classic"
-    ]
+    "categories": ["classic"]
   },
   {
     "key": "020",
     "text": "Du er den stille delen i en ellers bråkete verden.",
-    "categories": [
-      "classic"
-    ]
+    "categories": ["classic"]
   },
   {
     "key": "021",
     "text": "Du er som en god commit – liten, men endrer alt.",
-    "categories": [
-      "nerdy"
-    ]
+    "categories": ["nerdy"]
   },
   {
     "key": "022",
     "text": "Null bugs, bare sommerfugler.",
-    "categories": [
-      "nerdy"
-    ]
+    "categories": ["nerdy"]
   },
   {
     "key": "023",
     "text": "Jeg trodde jeg var i balanse, men så kom du og forstyrret hele koden min.",
-    "categories": [
-      "nerdy"
-    ]
+    "categories": ["nerdy"]
   },
   {
     "key": "024",
     "text": "Er du en API? For jeg vil koble til deg 24/7.",
-    "categories": [
-      "nerdy"
-    ]
+    "categories": ["nerdy"]
   },
   {
     "key": "025",
     "text": "Du fikk nettopp hjertefrekvensen min til å spike som en stress-test.",
-    "categories": [
-      "nerdy"
-    ]
+    "categories": ["nerdy"]
   },
   {
     "key": "026",
     "text": "Hvis vi var en algoritme, hadde vi vært optimalisert for tiltrekning.",
-    "categories": [
-      "nerdy"
-    ]
+    "categories": ["nerdy"]
   },
   {
     "key": "027",
     "text": "Du er den ukjente variabelen som gjør hele ligningen min verdt å løse.",
-    "categories": [
-      "nerdy"
-    ]
+    "categories": ["nerdy"]
   },
   {
     "key": "028",
     "text": "Jeg prøvde å debugge følelsene mine, men så skjønte jeg at det bare er deg.",
-    "categories": [
-      "nerdy"
-    ]
+    "categories": ["nerdy"]
   },
   {
     "key": "029",
     "text": "Du må være en breakpoint, for du stopper tankerekken min helt.",
-    "categories": [
-      "nerdy"
-    ]
+    "categories": ["nerdy"]
   },
   {
     "key": "030",
     "text": "Er du en input? For hver gang du dukker opp, får jeg output jeg ikke var forberedt på.",
-    "categories": [
-      "nerdy"
-    ]
+    "categories": ["nerdy"]
   },
   {
     "key": "031",
     "text": "Du fikk nettopp min mentale CPU til å overklokke.",
-    "categories": [
-      "nerdy"
-    ]
+    "categories": ["nerdy"]
   },
   {
     "key": "032",
     "text": "Jeg trenger ikke AI for å skjønne at du er et godt valg.",
-    "categories": [
-      "nerdy"
-    ]
+    "categories": ["nerdy"]
   },
   {
     "key": "033",
     "text": "Du er som en perfekt merge – alt passer.",
-    "categories": [
-      "nerdy"
-    ]
+    "categories": ["nerdy"]
   },
   {
     "key": "034",
     "text": "Er du WiFi? For jeg føler meg tilkoblet bare av å se deg.",
-    "categories": [
-      "nerdy"
-    ]
+    "categories": ["nerdy"]
   },
   {
     "key": "035",
     "text": "Noe med deg trigger hele systemet mitt – på en god måte.",
-    "categories": [
-      "nerdy"
-    ]
+    "categories": ["nerdy"]
   },
   {
     "key": "036",
     "text": "Jeg prøvde å cache følelsene mine, men hjertet mitt oppdaterer i sanntid.",
-    "categories": [
-      "nerdy"
-    ]
+    "categories": ["nerdy"]
   },
   {
     "key": "037",
     "text": "Vi hadde vært en solid pull request – kompatible, ryddige, og litt hete.",
-    "categories": [
-      "nerdy"
-    ]
+    "categories": ["nerdy"]
   },
   {
     "key": "038",
     "text": "Du er den eneste feilen jeg håper aldri blir fikset.",
-    "categories": [
-      "nerdy"
-    ]
+    "categories": ["nerdy"]
   },
   {
     "key": "039",
     "text": "Hvis kjærlighet var en matrise, hadde du vært 1 i alle dimensjoner.",
-    "categories": [
-      "nerdy"
-    ]
+    "categories": ["nerdy"]
   },
   {
     "key": "040",
     "text": "Jeg vet ikke hva slags kode du kjører, men du fikk meg til å crashe pent.",
-    "categories": [
-      "nerdy"
-    ]
+    "categories": ["nerdy"]
   },
   {
     "key": "041",
     "text": "Smilet ditt er en konsentrasjonstest jeg aldri består.",
-    "categories": [
-      "cheeky"
-    ]
+    "categories": ["cheeky"]
   },
   {
     "key": "042",
     "text": "Hvis jeg stirrer, er det bare fordi jeg prøver å forstå hvordan du er mulig.",
-    "categories": [
-      "cheeky"
-    ]
+    "categories": ["cheeky"]
   },
   {
     "key": "043",
     "text": "Du gjør det unødvendig vanskelig å late som jeg er opptatt med noe annet.",
-    "categories": [
-      "cheeky"
-    ]
+    "categories": ["cheeky"]
   },
   {
     "key": "044",
     "text": "Det er nesten frekt hvor bra du ser ut akkurat nå.",
-    "categories": [
-      "cheeky"
-    ]
+    "categories": ["cheeky"]
   },
   {
     "key": "045",
     "text": "Tror ikke du skjønner hvor mye kaos du lager i hodet mitt.",
-    "categories": [
-      "cheeky"
-    ]
+    "categories": ["cheeky"]
   },
   {
     "key": "046",
     "text": "Du burde komme med et ‘ikke bli for betatt’-skilt.",
-    "categories": [
-      "cheeky"
-    ]
+    "categories": ["cheeky"]
   },
   {
     "key": "047",
     "text": "Det burde ikke være lov å være så fin og uforstyrret samtidig.",
-    "categories": [
-      "cheeky"
-    ]
+    "categories": ["cheeky"]
   },
   {
     "key": "048",
     "text": "Du vet at det ikke er greit å stirre sånn tilbake, sant?",
-    "categories": [
-      "cheeky"
-    ]
+    "categories": ["cheeky"]
   },
   {
     "key": "049",
     "text": "Du burde egentlig faktureres for alle tankene du stjeler.",
-    "categories": [
-      "cheeky"
-    ]
+    "categories": ["cheeky"]
   },
   {
     "key": "050",
     "text": "Du er akkurat passe mye for å få meg til å miste tråden.",
-    "categories": [
-      "cheeky"
-    ]
+    "categories": ["cheeky"]
   },
   {
     "key": "051",
     "text": "Du er så på grensa til ulovlig sjarmerende at jeg burde ta notater.",
-    "categories": [
-      "cheeky"
-    ]
+    "categories": ["cheeky"]
   },
   {
     "key": "052",
     "text": "Du er den typen folk prøver å late som de ikke har sett – og feiler.",
-    "categories": [
-      "cheeky"
-    ]
+    "categories": ["cheeky"]
   },
   {
     "key": "053",
     "text": "Jeg prøvde å holde øyekontakt, men hjernen min sa nope.",
-    "categories": [
-      "cheeky"
-    ]
+    "categories": ["cheeky"]
   },
   {
     "key": "054",
     "text": "Du er beviset på at tyveri av oppmerksomhet faktisk er en greie.",
-    "categories": [
-      "cheeky"
-    ]
+    "categories": ["cheeky"]
   },
   {
     "key": "055",
     "text": "Du gjør det veldig vanskelig å fokusere på det jeg egentlig skulle si.",
-    "categories": [
-      "cheeky"
-    ]
+    "categories": ["cheeky"]
   },
   {
     "key": "056",
     "text": "Kan du slutte å være så tiltrekkende? Jeg prøver å oppføre meg.",
-    "categories": [
-      "cheeky"
-    ]
+    "categories": ["cheeky"]
   },
   {
     "key": "057",
     "text": "Du ser ut som en distraksjon jeg kommer til å angre gladelig på.",
-    "categories": [
-      "cheeky"
-    ]
+    "categories": ["cheeky"]
   },
   {
     "key": "058",
     "text": "Du er så urovekkende søt at det burde vurderes som trøbbel.",
-    "categories": [
-      "cheeky"
-    ]
+    "categories": ["cheeky"]
   },
   {
     "key": "059",
     "text": "Det smilet der er et varselskilt i forkledning.",
-    "categories": [
-      "cheeky"
-    ]
+    "categories": ["cheeky"]
   },
   {
     "key": "060",
     "text": "Jeg skjønner hvorfor folk mister fokus rundt deg. Nå er jeg en av dem.",
-    "categories": [
-      "cheeky"
-    ]
+    "categories": ["cheeky"]
   },
   {
     "key": "061",
     "text": "Du ser ut som problemer jeg definitivt burde unngå – men ikke vil.",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "062",
     "text": "Blikket ditt lover ting samtalen ikke tør å si.",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "063",
     "text": "Er det flørting, eller prøver du bare å ødelegge dømmekraften min?",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "064",
     "text": "Du er ikke farlig, men tankene mine er det rundt deg.",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "065",
     "text": "Det er noe med deg som får uskyld til å føles… valgfritt.",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "066",
     "text": "Du er en distraksjon med bivirkninger jeg ikke vil unngå.",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "067",
     "text": "Det der smilet? Rett i kategorien «tenk deg om to ganger, gjør det likevel».",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "068",
     "text": "Du har det blikket som gjør at man vurderer å bli i trøbbel.",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "069",
     "text": "Tankene mine oppfører seg ikke så pent når du er i nærheten.",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "070",
     "text": "Du er et ‘kom hit’ uten å si et ord.",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "071",
     "text": "Hvis blikk kunne kles av, hadde jeg vært i trøbbel allerede.",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "072",
     "text": "Du har hovedrollen i tankene mine, og jeg vurderer en oppfølger.",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "073",
     "text": "La oss være ærlige – kjemien her er ikke akkurat subtil.",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "074",
     "text": "Du er ikke bare søt – du er tankespinn med konsekvenser.",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "075",
     "text": "Du får meg til å tenke på alt annet enn uskyldige ting.",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "076",
     "text": "Hvis tiltrekning var en forbrytelse, er jeg medskyldig.",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "077",
     "text": "Det er ikke bare blikket mitt du stjeler – det er tankene etterpå også.",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "078",
     "text": "Du føles som en fristelse forklart som tilfeldighet.",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "079",
     "text": "Du gir meg lyst til å ta dårlige avgjørelser med godt selskap.",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "080",
     "text": "Du gir den typen energi som ikke lar seg ignorere – eller sove fra.",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "categories": ["spicy", "cheeky"]
   }
 ]
