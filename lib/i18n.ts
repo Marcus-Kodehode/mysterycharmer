@@ -2,25 +2,11 @@ import type { Lang } from "./types";
 import type { Category } from "./types";
 
 type Keys =
-  | "ready"
-  | "tagline"
-  | "cta"
-  | "copied"
-  | "history_title"
-  | "favorites_title"
-  | "clear"
-  | "empty_history"
-  | "empty_favorites"
-  | "category"
-  | "history_nav"
-  | "favorites_nav"
-  | "fav_add"
-  | "fav_remove"
-  | "no_current"
-  | "cat_classic"
-  | "cat_nerdy"
-  | "cat_cheeky"
-  | "cat_spicy";
+  | "ready" | "tagline" | "cta" | "copied"
+  | "history_title" | "favorites_title" | "clear" | "empty_history" | "empty_favorites"
+  | "category" | "history_nav" | "favorites_nav" | "fav_add" | "fav_remove" | "no_current"
+  | "cat_classic" | "cat_nerdy" | "cat_cheeky" | "cat_spicy"
+  | "language" | "close";       // ⬅️ legg til disse
 
 const UI: Record<Lang, Record<Keys, string>> = {
   no: {
@@ -46,6 +32,8 @@ const UI: Record<Lang, Record<Keys, string>> = {
     cat_nerdy: "Nerdy",
     cat_cheeky: "Frekk",
     cat_spicy: "Spicy 18+",
+    language: "Språk",
+    close: "Lukk",
   },
   en: {
     ready: "Ready for some charm?",
@@ -70,6 +58,8 @@ const UI: Record<Lang, Record<Keys, string>> = {
     cat_nerdy: "Nerdy",
     cat_cheeky: "Cheeky",
     cat_spicy: "Spicy 18+",
+    language: "Language",
+    close: "Close",
   },
   es: {
     ready: "¿Listo/a para un poco de encanto?",
@@ -94,6 +84,8 @@ const UI: Record<Lang, Record<Keys, string>> = {
     cat_nerdy: "Nerdy",
     cat_cheeky: "Pícaro",
     cat_spicy: "Picante 18+",
+    language: "Idioma",
+    close: "Cerrar",
   },
   sw: {
     ready: "Uko tayari kwa mvuto kidogo?",
@@ -118,6 +110,8 @@ const UI: Record<Lang, Record<Keys, string>> = {
     cat_nerdy: "Nerdy",
     cat_cheeky: "Kichokozi",
     cat_spicy: "Kali 18+",
+    language: "Lugha",
+    close: "Funga",
   },
 };
 
