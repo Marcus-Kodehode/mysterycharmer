@@ -1,15 +1,11 @@
 import type { Lang } from "./types";
+import type { Category } from "./types";
 
 type Keys =
-  | "ready"
-  | "tagline"
-  | "cta"
-  | "copied"
-  | "history_title"
-  | "favorites_title"
-  | "clear"
-  | "empty_history"
-  | "empty_favorites";
+  | "ready" | "tagline" | "cta" | "copied"
+  | "history_title" | "favorites_title" | "clear" | "empty_history" | "empty_favorites"
+  | "category" | "history_nav" | "favorites_nav" | "fav_add" | "fav_remove" | "no_current"
+  | "cat_classic" | "cat_nerdy" | "cat_cheeky" | "cat_spicy";
 
 const UI: Record<Lang, Record<Keys, string>> = {
   no: {
@@ -17,36 +13,84 @@ const UI: Record<Lang, Record<Keys, string>> = {
     tagline: "Smakfull flørting, én linje av gangen.",
     cta: "Gi meg et kompliment",
     copied: "Kopiert!",
+
     history_title: "Historikk",
     favorites_title: "Favoritter",
     clear: "Tøm",
     empty_history: "Ingen historikk ennå.",
     empty_favorites: "Ingen favoritter ennå.",
+
+    category: "Kategori",
+    history_nav: "Historikk",
+    favorites_nav: "Favoritter",
+    fav_add: "Legg til favoritt",
+    fav_remove: "Fjern favoritt",
+    no_current: "Ingen linje ennå",
+
+    cat_classic: "Klassisk",
+    cat_nerdy: "Nerdy",
+    cat_cheeky: "Frekk",
+    cat_spicy: "Spicy 18+",
   },
   en: {
     ready: "Ready for some charm?",
     tagline: "Tasteful flirting, one line at a time.",
     cta: "Give me a compliment",
     copied: "Copied!",
+
     history_title: "History",
     favorites_title: "Favorites",
     clear: "Clear",
     empty_history: "No history yet.",
     empty_favorites: "No favorites yet.",
+
+    category: "Category",
+    history_nav: "History",
+    favorites_nav: "Favorites",
+    fav_add: "Add to favorites",
+    fav_remove: "Remove favorite",
+    no_current: "No compliment yet",
+
+    cat_classic: "Classic",
+    cat_nerdy: "Nerdy",
+    cat_cheeky: "Cheeky",
+    cat_spicy: "Spicy 18+",
   },
   es: {
     ready: "¿Listo/a para un poco de encanto?",
     tagline: "Coqueteo con gusto, una línea a la vez.",
     cta: "Dame un cumplido",
     copied: "¡Copiado!",
+
     history_title: "Historial",
     favorites_title: "Favoritos",
     clear: "Borrar",
     empty_history: "Sin historial por ahora.",
     empty_favorites: "Sin favoritos por ahora.",
+
+    category: "Categoría",
+    history_nav: "Historial",
+    favorites_nav: "Favoritos",
+    fav_add: "Añadir a favoritos",
+    fav_remove: "Quitar de favoritos",
+    no_current: "Aún no hay frase",
+
+    cat_classic: "Clásico",
+    cat_nerdy: "Nerdy",
+    cat_cheeky: "Pícaro",
+    cat_spicy: "Picante 18+",
   },
 };
 
 export function t(lang: Lang, key: Keys): string {
   return UI[lang]?.[key] ?? UI.en[key];
+}
+
+export function catLabel(lang: Lang, cat: Category): string {
+  switch (cat) {
+    case "classic": return t(lang, "cat_classic");
+    case "nerdy":   return t(lang, "cat_nerdy");
+    case "cheeky":  return t(lang, "cat_cheeky");
+    case "spicy":   return t(lang, "cat_spicy");
+  }
 }

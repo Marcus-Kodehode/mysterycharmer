@@ -3,16 +3,17 @@
 import { useEffect, useRef, useState } from "react";
 import { useAppState } from "../core/AppState";
 import type { Category } from "@/lib/types";
+import { t, catLabel } from "@/lib/i18n";
 
-const CATS: { value: Category; label: string; emoji: string }[] = [
-  { value: "classic", label: "Classic",   emoji: "💌" },
-  { value: "nerdy",   label: "Nerdy",     emoji: "🧠" },
-  { value: "cheeky",  label: "Cheeky",    emoji: "😉" },
-  { value: "spicy",   label: "Spicy 18+", emoji: "🌶️" },
+const CATS: { value: Category; emoji: string }[] = [
+  { value: "classic", emoji: "💌" },
+  { value: "nerdy",   emoji: "🧠" },
+  { value: "cheeky",  emoji: "😉" },
+  { value: "spicy",   emoji: "🌶️" },
 ];
 
 export default function CategoryMenu() {
-  const { category, setCategory } = useAppState();
+  const { lang, category, setCategory } = useAppState();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -25,6 +26,7 @@ export default function CategoryMenu() {
   }, []);
 
   const current = CATS.find(c => c.value === category)!;
+  const currentLabel = catLabel(lang, current.value);
 
   return (
     <div ref={ref} className="relative">
@@ -33,11 +35,12 @@ export default function CategoryMenu() {
         onClick={() => setOpen(v => !v)}
         aria-haspopup="menu"
         aria-expanded={open}
-        title="Category"
+        title={t(lang, "category")}
+        aria-label={t(lang, "category")}
       >
         <span className="inline-flex items-center gap-2">
           <span aria-hidden>{current.emoji}</span>
-          <span className="hidden md:inline">{current.label}</span>
+          <span className="hidden md:inline">{currentLabel}</span>
           <span aria-hidden>▾</span>
         </span>
       </button>
@@ -50,9 +53,10 @@ export default function CategoryMenu() {
               role="menuitem"
               className={`w-full text-left px-3 py-2 rounded-lg hover:bg-white/10 flex items-center gap-2 ${item.value === category ? "bg-white/10" : ""}`}
               onClick={() => { setCategory(item.value); setOpen(false); }}
+              aria-label={catLabel(lang, item.value)}
             >
               <span aria-hidden>{item.emoji}</span>
-              <span className="text-sm">{item.label}</span>
+              <span className="text-sm">{catLabel(lang, item.value)}</span>
             </button>
           ))}
         </div>
