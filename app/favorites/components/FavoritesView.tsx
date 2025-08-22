@@ -7,6 +7,7 @@ import { getFavorites } from "@/lib/storage";
 import { useAppState } from "../../components/core/AppState";
 import PageSection from "../../components/common/PageSection";
 import EmptyState from "../../components/common/EmptyState";
+import { t } from "@/lib/i18n";
 
 export default function FavoritesView() {
   const { lang } = useAppState();
@@ -25,12 +26,10 @@ export default function FavoritesView() {
 
   return (
     <PageSection>
-      <h2 className="text-xl font-semibold mb-4">
-        {lang === "no" ? "Favoritter" : "Favorites"}
-      </h2>
+      <h2 className="text-xl font-semibold mb-4">{t(lang, "favorites_title")}</h2>
 
       {!favs.length ? (
-        <EmptyState>{lang === "no" ? "Ingen favoritter ennå." : "No favorites yet."}</EmptyState>
+        <EmptyState>{t(lang, "empty_favorites")}</EmptyState>
       ) : (
         <ul className="space-y-3">
           {favs.map(c => (

@@ -7,6 +7,7 @@ import { loadCompliments, poolByCategory, pickRandom } from "@/lib/compliments";
 import ComplimentCard from "./ComplimentCard";
 import ActionsBar from "./ActionsBar";
 import CopyToast from "./CopyToast";
+import { t } from "@/lib/i18n";
 
 export default function ComplimentMachine() {
   const { lang, category, current, setCurrent, isFav, toggleFavorite } = useAppState();
@@ -53,7 +54,7 @@ export default function ComplimentMachine() {
   return (
     <>
       <ComplimentCard>
-        {current?.text ?? (lang === "no" ? "Klar for litt sjarm?" : "Ready for some charm?")}
+        {current?.text ?? t(lang, "ready")}
       </ComplimentCard>
 
       <ActionsBar

@@ -7,6 +7,7 @@ import { useAppState } from "../core/AppState";
 const LANGS = [
   { code: "no" as const, label: "Norsk",   short: "NO", icon: "/images/icons/no.png" },
   { code: "en" as const, label: "English", short: "EN", icon: "/images/icons/en.png" },
+  { code: "es" as const, label: "Español", short: "ES", icon: "/images/icons/es.png" },
 ];
 
 export default function LanguageMenu() {

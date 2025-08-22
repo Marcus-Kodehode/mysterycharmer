@@ -3,6 +3,7 @@
 import { useAppState } from "../../components/core/AppState";
 import PageSection from "../../components/common/PageSection";
 import EmptyState from "../../components/common/EmptyState";
+import { t } from "@/lib/i18n";
 
 export default function HistoryView() {
   const { history, lang, clearHistory } = useAppState();
@@ -10,18 +11,13 @@ export default function HistoryView() {
   return (
     <PageSection>
       <div className="flex items-center justify-between mb-6">
-        <h2 className="text-xl font-semibold">
-          {lang === "no" ? "Historikk" : "History"}
-        </h2>
+        <h2 className="text-xl font-semibold">{t(lang, "history_title")}</h2>
         {history.length > 0 && (
-          <button className="btn btn-ghost" onClick={clearHistory}>
-            {lang === "no" ? "Tøm" : "Clear"}
-          </button>
-        )}
+          <button className="btn btn-ghost" onClick={clearHistory}>{t(lang, "clear")}</button>)}
       </div>
 
       {!history.length ? (
-        <EmptyState>{lang === "no" ? "Ingen historikk ennå." : "No history yet."}</EmptyState>
+        <EmptyState>{t(lang, "empty_history")}</EmptyState>
       ) : (
         <ul className="space-y-3">
           {history.map(h => (
