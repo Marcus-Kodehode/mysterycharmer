@@ -10,17 +10,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="no" className={inter.className}>
       {/* Lås høyde til viewport, og la KUN main scrolle */}
-    <body className="h-dvh overflow-hidden bg-gradient-to-b from-zinc-950 to-zinc-900 text-zinc-100 antialiased">
-      <AppStateProvider>
-        <div className="grid h-full grid-rows-[auto_1fr_auto]">
-          <Header />
-          <main id="content" className="min-h-0 overflow-y-auto">
-            {children}
-          </main>
-          <Footer />
-        </div>
-      </AppStateProvider>
-    </body>
+      <body className="h-dvh overflow-hidden bg-gradient-to-b from-zinc-950 to-zinc-900 text-zinc-100 antialiased">
+        <AppStateProvider>
+          <div className="grid h-full grid-rows-[auto_1fr_auto]">
+            <Header />
+            <main id="content" className="min-h-0 overflow-y-auto">{children}</main>
+            <Footer />
+          </div>
+        </AppStateProvider>
+      </body>
+
     </html>
   );
 }
