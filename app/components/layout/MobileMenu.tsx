@@ -86,34 +86,39 @@ export default function MobileMenu({
         </div>
 
         <div className="h-full max-w-sm mx-auto px-6 py-14 flex flex-col items-stretch justify-center gap-3 pointer-events-auto">
-          {/* KATEGORI (dropdown) */}
-          <div className="relative">
-            <button
-              className="w-full px-4 py-3 rounded-xl text-base font-medium bg-rose-800/70 hover:bg-rose-800 transition flex items-center justify-between"
-              onClick={() => { setOpenCat(v => !v); setOpenLang(false); }}
-              aria-haspopup="menu"
-              aria-expanded={openCat}
-            >
-              <span><span className="mr-2" aria-hidden>{activeCat.emoji}</span>{catLabel(lang, activeCat.value)}</span>
-              <span aria-hidden>▾</span>
-            </button>
+          
+        {/* KATEGORI trigger */}
+        <div className="relative">
+        <button
+            className="relative w-full px-4 py-3 rounded-xl text-base font-medium bg-rose-800/70 hover:bg-rose-800 transition flex items-center justify-center"
+            onClick={() => { setOpenCat(v => !v); setOpenLang(false); }}
+            aria-haspopup="menu"
+            aria-expanded={openCat}
+        >
+            <span className="inline-flex items-center gap-2">
+            <span className="mr-1" aria-hidden>{activeCat.emoji}</span>
+            {catLabel(lang, activeCat.value)}
+            </span>
+            <span className="absolute right-4" aria-hidden>▾</span>
+        </button>
 
-            {openCat && (
-              <div role="menu" className="mt-2 rounded-xl border border-white/10 bg-rose-900/60 backdrop-blur p-1">
-                {CATS.map(item => (
-                  <button
-                    key={item.value}
-                    role="menuitem"
-                    className={`w-full text-left px-3 py-2 rounded-lg hover:bg-white/10 flex items-center gap-2 ${item.value === category ? "bg-white/10" : ""}`}
-                    onClick={() => { setCategory(item.value); onClose(); }}
-                  >
-                    <span aria-hidden>{item.emoji}</span>
-                    <span className="text-sm">{catLabel(lang, item.value)}</span>
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
+        {openCat && (
+            <div role="menu" className="mt-2 rounded-xl border border-white/10 bg-rose-900/60 backdrop-blur p-1">
+            {CATS.map(item => (
+                <button
+                key={item.value}
+                role="menuitem"
+                className={`w-full text-left px-3 py-2 rounded-lg hover:bg-white/10 flex items-center gap-2 ${item.value === category ? "bg-white/10" : ""}`}
+                onClick={() => { setCategory(item.value); onClose(); }}
+                >
+                <span aria-hidden>{item.emoji}</span>
+                <span className="text-sm">{catLabel(lang, item.value)}</span>
+                </button>
+            ))}
+            </div>
+        )}
+        </div>
+
 
           {/* HISTORIKK */}
           <Link
@@ -147,36 +152,41 @@ export default function MobileMenu({
           </button>
 
           {/* SPRÅK (dropdown) */}
-          <div className="relative mt-2">
+            <div className="relative mt-2">
             <button
-              className="w-full inline-flex items-center justify-between gap-2 px-4 py-2 rounded-xl border border-white/15 bg-white/5 hover:bg-white/10 transition"
-              onClick={() => { setOpenLang(v => !v); setOpenCat(false); }}
-              aria-haspopup="menu"
-              aria-expanded={openLang}
+                className="relative w-full inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl border border-white/15 bg-white/5 hover:bg-white/10 transition"
+                onClick={() => { setOpenLang(v => !v); setOpenCat(false); }}
+                aria-haspopup="menu"
+                aria-expanded={openLang}
+                title={t(lang, "language")}
             >
-              <span className="inline-flex items-center gap-2">
+                <span className="inline-flex items-center gap-2">
                 <Image src={activeLang.icon} alt={activeLang.label} width={20} height={14} className="rounded-sm" />
                 <span className="text-sm">{activeLang.label}</span>
-              </span>
-              <span aria-hidden>▾</span>
+                </span>
+                <span className="absolute right-4" aria-hidden>▾</span>
             </button>
 
             {openLang && (
-              <div role="menu" className="mt-2 rounded-xl border border-white/10 bg-rose-900/60 backdrop-blur p-1">
+                <div role="menu" className="mt-2 rounded-xl border border-white/10 bg-rose-900/60 backdrop-blur p-1">
                 {LANGS.map(L => (
-                  <button
+                    <button
                     key={L.code}
                     role="menuitem"
                     className={`w-full text-left px-3 py-2 rounded-lg hover:bg-white/10 flex items-center gap-2 ${L.code === lang ? "bg-white/10" : ""}`}
-                    onClick={() => { setLang(L.code); onClose(); }}
-                  >
+                    onClick={() => {
+                        setLang(L.code);       // <-- bare bytt språk
+                        setOpenLang(false);    // <-- lukk kun dropdown, behold mobilmenyen åpen
+                    }}
+                    >
                     <Image src={L.icon} alt={L.label} width={18} height={12} className="rounded-sm" />
                     <span className="text-sm">{L.label}</span>
-                  </button>
+                    </button>
                 ))}
-              </div>
+                </div>
             )}
-          </div>
+            </div>
+
         </div>
       </div>
     </div>
