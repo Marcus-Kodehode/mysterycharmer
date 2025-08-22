@@ -1,14 +1,17 @@
-import { t } from "@/lib/i18n";
+"use client";
+
+import BrandTitle from "../brand/BrandTitle";
 import { useAppState } from "../core/AppState";
+import { t } from "@/lib/i18n";
 
 export default function Hero() {
   const { lang } = useAppState();
   return (
-    <>
-      <h1 className="text-2xl sm:text-3xl tracking-wide">
-        mystery<span className="text-brand-400">charmer</span>
-      </h1>
-      <p className="text-zinc-400 text-sm -mt-2">{t(lang, "tagline")}</p>
-    </>
+    <div className="text-center space-y-3 pt-2 sm:pt-4">
+      <BrandTitle className="mx-auto" />
+      <p className="text-zinc-300/85 text-sm sm:text-base">
+        {t(lang, "tagline")}
+      </p>
+    </div>
   );
 }

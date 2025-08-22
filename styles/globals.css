@@ -103,3 +103,25 @@ body {
   border: 1px solid hsl(var(--text) / .10);
   font-size: .75rem;
 }
+/* subtle animated sheen for the compliment card */
+.sheen::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: conic-gradient(
+    from 0deg,
+    rgba(255, 255, 255, 0) 0deg,
+    rgba(255, 255, 255, 0.07) 60deg,
+    rgba(255, 255, 255, 0) 120deg
+  );
+  mask: radial-gradient(120% 60% at 0% 0%, #000 55%, transparent 60%) 0 0/200% 100%;
+  animation: sheen-rotate 9s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes sheen-rotate {
+  0% { transform: rotate(0deg); opacity: .55; }
+  50% { opacity: .35; }
+  100% { transform: rotate(360deg); opacity: .55; }
+}
