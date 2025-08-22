@@ -2,17 +2,18 @@
 
 import { useCallback, useEffect, useState } from "react";
 import type { Compliment } from "@/lib/types";
-import { loadCompliments, poolByCategory, pickRandom } from "@/lib/compliments"; // if you still use tone, keep your function; if you moved to category-only, use poolByCategory
+import { loadCompliments, poolByCategory, pickRandom } from "@/lib/compliments";
 import { useAppState } from "./components/core/AppState";
 import Hero from "./components/hero/Hero";
 import ComplimentCard from "./components/compliment/ComplimentCard";
+import { t } from "@/lib/i18n";
 
 export default function Page() {
-  const { lang, category, current, setCurrent, isFav, toggleFavorite } =
-    useAppState();
+  const { lang, category, current, setCurrent, isFav, toggleFavorite } = useAppState();
   const [all, setAll] = useState<Compliment[]>([]);
   const [copied, setCopied] = useState(false);
 
+  // Load compliments for the active language
   useEffect(() => {
     let alive = true;
     loadCompliments(lang)
@@ -23,21 +24,26 @@ export default function Page() {
     };
   }, [lang]);
 
+  // Pick next line from selected category
   const next = useCallback(() => {
-    const pool = poolByCategory(all, category); // or your tone pool
+    const pool = poolByCategory(all, category);
     const n = pickRandom(pool);
     if (n) setCurrent(n);
   }, [all, category, setCurrent]);
 
+  // Copy current line
   const copy = useCallback(async () => {
     if (!current) return;
     try {
       await navigator.clipboard.writeText(current.text);
       setCopied(true);
       setTimeout(() => setCopied(false), 1200);
-    } catch {}
+    } catch {
+      // ignore
+    }
   }, [current]);
 
+  // Keyboard shortcuts: Space = next, C = copy, F = favorite
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const k = e.key.toLowerCase();
@@ -59,29 +65,23 @@ export default function Page() {
       <Hero />
 
       <ComplimentCard className="w-full mt-4">
-        {current?.text ??
-          (lang === "no" ? "Klar for litt sjarm?" : "Ready for some charm?")}
+        {current?.text ?? t(lang, "ready")}
       </ComplimentCard>
 
       <div className="w-full max-w-2xl flex items-center gap-2">
         <button className="btn btn-primary w-full" onClick={next} disabled={loading}>
-          {lang === "no" ? "Gi meg et kompliment" : "Give me a compliment"}
+          {t(lang, "cta")}
         </button>
-        <button
-          className="btn btn-ghost"
-          onClick={copy}
-          aria-label="Copy"
-          disabled={!current}
-          title="Copy"
-        >
+
+        <button className="btn btn-ghost" onClick={copy} aria-label="Copy" disabled={!current}>
           📋
         </button>
+
         <button
           className="btn btn-ghost"
           onClick={toggleFavorite}
           aria-label="Favorite"
           disabled={!current}
-          title="Favorite"
         >
           {isFav ? "❤️" : "🤍"}
         </button>
@@ -89,7 +89,7 @@ export default function Page() {
 
       {copied && (
         <div className="fixed bottom-6 left-1/2 -translate-x-1/2 card px-3 py-2 text-sm">
-          {lang === "no" ? "Kopiert!" : "Copied!"}
+          {t(lang, "copied")}
         </div>
       )}
     </section>
