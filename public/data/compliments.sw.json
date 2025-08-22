@@ -1,582 +1,85 @@
 [
-  {
-    "key": "001",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "002",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "003",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "004",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "005",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "006",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "007",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "008",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "009",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "010",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "011",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "012",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "013",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "014",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "015",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "016",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "017",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "018",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "019",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "020",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "021",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
-  },
-  {
-    "key": "022",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
-  },
-  {
-    "key": "023",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
-  },
-  {
-    "key": "024",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
-  },
-  {
-    "key": "025",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
-  },
-  {
-    "key": "026",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
-  },
-  {
-    "key": "027",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
-  },
-  {
-    "key": "028",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
-  },
-  {
-    "key": "029",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
-  },
-  {
-    "key": "030",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
-  },
-  {
-    "key": "031",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
-  },
-  {
-    "key": "032",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
-  },
-  {
-    "key": "033",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
-  },
-  {
-    "key": "034",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
-  },
-  {
-    "key": "035",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
-  },
-  {
-    "key": "036",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
-  },
-  {
-    "key": "037",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
-  },
-  {
-    "key": "038",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
-  },
-  {
-    "key": "039",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
-  },
-  {
-    "key": "040",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
-  },
-  {
-    "key": "041",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
-  },
-  {
-    "key": "042",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
-  },
-  {
-    "key": "043",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
-  },
-  {
-    "key": "044",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
-  },
-  {
-    "key": "045",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
-  },
-  {
-    "key": "046",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
-  },
-  {
-    "key": "047",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
-  },
-  {
-    "key": "048",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
-  },
-  {
-    "key": "049",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
-  },
-  {
-    "key": "050",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
-  },
-  {
-    "key": "051",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
-  },
-  {
-    "key": "052",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
-  },
-  {
-    "key": "053",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
-  },
-  {
-    "key": "054",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
-  },
-  {
-    "key": "055",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
-  },
-  {
-    "key": "056",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
-  },
-  {
-    "key": "057",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
-  },
-  {
-    "key": "058",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
-  },
-  {
-    "key": "059",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
-  },
-  {
-    "key": "060",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
-  },
-  {
-    "key": "061",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
-  },
-  {
-    "key": "062",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
-  },
-  {
-    "key": "063",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
-  },
-  {
-    "key": "064",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
-  },
-  {
-    "key": "065",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
-  },
-  {
-    "key": "066",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
-  },
-  {
-    "key": "067",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
-  },
-  {
-    "key": "068",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
-  },
-  {
-    "key": "069",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
-  },
-  {
-    "key": "070",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
-  },
-  {
-    "key": "071",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
-  },
-  {
-    "key": "072",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
-  },
-  {
-    "key": "073",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
-  },
-  {
-    "key": "074",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
-  },
-  {
-    "key": "075",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
-  },
-  {
-    "key": "076",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
-  },
-  {
-    "key": "077",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
-  },
-  {
-    "key": "078",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
-  },
-  {
-    "key": "079",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
-  },
-  {
-    "key": "080",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
-  }
+  { "key": "001", "text": "Wewe ndiye karibu zaidi na mapambazuko katika umbo la binadamu.", "categories": ["classic"] },
+  { "key": "002", "text": "Kuna kitu kwako kinachofanya kila kingine kipungue kasi.", "categories": ["classic"] },
+  { "key": "003", "text": "Una uwepo ambao watu huutambua—hata bila kujaribu.", "categories": ["classic"] },
+  { "key": "004", "text": "Wewe ni kama kitufe cha kusitisha ambacho sikujua ninakihitaji.", "categories": ["classic"] },
+  { "key": "005", "text": "Mambo huhisi kutulia zaidi unapokuwepo.", "categories": ["classic"] },
+  { "key": "006", "text": "Unanikumbusha kwamba mambo bora hayapigi kelele.", "categories": ["classic"] },
+  { "key": "007", "text": "Unafanya iwe rahisi kuamini wakati mwafaka.", "categories": ["classic"] },
+  { "key": "008", "text": "Wengine hung'aa—wewe huangaza.", "categories": ["classic"] },
+  { "key": "009", "text": "Wewe ni aina ya utulivu usiohisi kuwa mtupu.", "categories": ["classic"] },
+  { "key": "010", "text": "Wewe ni wa aina ambayo huandikwa nyimbo za mapenzi za kipuuzi kumhusu.", "categories": ["classic"] },
+  { "key": "011", "text": "Kuna kitu kwenye macho yako kinachohisi kuwa cha kufahamika—kwa namna bora.", "categories": ["classic"] },
+  { "key": "012", "text": "Unanikumbusha kuwa mvuto wa kweli huanza kwa kujihisi salama.", "categories": ["classic"] },
+  { "key": "013", "text": "Una utulivu ninaoweza kujifunza kutoka kwako.", "categories": ["classic"] },
+  { "key": "014", "text": "Ni vigumu kutotabasamu unapotabasamu.", "categories": ["classic"] },
+  { "key": "015", "text": "Kuna uhalisia mwingi ndani yako—na unaonekana.", "categories": ["classic"] },
+  { "key": "016", "text": "Wewe ni ukumbusho kuwa watu wanaweza kuwa warembo na wa kweli pia.", "categories": ["classic"] },
+  { "key": "017", "text": "Kuwa nawe kunahisi kama kurudi nyumbani—bila kujua kwa nini.", "categories": ["classic"] },
+  { "key": "018", "text": "Wewe ndiye sehemu bora ya tukio la bahati.", "categories": ["classic"] },
+  { "key": "019", "text": "Kuna uzuri wa bila juhudi ndani yako.", "categories": ["classic"] },
+  { "key": "020", "text": "Wewe ni utulivu katikati ya dunia yenye kelele.", "categories": ["classic"] },
+
+  { "key": "021", "text": "Wewe ni kama commit nzuri—ndogo, lakini hubadili kila kitu.", "categories": ["nerdy"] },
+  { "key": "022", "text": "Sifuri bugs, vipepeo tu.", "categories": ["nerdy"] },
+  { "key": "023", "text": "Nilidhani nipo thabiti; ukaingia ukavuruga msimbo wangu wote.", "categories": ["nerdy"] },
+  { "key": "024", "text": "Je, wewe ni API? Kwa sababu nataka kuunganishwa nawe 24/7.", "categories": ["nerdy"] },
+  { "key": "025", "text": "Umenifanya mapigo ya moyo yapande kama stress test.", "categories": ["nerdy"] },
+  { "key": "026", "text": "Kama tungekuwa algorithm, tungekuwa tume-optimiziwa kwa mvuto.", "categories": ["nerdy"] },
+  { "key": "027", "text": "Wewe ni kigezo kisichojulikana kinachofanya mlinganyo wangu ustahili kutatuliwa.", "categories": ["nerdy"] },
+  { "key": "028", "text": "Nilijaribu kudadisi (debug) hisia zangu, nikagundua ni wewe tu.", "categories": ["nerdy"] },
+  { "key": "029", "text": "Lazima wewe ni breakpoint, maana unasimamisha kabisa mfululizo wa mawazo yangu.", "categories": ["nerdy"] },
+  { "key": "030", "text": "Je, wewe ni input? Maana kila unapojitokeza napata output ambayo sikujiandaa nayo.", "categories": ["nerdy"] },
+  { "key": "031", "text": "Ume-overclock CPU yangu ya akili.", "categories": ["nerdy"] },
+  { "key": "032", "text": "Siitaji AI kujua kwamba wewe ni chaguo zuri.", "categories": ["nerdy"] },
+  { "key": "033", "text": "Wewe ni kama merge kamili—kila kitu kinaingia sawa.", "categories": ["nerdy"] },
+  { "key": "034", "text": "Wewe ni Wi-Fi? Mana najihisi nimeunganishwa kwa kukuona tu.", "categories": ["nerdy"] },
+  { "key": "035", "text": "Kuna kitu kwako kinachowasha mfumo wangu wote—kwa namna nzuri.", "categories": ["nerdy"] },
+  { "key": "036", "text": "Nilijaribu kuweka hisia kwenye cache, lakini moyo wangu husasisha papo hapo.", "categories": ["nerdy"] },
+  { "key": "037", "text": "Tungefanya pull request imara—tunaendana, wasafi, na kidogo moto.", "categories": ["nerdy"] },
+  { "key": "038", "text": "Wewe ndiye bug pekee ninayotumai isirekebishwe kamwe.", "categories": ["nerdy"] },
+  { "key": "039", "text": "Kama upendo ungekuwa matrisi, ungekuwa 1 katika kila dimensheni.", "categories": ["nerdy"] },
+  { "key": "040", "text": "Sijui msimbo gani unaendesha, lakini umenifanya ni-crash kwa uzuri.", "categories": ["nerdy"] },
+
+  { "key": "041", "text": "Tabasamu lako ni jaribio la umakini ninaloshindwa kila mara.", "categories": ["cheeky"] },
+  { "key": "042", "text": "Nikikutazama, ni kwa sababu ninajaribu kuelewa unawezekanaje.", "categories": ["cheeky"] },
+  { "key": "043", "text": "Unanifanya iwe vigumu kupita kiasi kujifanya niko bize na kingine chochote.", "categories": ["cheeky"] },
+  { "key": "044", "text": "Karibu ni ukosefu wa adabu jinsi unavyoonekana mzuri sasa hivi.", "categories": ["cheeky"] },
+  { "key": "045", "text": "Sidhani unatambua ni vurugu kiasi gani unayosababisha kichwani mwangu.", "categories": ["cheeky"] },
+  { "key": "046", "text": "Ungefaa uje na bango la ‘usijizoeshe sana’.", "categories": ["cheeky"] },
+  { "key": "047", "text": "Haipaswi kuwa halali kuonekana vizuri hivyo na kutosumbuka wakati huohuo.", "categories": ["cheeky"] },
+  { "key": "048", "text": "Unajua si haki kunitazama hivyo, sivyo?", "categories": ["cheeky"] },
+  { "key": "049", "text": "Huenda unastahili kutozwa kwa mawazo yote unayoninyang'anya.", "categories": ["cheeky"] },
+  { "key": "050", "text": "Wewe ni kiwango sahihi cha kunifanya nipoteze mfululizo wa mawazo.", "categories": ["cheeky"] },
+  { "key": "051", "text": "Uko karibu kuwa kivutio ‘haramu’—nahitaji kuchukua noti.", "categories": ["cheeky"] },
+  { "key": "052", "text": "Wewe ni wa aina watu hujifanya hawakuona—na wanashindwa.", "categories": ["cheeky"] },
+  { "key": "053", "text": "Nilijaribu kushikilia kuangaliana machoni, lakini ubongo wangu ukasema ‘hapana’.", "categories": ["cheeky"] },
+  { "key": "054", "text": "Wewe ni ushahidi kwamba kuiba umakini ni jambo halisi.", "categories": ["cheeky"] },
+  { "key": "055", "text": "Unanifanya iwe ngumu sana kuzingatia kile nilichotaka kusema.", "categories": ["cheeky"] },
+  { "key": "056", "text": "Unaweza kuacha kuwa mvutia hivyo? Najaribu kujiweka sawa.", "categories": ["cheeky"] },
+  { "key": "057", "text": "Unaonekana kama distraksheni nitakayojutia kwa furaha.", "categories": ["cheeky"] },
+  { "key": "058", "text": "Wewe ni mtamu kwa namna ya kutia wasiwasi—yahesabiwe kama tatizo.", "categories": ["cheeky"] },
+  { "key": "059", "text": "Hilo tabasamu ni ishara ya onyo iliyojificha.", "categories": ["cheeky"] },
+  { "key": "060", "text": "Naelewa kwa nini watu hupoteza umakini karibu nawe. Nimejiunga nao sasa.", "categories": ["cheeky"] },
+
+  { "key": "061", "text": "Unaonekana kama matatizo ambayo ningepaswa kuyaepuka—lakini sitafanya hivyo.", "categories": ["spicy", "cheeky"] },
+  { "key": "062", "text": "Macho yako yanaahidi vitu ambavyo mazungumzo hayawezi kuthubutu kusema.", "categories": ["spicy", "cheeky"] },
+  { "key": "063", "text": "Hiki ni kutongoza, au una sabotisha tu maamuzi yangu?", "categories": ["spicy", "cheeky"] },
+  { "key": "064", "text": "Wewe si hatari, lakini mawazo yangu huwa hivyo nikiwa karibu nawe.", "categories": ["spicy", "cheeky"] },
+  { "key": "065", "text": "Kuna kitu kwako kinachofanya kutokuwa na hatia kuonekana… hiari.", "categories": ["spicy", "cheeky"] },
+  { "key": "066", "text": "Wewe ni distraksheni yenye madhara ya pembeni nisiyotaka kuyaepuka.", "categories": ["spicy", "cheeky"] },
+  { "key": "067", "text": "Hilo tabasamu? Moja kwa moja kwenye kundi la ‘fikiria mara mbili—fanya tu’.", "categories": ["spicy", "cheeky"] },
+  { "key": "068", "text": "Una ile sura inayofanya kubaki kwenye matatizo kusikike sawa.", "categories": ["spicy", "cheeky"] },
+  { "key": "069", "text": "Mawazo yangu hayajitawalii unapokuwapo.", "categories": ["spicy", "cheeky"] },
+  { "key": "070", "text": "Wewe ni ‘nja hapa’ bila kusema neno.", "categories": ["spicy", "cheeky"] },
+  { "key": "071", "text": "Kama macho yangekuwa yanavua nguo, ningekuwa matatizoni tayari.", "categories": ["spicy", "cheeky"] },
+  { "key": "072", "text": "Una nafasi ya kuongoza kwenye mawazo yangu—na nafikiria sehemu ya pili.", "categories": ["spicy", "cheeky"] },
+  { "key": "073", "text": "Tuwe wakweli—kemia hapa si ya kificho.", "categories": ["spicy", "cheeky"] },
+  { "key": "074", "text": "Si mtamu tu—wewe ni ndoto za mchana zenye athari.", "categories": ["spicy", "cheeky"] },
+  { "key": "075", "text": "Unanifanya nifikirie kila kitu isipokuwa mambo yasiyo na hatia.", "categories": ["spicy", "cheeky"] },
+  { "key": "076", "text": "Kama mvuto ungekuwa kosa, ningekuwa mshirika.", "categories": ["spicy", "cheeky"] },
+  { "key": "077", "text": "Si kwamba unaiba tu jicho langu—unachukua na mawazo yanayofuata pia.", "categories": ["spicy", "cheeky"] },
+  { "key": "078", "text": "Wewe ni kishawishi kilichojificha kama bahati tu.", "categories": ["spicy", "cheeky"] },
+  { "key": "079", "text": "Unanipa hamu ya kufanya maamuzi mabaya nikiwa na kampani bora.", "categories": ["spicy", "cheeky"] },
+  { "key": "080", "text": "Unatoa aina ya nishati isiyowezekana kuipuuzia—wala kuilalia.", "categories": ["spicy", "cheeky"] }
 ]
