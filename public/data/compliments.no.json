@@ -478,5 +478,165 @@
     "tone": 3,
     "categories": ["cheeky"],
     "risk": 1
+  },
+  {
+    "id": "no-61",
+    "text": "Du ser ut som problemer jeg definitivt burde unngå – men ikke vil.",
+    "lang": "no",
+    "tone": 4,
+    "categories": ["spicy", "cheeky"],
+    "risk": 2
+  },
+  {
+    "id": "no-62",
+    "text": "Blikket ditt lover ting samtalen ikke tør å si.",
+    "lang": "no",
+    "tone": 4,
+    "categories": ["spicy", "cheeky"],
+    "risk": 2
+  },
+  {
+    "id": "no-63",
+    "text": "Er det flørting, eller prøver du bare å ødelegge dømmekraften min?",
+    "lang": "no",
+    "tone": 4,
+    "categories": ["spicy", "cheeky"],
+    "risk": 2
+  },
+  {
+    "id": "no-64",
+    "text": "Du er ikke farlig, men tankene mine er det rundt deg.",
+    "lang": "no",
+    "tone": 4,
+    "categories": ["spicy", "cheeky"],
+    "risk": 2
+  },
+  {
+    "id": "no-65",
+    "text": "Det er noe med deg som får uskyld til å føles… valgfritt.",
+    "lang": "no",
+    "tone": 4,
+    "categories": ["spicy", "cheeky"],
+    "risk": 2
+  },
+  {
+    "id": "no-66",
+    "text": "Du er en distraksjon med bivirkninger jeg ikke vil unngå.",
+    "lang": "no",
+    "tone": 4,
+    "categories": ["spicy", "cheeky"],
+    "risk": 2
+  },
+  {
+    "id": "no-67",
+    "text": "Det der smilet? Rett i kategorien «tenk deg om to ganger, gjør det likevel».",
+    "lang": "no",
+    "tone": 4,
+    "categories": ["spicy", "cheeky"],
+    "risk": 2
+  },
+  {
+    "id": "no-68",
+    "text": "Du har det blikket som gjør at man vurderer å bli i trøbbel.",
+    "lang": "no",
+    "tone": 4,
+    "categories": ["spicy", "cheeky"],
+    "risk": 2
+  },
+  {
+    "id": "no-69",
+    "text": "Tankene mine oppfører seg ikke så pent når du er i nærheten.",
+    "lang": "no",
+    "tone": 4,
+    "categories": ["spicy", "cheeky"],
+    "risk": 2
+  },
+  {
+    "id": "no-70",
+    "text": "Du er et ‘kom hit’ uten å si et ord.",
+    "lang": "no",
+    "tone": 4,
+    "categories": ["spicy", "cheeky"],
+    "risk": 2
+  },
+  {
+    "id": "no-71",
+    "text": "Hvis blikk kunne kles av, hadde jeg vært i trøbbel allerede.",
+    "lang": "no",
+    "tone": 4,
+    "categories": ["spicy", "cheeky"],
+    "risk": 2
+  },
+  {
+    "id": "no-72",
+    "text": "Du har hovedrollen i tankene mine, og jeg vurderer en oppfølger.",
+    "lang": "no",
+    "tone": 4,
+    "categories": ["spicy", "cheeky"],
+    "risk": 2
+  },
+  {
+    "id": "no-73",
+    "text": "La oss være ærlige – kjemien her er ikke akkurat subtil.",
+    "lang": "no",
+    "tone": 4,
+    "categories": ["spicy", "cheeky"],
+    "risk": 2
+  },
+  {
+    "id": "no-74",
+    "text": "Du er ikke bare søt – du er tankespinn med konsekvenser.",
+    "lang": "no",
+    "tone": 4,
+    "categories": ["spicy", "cheeky"],
+    "risk": 2
+  },
+  {
+    "id": "no-75",
+    "text": "Du får meg til å tenke på alt annet enn uskyldige ting.",
+    "lang": "no",
+    "tone": 4,
+    "categories": ["spicy", "cheeky"],
+    "risk": 2
+  },
+  {
+    "id": "no-76",
+    "text": "Hvis tiltrekning var en forbrytelse, er jeg medskyldig.",
+    "lang": "no",
+    "tone": 4,
+    "categories": ["spicy", "cheeky"],
+    "risk": 2
+  },
+  {
+    "id": "no-77",
+    "text": "Det er ikke bare blikket mitt du stjeler – det er tankene etterpå også.",
+    "lang": "no",
+    "tone": 4,
+    "categories": ["spicy", "cheeky"],
+    "risk": 2
+  },
+  {
+    "id": "no-78",
+    "text": "Du føles som en fristelse forklart som tilfeldighet.",
+    "lang": "no",
+    "tone": 4,
+    "categories": ["spicy", "cheeky"],
+    "risk": 2
+  },
+  {
+    "id": "no-79",
+    "text": "Du gir meg lyst til å ta dårlige avgjørelser med godt selskap.",
+    "lang": "no",
+    "tone": 4,
+    "categories": ["spicy", "cheeky"],
+    "risk": 2
+  },
+  {
+    "id": "no-80",
+    "text": "Du gir den typen energi som ikke lar seg ignorere – eller sove fra.",
+    "lang": "no",
+    "tone": 4,
+    "categories": ["spicy", "cheeky"],
+    "risk": 2
   }
 ]

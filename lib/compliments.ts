@@ -4,13 +4,12 @@ import type { Compliment, Lang, Tone } from "./types";
 export async function loadCompliments(lang: Lang): Promise<Compliment[]> {
   const res = await fetch(`/data/compliments.${lang}.json`, { cache: "no-store" });
   if (!res.ok) throw new Error("Kunne ikke laste komplimenter");
-  const data = (await res.json()) as Compliment[];
-  return data;
+  return (await res.json()) as Compliment[];
 }
 
-/** Filtrerer på tone (inkluderer alt ≤ valgt tone) */
+/** KUN valgt tone */
 export function poolByTone(all: Compliment[], tone: Tone): Compliment[] {
-  return all.filter((c) => c.tone <= tone);
+  return all.filter((c) => c.tone === tone);
 }
 
 export function pickRandom(pool: Compliment[]): Compliment | null {
