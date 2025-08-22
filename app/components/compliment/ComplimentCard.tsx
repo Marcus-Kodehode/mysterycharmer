@@ -27,13 +27,13 @@ export default function ComplimentCard({ children, className }: Props) {
         {/* watermark quote marks */}
         <span
           aria-hidden
-          className="pointer-events-none select-none absolute -top-4 left-4 text-7xl sm:text-8xl font-serif text-rose-300/10"
+          className="ppointer-events-none select-none absolute top-2 left-3 text-5xl sm:text-7xl font-serif text-rose-300/10"
         >
           “
         </span>
         <span
           aria-hidden
-          className="pointer-events-none select-none absolute -bottom-6 right-4 text-7xl sm:text-8xl font-serif text-rose-300/10"
+          className="pointer-events-none select-none absolute right-3 bottom-0 translate-y-2 sm:translate-y-8 text-5xl sm:text-7xl font-serif text-rose-300/10"
         >
           ”
         </span>
