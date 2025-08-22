@@ -6,7 +6,7 @@ import LanguageMenu from "./LanguageMenu";
 import ToneMenu from "./ToneMenu";
 
 export default function Header() {
-  const { isFav, toggleFavorite, favCount, current } = useAppState();
+  const { isFav, toggleFavorite, favCount, current, history } = useAppState();
 
   return (
     <header className="sticky top-0 z-40 backdrop-blur bg-black/10 border-b border-white/10">
@@ -15,11 +15,9 @@ export default function Header() {
           mystery<span className="text-brand-400">charmer</span>
         </Link>
 
-        {/* Dropdowns */}
         <ToneMenu />
         <LanguageMenu />
 
-        {/* Toggle favoritt for nåværende */}
         <button
           className="btn btn-ghost px-3 py-2 text-sm"
           onClick={toggleFavorite}
@@ -29,12 +27,17 @@ export default function Header() {
           {isFav ? "❤️" : "🤍"}
         </button>
 
-        {/* Links */}
         <Link href="/history" className="btn btn-ghost px-3 py-2 text-sm" title="History">
           🕘
+          {history.length > 0 && (
+            <span className="ml-1 text-xs text-zinc-400">{history.length}</span>
+          )}
         </Link>
         <Link href="/favorites" className="btn btn-ghost px-3 py-2 text-sm" title="Favorites">
-          ⭐ <span className="ml-1 text-xs text-zinc-400">{favCount}</span>
+          ⭐
+          {favCount > 0 && (
+            <span className="ml-1 text-xs text-zinc-400">{favCount}</span>
+          )}
         </Link>
       </div>
     </header>
