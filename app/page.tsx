@@ -13,40 +13,49 @@ export default function Page() {
   const [all, setAll] = useState<Compliment[]>([]);
   const [current, setCurrent] = useState<Compliment | null>(null);
   const [favs, setFavs] = useState<string[]>([]);
+  const [copied, setCopied] = useState(false);
 
-  // last inn ved språkbytte
   useEffect(() => {
     loadCompliments(lang)
       .then((data) => setAll(data))
       .catch(() => setAll([]));
   }, [lang]);
 
-  // plukk første når all endrer
   useEffect(() => {
     const pool = poolByTone(all, tone);
     setCurrent(pickRandom(pool));
   }, [all, tone]);
 
-  // sync favoritter
   useEffect(() => {
     setFavs(() => JSON.parse(localStorage.getItem("mc_favs_v1") || "[]"));
   }, []);
+
+  // Tastatursnarveier
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      const k = e.key.toLowerCase();
+      if (k === " ") { e.preventDefault(); next(); }
+      if (k === "c") { copy(); }
+      if (k === "f") { fav(); }
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  });
 
   const isFav = useMemo(() => (current ? isFavorite(current.id) : false), [current]);
 
   function next() {
     const pool = poolByTone(all, tone);
-    const nextOne = pickRandom(pool);
-    setCurrent(nextOne);
+    setCurrent(pickRandom(pool));
   }
 
   async function copy() {
     if (!current) return;
     try {
       await navigator.clipboard.writeText(current.text);
-    } catch {
-      // noop
-    }
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1200);
+    } catch {}
   }
 
   function fav() {
@@ -56,15 +65,13 @@ export default function Page() {
   }
 
   return (
-    <main className="min-h-dvh flex flex-col items-center justify-center px-4 py-12 gap-8">
-      <header className="text-center">
-        <h1 className="text-2xl sm:text-3xl font-display tracking-wide">
-          mystery<span className="text-brand-400">charmer</span>
-        </h1>
-        <p className="text-zinc-400 text-sm">
-          Tasteful flirting, one line at a time.
-        </p>
-      </header>
+    <section className="mx-auto max-w-4xl px-4 py-12 min-h-[calc(100dvh-120px)] flex flex-col items-center justify-center gap-8">
+      <h1 className="text-2xl sm:text-3xl tracking-wide">
+        mystery<span className="text-brand-400">charmer</span>
+      </h1>
+      <p className="text-zinc-400 text-sm -mt-2">
+        Tasteful flirting, one line at a time.
+      </p>
 
       <ComplimentCard>
         {current?.text ?? (lang === "no" ? "Klar for litt sjarm?" : "Ready for some charm?")}
@@ -81,9 +88,16 @@ export default function Page() {
         onLang={(l) => setLang(l)}
       />
 
-      <footer className="text-xs text-zinc-500 pt-4">
+      <p className="text-xs text-zinc-500 pt-4">
         {favs.length} {lang === "no" ? "favoritter" : "favorites"}
-      </footer>
-    </main>
+      </p>
+
+      {/* Kopi-toast */}
+      {copied && (
+        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 card px-3 py-2 text-sm">
+          {lang === "no" ? "Kopiert!" : "Copied!"}
+        </div>
+      )}
+    </section>
   );
 }
