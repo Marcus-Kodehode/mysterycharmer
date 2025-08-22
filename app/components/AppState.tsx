@@ -5,11 +5,13 @@ import {
 } from "react";
 import type { Compliment, Lang, Category } from "@/lib/types";
 import {
-  getFavorites, toggleFavorite as toggleFavStorage,
-  getHistory, pushHistory as pushHistoryStorage, clearHistory as clearHistoryStorage,
+  getFavorites,
+  toggleFavorite as toggleFavStorage,
+  getHistory,
+  pushHistory as pushHistoryStorage,
+  clearHistory as clearHistoryStorage,
+  type HistoryItem as StorageHistoryItem,
 } from "@/lib/storage";
-
-type HistoryItem = { id: string; text: string; lang: Lang; ts: number };
 
 type AppState = {
   lang: Lang; setLang: (l: Lang) => void;
@@ -19,21 +21,16 @@ type AppState = {
 
   isFav: boolean; toggleFavorite: () => void;
 
-  history: HistoryItem[]; pushHistory: (item: HistoryItem) => void; clearHistory: () => void;
+  history: StorageHistoryItem[]; clearHistory: () => void;
 
   favCount: number;
 };
 
 const Ctx = createContext<AppState | null>(null);
-
-// Ny nøkkel for prefs etter migrering til category
 const PREFS_KEY = "mc_prefs_v2";
 
 function readPrefs(): { lang: Lang; category: Category } {
-  try {
-    const raw = localStorage.getItem(PREFS_KEY);
-    if (raw) return JSON.parse(raw);
-  } catch {}
+  try { const raw = localStorage.getItem(PREFS_KEY); if (raw) return JSON.parse(raw); } catch {}
   return { lang: "no", category: "classic" };
 }
 function writePrefs(p: { lang: Lang; category: Category }) {
@@ -44,14 +41,14 @@ export function AppStateProvider({ children }: { children: React.ReactNode }) {
   const [lang, setLangState] = useState<Lang>("no");
   const [category, setCategoryState] = useState<Category>("classic");
   const [current, setCurrentState] = useState<Compliment | null>(null);
-  const [favIds, setFavIds] = useState<string[]>([]);
-  const [history, setHistory] = useState<HistoryItem[]>([]);
+  const [favKeys, setFavKeys] = useState<string[]>([]);
+  const [history, setHistory] = useState<StorageHistoryItem[]>([]);
 
   useEffect(() => {
     const p = readPrefs();
     setLangState(p.lang);
     setCategoryState(p.category);
-    setFavIds(getFavorites());
+    setFavKeys(getFavorites());
     setHistory(getHistory());
   }, []);
 
@@ -68,24 +65,19 @@ export function AppStateProvider({ children }: { children: React.ReactNode }) {
   const setCurrent = useCallback((c: Compliment | null) => {
     setCurrentState(c);
     if (c) {
-      const item = { id: c.id, text: c.text, lang: c.lang, ts: Date.now() };
+      const item: StorageHistoryItem = { key: c.key, text: c.text, lang, ts: Date.now() };
       const updated = pushHistoryStorage(item);
       setHistory(updated);
     }
-  }, []);
+  }, [lang]);
 
-  const isFav = useMemo(() => (current ? favIds.includes(current.id) : false), [favIds, current]);
+  const isFav = useMemo(() => (current ? favKeys.includes(current.key) : false), [favKeys, current]);
 
   const toggleFavorite = useCallback(() => {
     if (!current) return;
-    const updated = toggleFavStorage(current.id);
-    setFavIds(updated);
+    const updated = toggleFavStorage(current.key);
+    setFavKeys(updated);
   }, [current]);
-
-  const pushHistory = useCallback((item: HistoryItem) => {
-    const updated = pushHistoryStorage(item);
-    setHistory(updated);
-  }, []);
 
   const clearHistory = useCallback(() => {
     clearHistoryStorage();
@@ -97,8 +89,8 @@ export function AppStateProvider({ children }: { children: React.ReactNode }) {
     category, setCategory,
     current, setCurrent,
     isFav, toggleFavorite,
-    history, pushHistory, clearHistory,
-    favCount: favIds.length,
+    history, clearHistory,
+    favCount: favKeys.length,
   };
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;

@@ -1,20 +1,14 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import Image from "next/image";
 import { useAppState } from "./AppState";
 import type { Category } from "@/lib/types";
 
-// Legg PNG’er i /public/images/icons/
-//  - cat-classic.png
-//  - cat-nerdy.png
-//  - cat-cheeky.png
-//  - cat-spicy.png
-const CATS: { value: Category; label: string; emoji: string; icon: string }[] = [
-  { value: "classic", label: "Classic", emoji: "💌", icon: "/images/icons/cat-classic.png" },
-  { value: "nerdy",   label: "Nerdy",   emoji: "🧠", icon: "/images/icons/cat-nerdy.png" },
-  { value: "cheeky",  label: "Cheeky",  emoji: "😉", icon: "/images/icons/cat-cheeky.png" },
-  { value: "spicy",   label: "Spicy 18+", emoji: "🌶️", icon: "/images/icons/cat-spicy.png" },
+const CATS: { value: Category; label: string; emoji: string }[] = [
+  { value: "classic", label: "Classic",   emoji: "💌" },
+  { value: "nerdy",   label: "Nerdy",     emoji: "🧠" },
+  { value: "cheeky",  label: "Cheeky",    emoji: "😉" },
+  { value: "spicy",   label: "Spicy 18+", emoji: "🌶️" },
 ];
 
 export default function CategoryMenu() {
@@ -42,7 +36,7 @@ export default function CategoryMenu() {
         title="Category"
       >
         <span className="inline-flex items-center gap-2">
-          <Image src={current.icon} alt="" width={16} height={16} />
+          <span aria-hidden>{current.emoji}</span>
           <span className="hidden md:inline">{current.label}</span>
           <span aria-hidden>▾</span>
         </span>
@@ -57,7 +51,7 @@ export default function CategoryMenu() {
               className={`w-full text-left px-3 py-2 rounded-lg hover:bg-white/10 flex items-center gap-2 ${item.value === category ? "bg-white/10" : ""}`}
               onClick={() => { setCategory(item.value); setOpen(false); }}
             >
-              <Image src={item.icon} alt="" width={18} height={18} />
+              <span aria-hidden>{item.emoji}</span>
               <span className="text-sm">{item.label}</span>
             </button>
           ))}

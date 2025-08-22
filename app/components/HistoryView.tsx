@@ -25,7 +25,7 @@ export default function HistoryView() {
       ) : (
         <ul className="space-y-3">
           {history.map(h => (
-            <li key={`${h.id}-${h.ts}`} className="card">
+            <li key={`${h.key}-${h.ts}`} className="card">
               <p className="text-sm">{h.text}</p>
               <div className="mt-2 flex items-center justify-between text-xs text-zinc-500">
                 <span>{h.lang.toUpperCase()}</span>

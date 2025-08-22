@@ -1,3 +1,4 @@
+// lib/compliments.ts
 import type { Compliment, Lang, Category } from "./types";
 
 export async function loadCompliments(lang: Lang): Promise<Compliment[]> {
@@ -5,11 +6,9 @@ export async function loadCompliments(lang: Lang): Promise<Compliment[]> {
   if (!res.ok) throw new Error("Kunne ikke laste komplimenter");
   return (await res.json()) as Compliment[];
 }
-
 export function poolByCategory(all: Compliment[], category: Category): Compliment[] {
   return all.filter((c) => (c.categories ?? []).includes(category));
 }
-
 export function pickRandom(pool: Compliment[]): Compliment | null {
   if (!pool.length) return null;
   const i = Math.floor(Math.random() * pool.length);

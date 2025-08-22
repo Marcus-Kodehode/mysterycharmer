@@ -10,33 +10,18 @@ import EmptyState from "./EmptyState";
 
 export default function FavoritesView() {
   const { lang } = useAppState();
-  const [allNo, setAllNo] = useState<Compliment[]>([]);
-  const [allEn, setAllEn] = useState<Compliment[]>([]);
-  const [favIds, setFavIds] = useState<string[]>([]);
+  const [all, setAll] = useState<Compliment[]>([]);
+  const [favKeys, setFavKeys] = useState<string[]>([]);
 
   useEffect(() => {
     let alive = true;
-    Promise.all([
-      loadCompliments("no").catch(() => [] as Compliment[]),
-      loadCompliments("en").catch(() => [] as Compliment[]),
-    ]).then(([no, en]) => {
-      if (!alive) return;
-      setAllNo(no);
-      setAllEn(en);
-      setFavIds(getFavorites());
-    });
+    loadCompliments(lang).then((data) => { if (!alive) return; setAll(data); setFavKeys(getFavorites()); })
+      .catch(() => { if (!alive) return; setAll([]); setFavKeys(getFavorites()); });
     return () => { alive = false; };
-  }, []);
+  }, [lang]);
 
-  const byId = useMemo(() => {
-    const m = new Map<string, Compliment>();
-    [...allNo, ...allEn].forEach(c => m.set(c.id, c));
-    return m;
-  }, [allNo, allEn]);
-
-  const favs = favIds
-    .map(id => byId.get(id))
-    .filter(Boolean) as Compliment[];
+  const byKey = useMemo(() => new Map(all.map(c => [c.key, c])), [all]);
+  const favs = favKeys.map(k => byKey.get(k)).filter(Boolean) as Compliment[];
 
   return (
     <PageSection>
@@ -49,9 +34,8 @@ export default function FavoritesView() {
       ) : (
         <ul className="space-y-3">
           {favs.map(c => (
-            <li key={c.id} className="card">
+            <li key={c.key} className="card">
               <p className="text-sm">{c.text}</p>
-              <p className="mt-2 text-xs text-zinc-500">{c.lang.toUpperCase()}</p>
             </li>
           ))}
         </ul>
