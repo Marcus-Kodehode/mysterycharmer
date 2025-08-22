@@ -1,15 +1,13 @@
-import type { Compliment, Lang, Tone } from "./types";
+import type { Compliment, Lang, Category } from "./types";
 
-/** Henter lokalt JSON fra /public/data */
 export async function loadCompliments(lang: Lang): Promise<Compliment[]> {
   const res = await fetch(`/data/compliments.${lang}.json`, { cache: "no-store" });
   if (!res.ok) throw new Error("Kunne ikke laste komplimenter");
   return (await res.json()) as Compliment[];
 }
 
-/** KUN valgt tone */
-export function poolByTone(all: Compliment[], tone: Tone): Compliment[] {
-  return all.filter((c) => c.tone === tone);
+export function poolByCategory(all: Compliment[], category: Category): Compliment[] {
+  return all.filter((c) => (c.categories ?? []).includes(category));
 }
 
 export function pickRandom(pool: Compliment[]): Compliment | null {

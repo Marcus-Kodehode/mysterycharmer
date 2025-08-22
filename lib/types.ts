@@ -1,11 +1,13 @@
-export type Tone = 0 | 1 | 2 | 3 | 4; // 4 = Spicy (18+)
 export type Lang = "no" | "en";
+export type Category = "classic" | "nerdy" | "cheeky" | "spicy";
 
 export type Compliment = {
-  id: string;
+  id: string;           // unik per språk, f.eks. "no-01" / "en-01"
+  key?: string;         // felles nøkkel tvers av språk (valgfritt), f.eks. "001"
   text: string;
   lang: Lang;
-  tone: Tone;
-  categories?: string[];
-  risk?: 0 | 1 | 2 | 4;
+  categories: Category[];
+  // legacy-felt – behold i JSON hvis de finnes, men vi bruker dem ikke:
+  tone?: 0 | 1 | 2 | 3 | 4;
+  risk?: 0 | 1 | 2;
 };

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useAppState } from "./AppState";
 import LanguageMenu from "./LanguageMenu";
-import ToneMenu from "./ToneMenu";
+import CategoryMenu from "./CategoryMenu";
 
 export default function Header() {
   const { isFav, toggleFavorite, favCount, current, history } = useAppState();
@@ -15,7 +15,7 @@ export default function Header() {
           mystery<span className="text-brand-400">charmer</span>
         </Link>
 
-        <ToneMenu />
+        <CategoryMenu />
         <LanguageMenu />
 
         <button
@@ -28,16 +28,10 @@ export default function Header() {
         </button>
 
         <Link href="/history" className="btn btn-ghost px-3 py-2 text-sm" title="History">
-          🕘
-          {history.length > 0 && (
-            <span className="ml-1 text-xs text-zinc-400">{history.length}</span>
-          )}
+          🕘 {history.length > 0 && <span className="ml-1 text-xs text-zinc-400">{history.length}</span>}
         </Link>
         <Link href="/favorites" className="btn btn-ghost px-3 py-2 text-sm" title="Favorites">
-          ⭐
-          {favCount > 0 && (
-            <span className="ml-1 text-xs text-zinc-400">{favCount}</span>
-          )}
+          ⭐ {favCount > 0 && <span className="ml-1 text-xs text-zinc-400">{favCount}</span>}
         </Link>
       </div>
     </header>
