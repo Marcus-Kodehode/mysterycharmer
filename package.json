@@ -9,7 +9,8 @@
     "lint": "eslint",
     "normalize": "node scripts/normalize-compliments.mjs",
     "make:en": "node scripts/make-translation.mjs en",
-    "make:es": "node scripts/make-translation.mjs es"
+    "make:es": "node scripts/make-translation.mjs es",
+    "make:sw": "node scripts/make-translation.mjs sw"
   },
   "dependencies": {
     "react": "19.1.0",

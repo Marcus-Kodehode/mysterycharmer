@@ -8,6 +8,7 @@ const LANGS = [
   { code: "no" as const, label: "Norsk",   short: "NO", icon: "/images/icons/no.png" },
   { code: "en" as const, label: "English", short: "EN", icon: "/images/icons/en.png" },
   { code: "es" as const, label: "Español", short: "ES", icon: "/images/icons/es.png" },
+  { code: "sw" as const, label: "Kiswahili", short: "SW", icon: "/images/icons/tz.png" },
 ];
 
 export default function LanguageMenu() {

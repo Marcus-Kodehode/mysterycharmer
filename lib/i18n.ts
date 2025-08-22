@@ -80,6 +80,30 @@ const UI: Record<Lang, Record<Keys, string>> = {
     cat_cheeky: "Pícaro",
     cat_spicy: "Picante 18+",
   },
+    sw: {
+    ready: "Uko tayari kwa mvuto kidogo?",
+    tagline: "Flirting yenye ustaarabu, sentensi moja kwa wakati.",
+    cta: "Nipe sifa",
+    copied: "Imenakiliwa!",
+
+    history_title: "Historia",
+    favorites_title: "Vipendwa",
+    clear: "Futa",
+    empty_history: "Bado hakuna historia.",
+    empty_favorites: "Bado hakuna vipendwa.",
+
+    category: "Aina",
+    history_nav: "Historia",
+    favorites_nav: "Vipendwa",
+    fav_add: "Ongeza kwenye vipendwa",
+    fav_remove: "Ondoa kutoka vipendwa",
+    no_current: "Bado hakuna sifa",
+
+    cat_classic: "Klasiki",
+    cat_nerdy: "Nerdy",
+    cat_cheeky: "Kichokozi",
+    cat_spicy: "Kali 18+",
+  },
 };
 
 export function t(lang: Lang, key: Keys): string {
