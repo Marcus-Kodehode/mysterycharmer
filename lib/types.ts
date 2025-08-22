@@ -7,5 +7,5 @@ export type Compliment = {
   lang: Lang;
   tone: Tone;
   categories?: string[];
-  risk?: 0 | 1 | 2;
+  risk?: 0 | 1 | 2 | 4;
 };

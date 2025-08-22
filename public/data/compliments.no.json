@@ -10,5 +10,85 @@
   { "id": "no-9",  "text": "Du dukket opp, og resten fikk litt mindre lys.", "lang": "no", "tone": 1, "categories": ["classic"], "risk": 0 },
   { "id": "no-10", "text": "Du gjør vanskelige dager enklere.", "lang": "no", "tone": 0, "categories": ["classic"], "risk": 0 },
   { "id": "no-11", "text": "Du er det beste argumentet for spontanitet.", "lang": "no", "tone": 2, "categories": ["witty"], "risk": 0 },
-  { "id": "no-12", "text": "Du får pulsen min til å ta snarveier.", "lang": "no", "tone": 3, "categories": ["cheeky"], "risk": 1 }
+  { "id": "no-12", "text": "Du får pulsen min til å ta snarveier.", "lang": "no", "tone": 3, "categories": ["cheeky"], "risk": 1 },
+{
+  "id": "no-13",
+  "text": "Du ser ut som problemer jeg har lyst til å ha.",
+  "lang": "no",
+  "tone": 4,
+  "categories": ["spicy", "cheeky"],
+  "risk": 2
+},
+{
+  "id": "no-14",
+  "text": "Det smilet ditt burde komme med advarsel.",
+  "lang": "no",
+  "tone": 4,
+  "categories": ["spicy", "cheeky"],
+  "risk": 2
+},
+{
+  "id": "no-15",
+  "text": "Du er en farlig god distraksjon.",
+  "lang": "no",
+  "tone": 4,
+  "categories": ["spicy", "cheeky"],
+  "risk": 2
+},
+{
+  "id": "no-16",
+  "text": "Fokuset mitt tar kvelden når du er i rommet.",
+  "lang": "no",
+  "tone": 4,
+  "categories": ["spicy", "cheeky"],
+  "risk": 2
+},
+{
+  "id": "no-17",
+  "text": "Du er akkurat passe kaos for meg.",
+  "lang": "no",
+  "tone": 4,
+  "categories": ["spicy", "cheeky"],
+  "risk": 2
+},
+{
+  "id": "no-18",
+  "text": "Jeg later som jeg er rolig – hjertet mitt vet bedre.",
+  "lang": "no",
+  "tone": 4,
+  "categories": ["spicy", "cheeky"],
+  "risk": 2
+},
+{
+  "id": "no-19",
+  "text": "Du er et «ja» jeg ikke burde si høyt.",
+  "lang": "no",
+  "tone": 4,
+  "categories": ["spicy", "cheeky"],
+  "risk": 2
+},
+{
+  "id": "no-20",
+  "text": "Blikket ditt er et hint jeg sliter med å misforstå.",
+  "lang": "no",
+  "tone": 4,
+  "categories": ["spicy", "cheeky"],
+  "risk": 2
+},
+{
+  "id": "no-21",
+  "text": "Du gjør meg mer modig enn jeg pleier å være.",
+  "lang": "no",
+  "tone": 4,
+  "categories": ["spicy", "cheeky"],
+  "risk": 2
+},
+{
+  "id": "no-22",
+  "text": "Fristende er dagens understatement.",
+  "lang": "no",
+  "tone": 4,
+  "categories": ["spicy", "cheeky"],
+  "risk": 2
+}
 ]

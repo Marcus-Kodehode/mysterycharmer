@@ -10,5 +10,86 @@
   { "id": "en-9",  "text": "You showed up and the room got brighter.", "lang": "en", "tone": 1, "categories": ["classic"], "risk": 0 },
   { "id": "en-10", "text": "You make hard days easier.", "lang": "en", "tone": 0, "categories": ["classic"], "risk": 0 },
   { "id": "en-11", "text": "You're my favorite excuse for spontaneity.", "lang": "en", "tone": 2, "categories": ["witty"], "risk": 0 },
-  { "id": "en-12", "text": "You make my heartbeat take shortcuts.", "lang": "en", "tone": 3, "categories": ["cheeky"], "risk": 1 }
+  { "id": "en-12", "text": "You make my heartbeat take shortcuts.", "lang": "en", "tone": 3, "categories": ["cheeky"], "risk": 1 },
+
+{
+  "id": "en-13",
+  "text": "You look like the kind of trouble I want.",
+  "lang": "en",
+  "tone": 4,
+  "categories": ["spicy", "cheeky"],
+  "risk": 2
+},
+{
+  "id": "en-14",
+  "text": "That smile should come with a warning.",
+  "lang": "en",
+  "tone": 4,
+  "categories": ["spicy", "cheeky"],
+  "risk": 2
+},
+{
+  "id": "en-15",
+  "text": "You're a dangerously good distraction.",
+  "lang": "en",
+  "tone": 4,
+  "categories": ["spicy", "cheeky"],
+  "risk": 2
+},
+{
+  "id": "en-16",
+  "text": "Focus clocks out when you're around.",
+  "lang": "en",
+  "tone": 4,
+  "categories": ["spicy", "cheeky"],
+  "risk": 2
+},
+{
+  "id": "en-17",
+  "text": "You're exactly the kind of chaos I like.",
+  "lang": "en",
+  "tone": 4,
+  "categories": ["spicy", "cheeky"],
+  "risk": 2
+},
+{
+  "id": "en-18",
+  "text": "I act cool; my pulse disagrees.",
+  "lang": "en",
+  "tone": 4,
+  "categories": ["spicy", "cheeky"],
+  "risk": 2
+},
+{
+  "id": "en-19",
+  "text": "You're a ‘yes’ I probably shouldn't say out loud.",
+  "lang": "en",
+  "tone": 4,
+  "categories": ["spicy", "cheeky"],
+  "risk": 2
+},
+{
+  "id": "en-20",
+  "text": "Your eyes are a hint I can't misread.",
+  "lang": "en",
+  "tone": 4,
+  "categories": ["spicy", "cheeky"],
+  "risk": 2
+},
+{
+  "id": "en-21",
+  "text": "You make me braver than usual.",
+  "lang": "en",
+  "tone": 4,
+  "categories": ["spicy", "cheeky"],
+  "risk": 2
+},
+{
+  "id": "en-22",
+  "text": "Tempting is an understatement.",
+  "lang": "en",
+  "tone": 4,
+  "categories": ["spicy", "cheeky"],
+  "risk": 2
+}
 ]
