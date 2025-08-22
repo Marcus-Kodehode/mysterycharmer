@@ -8,8 +8,8 @@ export default function Footer() {
   const { lang } = useAppState();
 
   return (
-    <footer className="border-t border-white/10">
-      <div className="mx-auto max-w-4xl px-4 py-6 text-xs text-zinc-500 flex items-center justify-between">
+    <footer className="relative z-50 border-t border-white/10">
+      <div className="x-auto max-w-4xl px-4 py-6 text-xs text-zinc-500 flex items-center justify-between">
         <p>© {year} mysterycharmer</p>
         <p>{t(lang, "tagline")}</p>
       </div>
