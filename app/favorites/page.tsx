@@ -1,6 +1,6 @@
 "use client";
 
-import FavoritesView from "../components/FavoritesView";
+import FavoritesView from "./components/FavoritesView";
 
 export default function FavoritesPage() {
   return <FavoritesView />;

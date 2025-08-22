@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useAppState } from "./AppState";
-import LanguageMenu from "./LanguageMenu";
-import CategoryMenu from "./CategoryMenu";
+import { useAppState } from "../core/AppState";
+import LanguageMenu from "../menus/LanguageMenu";
+import CategoryMenu from "../menus/CategoryMenu";
 
 export default function Header() {
   const { isFav, toggleFavorite, favCount, current, history } = useAppState();

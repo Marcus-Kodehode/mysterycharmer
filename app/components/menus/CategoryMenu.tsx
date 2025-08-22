@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { useAppState } from "./AppState";
+import { useAppState } from "../core/AppState";
 import type { Category } from "@/lib/types";
 
 const CATS: { value: Category; label: string; emoji: string }[] = [

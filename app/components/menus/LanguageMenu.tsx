@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import { useAppState } from "./AppState";
+import { useAppState } from "../core/AppState";
 
 const LANGS = [
   { code: "no" as const, label: "Norsk",   short: "NO", icon: "/images/icons/no.png" },

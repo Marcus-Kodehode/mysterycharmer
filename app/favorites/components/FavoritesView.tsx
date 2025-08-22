@@ -4,9 +4,9 @@ import { useEffect, useMemo, useState } from "react";
 import type { Compliment } from "@/lib/types";
 import { loadCompliments } from "@/lib/compliments";
 import { getFavorites } from "@/lib/storage";
-import { useAppState } from "./AppState";
-import PageSection from "./PageSection";
-import EmptyState from "./EmptyState";
+import { useAppState } from "../../components/core/AppState";
+import PageSection from "../../components/common/PageSection";
+import EmptyState from "../../components/common/EmptyState";
 
 export default function FavoritesView() {
   const { lang } = useAppState();

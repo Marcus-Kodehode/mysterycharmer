@@ -1,8 +1,8 @@
 "use client";
 
-import { useAppState } from "./AppState";
-import PageSection from "./PageSection";
-import EmptyState from "./EmptyState";
+import { useAppState } from "../../components/core/AppState";
+import PageSection from "../../components/common/PageSection";
+import EmptyState from "../../components/common/EmptyState";
 
 export default function HistoryView() {
   const { history, lang, clearHistory } = useAppState();

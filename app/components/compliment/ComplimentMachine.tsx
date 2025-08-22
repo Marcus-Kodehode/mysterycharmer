@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import type { Compliment } from "@/lib/types";
-import { useAppState } from "./AppState";
+import { useAppState } from "../core/AppState";
 import { loadCompliments, poolByCategory, pickRandom } from "@/lib/compliments";
 import ComplimentCard from "./ComplimentCard";
 import ActionsBar from "./ActionsBar";

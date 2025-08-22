@@ -1,7 +1,7 @@
 "use client";
 
-import Hero from "./components/Hero";
-import ComplimentMachine from "./components/ComplimentMachine";
+import Hero from "./components/hero/Hero";
+import ComplimentMachine from "./components/compliment/ComplimentMachine";
 
 export default function Page() {
   return (
