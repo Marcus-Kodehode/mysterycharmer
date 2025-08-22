@@ -13,7 +13,6 @@
 
   { "key": "005", "text": "Things feel a little calmer when you're around.",
    "categories": ["classic"] },
-
   { "key": "006", "text": "You remind me that the best things don't shout.",
    "categories": ["classic"] },
 
@@ -236,7 +235,7 @@
 
   { "key": "079", "text": "You make me want to make bad decisions with excellent company.",
    "categories": ["spicy", "cheeky"] },
-   
+
   { "key": "080", "text": "You give the kind of energy that's impossible to ignore—or sleep through.",
    "categories": ["spicy", "cheeky"] }
 ]
