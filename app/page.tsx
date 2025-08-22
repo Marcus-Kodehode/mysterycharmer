@@ -1,68 +1,60 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import ComplimentCard from "./components/ComplimentCard";
-import Controls from "./components/Controls";
-import type { Compliment, Lang, Tone } from "@/lib/types";
+import type { Compliment } from "@/lib/types";
 import { loadCompliments, poolByTone, pickRandom } from "@/lib/compliments";
-import { isFavorite, toggleFavorite } from "@/lib/storage";
+import { useAppState } from "./components/AppState";
 
 export default function Page() {
-  const [lang, setLang] = useState<Lang>("no");
-  const [tone, setTone] = useState<Tone>(1);
+  const { lang, tone, current, setCurrent } = useAppState();
   const [all, setAll] = useState<Compliment[]>([]);
-  const [current, setCurrent] = useState<Compliment | null>(null);
-  const [favs, setFavs] = useState<string[]>([]);
   const [copied, setCopied] = useState(false);
 
+  // Last inn data basert på språk
   useEffect(() => {
     loadCompliments(lang)
       .then((data) => setAll(data))
       .catch(() => setAll([]));
   }, [lang]);
 
+  // Sett første/ny når tone eller liste endres
   useEffect(() => {
     const pool = poolByTone(all, tone);
-    setCurrent(pickRandom(pool));
-  }, [all, tone]);
+    const first = pickRandom(pool);
+    if (first) setCurrent(first);
+  }, [all, tone, setCurrent]);
 
-  useEffect(() => {
-    setFavs(() => JSON.parse(localStorage.getItem("mc_favs_v1") || "[]"));
-  }, []);
-
-  // Tastatursnarveier
-  useEffect(() => {
-    function onKey(e: KeyboardEvent) {
-      const k = e.key.toLowerCase();
-      if (k === " ") { e.preventDefault(); next(); }
-      if (k === "c") { copy(); }
-      if (k === "f") { fav(); }
-    }
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  });
-
-  const isFav = useMemo(() => (current ? isFavorite(current.id) : false), [current]);
-
-  function next() {
+  const next = useCallback(() => {
     const pool = poolByTone(all, tone);
-    setCurrent(pickRandom(pool));
-  }
+    const n = pickRandom(pool);
+    if (n) setCurrent(n);
+  }, [all, tone, setCurrent]);
 
-  async function copy() {
+  const copy = useCallback(async () => {
     if (!current) return;
     try {
       await navigator.clipboard.writeText(current.text);
       setCopied(true);
       setTimeout(() => setCopied(false), 1200);
     } catch {}
-  }
+  }, [current]);
 
-  function fav() {
-    if (!current) return;
-    const updated = toggleFavorite(current.id);
-    setFavs(updated);
-  }
+  // Snarveier – bruk stabile callbacks i deps
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      const k = e.key.toLowerCase();
+      if (k === " ") {
+        e.preventDefault();
+        next();
+      }
+      if (k === "c") {
+        copy();
+      }
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [next, copy]);
 
   return (
     <section className="mx-auto max-w-4xl px-4 py-12 min-h-[calc(100dvh-120px)] flex flex-col items-center justify-center gap-8">
@@ -74,25 +66,19 @@ export default function Page() {
       </p>
 
       <ComplimentCard>
-        {current?.text ?? (lang === "no" ? "Klar for litt sjarm?" : "Ready for some charm?")}
+        {current?.text ??
+          (lang === "no" ? "Klar for litt sjarm?" : "Ready for some charm?")}
       </ComplimentCard>
 
-      <Controls
-        onNext={next}
-        onCopy={copy}
-        onFav={fav}
-        isFav={isFav}
-        lang={lang}
-        tone={tone}
-        onTone={(t) => setTone(t as Tone)}
-        onLang={(l) => setLang(l)}
-      />
+      <div className="w-full max-w-2xl flex items-center gap-2">
+        <button className="btn btn-primary w-full" onClick={next}>
+          {lang === "no" ? "Gi meg et kompliment" : "Give me a compliment"}
+        </button>
+        <button className="btn btn-ghost" onClick={copy} aria-label="Copy">
+          📋
+        </button>
+      </div>
 
-      <p className="text-xs text-zinc-500 pt-4">
-        {favs.length} {lang === "no" ? "favoritter" : "favorites"}
-      </p>
-
-      {/* Kopi-toast */}
       {copied && (
         <div className="fixed bottom-6 left-1/2 -translate-x-1/2 card px-3 py-2 text-sm">
           {lang === "no" ? "Kopiert!" : "Copied!"}
