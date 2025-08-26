@@ -9,6 +9,7 @@ export async function loadCompliments(lang: Lang): Promise<Compliment[]> {
       en: () => import("@/public/data/compliments.en.json").then(m => m.default as Compliment[]),
       es: () => import("@/public/data/compliments.es.json").then(m => m.default as Compliment[]),
       sw: () => import("@/public/data/compliments.sw.json").then(m => m.default as Compliment[]),
+      zh: () => import("@/public/data/compliments.zh.json").then(m => m.default as Compliment[]),
     };
     return await map[lang]();
   } catch {

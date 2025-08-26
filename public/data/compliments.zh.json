@@ -1,582 +1,396 @@
 [
   {
     "key": "001",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
+    "text": "你是我見過最接近「人形日出」的存在。",
+    "categories": ["classic"]
   },
   {
     "key": "002",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
+    "text": "你身上有種力量，讓其他一切都慢了下來。",
+    "categories": ["classic"]
   },
   {
     "key": "003",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
+    "text": "你有種不費力就讓人注意到的存在感。",
+    "categories": ["classic"]
   },
   {
     "key": "004",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
+    "text": "你像個我從未發現自己需要的暫停鍵。",
+    "categories": ["classic"]
   },
   {
     "key": "005",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
+    "text": "你在身邊時，世界都安靜一點。",
+    "categories": ["classic"]
   },
   {
     "key": "006",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
+    "text": "你讓我知道，最好的東西不需要大聲宣告。",
+    "categories": ["classic"]
   },
   {
     "key": "007",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
+    "text": "遇見你，讓我開始相信所謂的好時機。",
+    "categories": ["classic"]
   },
   {
     "key": "008",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
+    "text": "有人會閃耀，而你是發光。",
+    "categories": ["classic"]
   },
   {
     "key": "009",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
+    "text": "你帶來的安靜不會讓人覺得空洞。",
+    "categories": ["classic"]
   },
   {
     "key": "010",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
+    "text": "你是那種會讓人寫出傻氣情歌的類型。",
+    "categories": ["classic"]
   },
   {
     "key": "011",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
+    "text": "你的眼神有種熟悉感——是最美好的那種。",
+    "categories": ["classic"]
   },
   {
     "key": "012",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
+    "text": "你讓我明白，真正的吸引是從安心開始的。",
+    "categories": ["classic"]
   },
-  {
-    "key": "013",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
-  {
-    "key": "014",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
+  { "key": "013", "text": "你的沉穩，值得我學習。", "categories": ["classic"] },
+  { "key": "014", "text": "你一笑，想不笑都難。", "categories": ["classic"] },
   {
     "key": "015",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
+    "text": "你身上有股很真實的東西，而且看得見。",
+    "categories": ["classic"]
   },
   {
     "key": "016",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
+    "text": "你證明了人可以同時漂亮又真誠。",
+    "categories": ["classic"]
   },
   {
     "key": "017",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
+    "text": "和你在一起有回家的感覺——說不上為什麼。",
+    "categories": ["classic"]
   },
   {
     "key": "018",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
+    "text": "你是所有巧合裡最好的那一部分。",
+    "categories": ["classic"]
   },
-  {
-    "key": "019",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
-  },
+  { "key": "019", "text": "你有一種不費力的美好。", "categories": ["classic"] },
   {
     "key": "020",
-    "text": "",
-    "categories": [
-      "classic"
-    ]
+    "text": "在吵雜的世界裡，你是那段安靜的插曲。",
+    "categories": ["classic"]
   },
+
   {
     "key": "021",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
+    "text": "你像一次優秀的 commit——行數不多，卻改變全局。",
+    "categories": ["nerdy"]
   },
   {
     "key": "022",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
+    "text": "沒有 bug，只有心動的蝴蝶。",
+    "categories": ["nerdy"]
   },
   {
     "key": "023",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
+    "text": "我以為很穩定，你一來，整個程式都被你攪動了。",
+    "categories": ["nerdy"]
   },
   {
     "key": "024",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
+    "text": "你是 API 嗎？因為我想 24/7 都跟你連線。",
+    "categories": ["nerdy"]
   },
   {
     "key": "025",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
+    "text": "你剛讓我的心率像壓力測試一樣飆高。",
+    "categories": ["nerdy"]
   },
   {
     "key": "026",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
+    "text": "如果我們是演算法，一定是為「互相吸引」最佳化的。",
+    "categories": ["nerdy"]
   },
   {
     "key": "027",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
+    "text": "你是那個讓整個方程式值得解的未知數。",
+    "categories": ["nerdy"]
   },
   {
     "key": "028",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
+    "text": "我試著除錯我的感覺，結果發現答案就是你。",
+    "categories": ["nerdy"]
   },
   {
     "key": "029",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
+    "text": "你一定是個 breakpoint，因為你讓我的思緒完全停住。",
+    "categories": ["nerdy"]
   },
   {
     "key": "030",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
+    "text": "你是輸入嗎？因為每次你出現，我的輸出都超出預期。",
+    "categories": ["nerdy"]
   },
+
   {
     "key": "031",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
+    "text": "你剛把我的腦內 CPU 超頻了。",
+    "categories": ["nerdy"]
   },
   {
     "key": "032",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
+    "text": "不用 AI 我也知道你是最佳選擇。",
+    "categories": ["nerdy"]
   },
   {
     "key": "033",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
+    "text": "你像一次完美的 merge——所有衝突都被解決了。",
+    "categories": ["nerdy"]
   },
   {
     "key": "034",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
+    "text": "你是 Wi-Fi 嗎？因為看到你就有連線感。",
+    "categories": ["nerdy"]
   },
   {
     "key": "035",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
+    "text": "你有種東西會觸發我的整個系統——而且是好的那種。",
+    "categories": ["nerdy"]
   },
   {
     "key": "036",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
+    "text": "我想把感覺快取起來，結果心卻是即時更新。",
+    "categories": ["nerdy"]
   },
   {
     "key": "037",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
+    "text": "我們會是很紮實的 PR——相容、乾淨，還帶點火熱。",
+    "categories": ["nerdy"]
   },
   {
     "key": "038",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
+    "text": "你是唯一我不想修掉的 bug。",
+    "categories": ["nerdy"]
   },
   {
     "key": "039",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
+    "text": "如果愛是矩陣，你在每個維度都是 1。",
+    "categories": ["nerdy"]
   },
   {
     "key": "040",
-    "text": "",
-    "categories": [
-      "nerdy"
-    ]
+    "text": "不知你跑著什麼程式，但你讓我漂亮地當機了。",
+    "categories": ["nerdy"]
   },
+
   {
     "key": "041",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
+    "text": "你的笑容是我永遠過不了的專注測驗。",
+    "categories": ["cheeky"]
   },
   {
     "key": "042",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
+    "text": "如果我盯著你看，只是想搞懂你怎麼會這麼迷人。",
+    "categories": ["cheeky"]
   },
   {
     "key": "043",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
+    "text": "有你在，裝作忙別的變得不可能。",
+    "categories": ["cheeky"]
   },
   {
     "key": "044",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
+    "text": "你現在好看得有點不太禮貌。",
+    "categories": ["cheeky"]
   },
   {
     "key": "045",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
+    "text": "你可能不知道，你讓我腦內有多失序。",
+    "categories": ["cheeky"]
   },
   {
     "key": "046",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
+    "text": "你應該貼上「小心著迷」的警語。",
+    "categories": ["cheeky"]
   },
   {
     "key": "047",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
+    "text": "同時好看又雲淡風輕，這應該不合法吧。",
+    "categories": ["cheeky"]
   },
   {
     "key": "048",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
+    "text": "你知道那樣回望我不太公平吧？",
+    "categories": ["cheeky"]
   },
   {
     "key": "049",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
+    "text": "你偷走這麼多我的心思，應該被開張帳單。",
+    "categories": ["cheeky"]
   },
   {
     "key": "050",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
+    "text": "你剛剛好的程度，足以讓我整個走神。",
+    "categories": ["cheeky"]
   },
+
   {
     "key": "051",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
+    "text": "你的魅力幾乎違法了——我得好好做筆記。",
+    "categories": ["cheeky"]
   },
   {
     "key": "052",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
+    "text": "你是那種大家假裝沒看到但總是失敗的人。",
+    "categories": ["cheeky"]
   },
   {
     "key": "053",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
+    "text": "我試著維持眼神接觸，但大腦直接拒絕了。",
+    "categories": ["cheeky"]
   },
   {
     "key": "054",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
+    "text": "你證明「偷走注意力」真的存在。",
+    "categories": ["cheeky"]
   },
   {
     "key": "055",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
+    "text": "你讓我很難專心說原本想說的話。",
+    "categories": ["cheeky"]
   },
   {
     "key": "056",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
+    "text": "可以先別這麼有魅力嗎？我正努力保持冷靜。",
+    "categories": ["cheeky"]
   },
   {
     "key": "057",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
+    "text": "你看起來像個我甘願後悔的分心來源。",
+    "categories": ["cheeky"]
   },
   {
     "key": "058",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
+    "text": "你可愛得令人不安，這應該算是麻煩。",
+    "categories": ["cheeky"]
   },
   {
     "key": "059",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
+    "text": "那個笑容根本是偽裝的警示標誌。",
+    "categories": ["cheeky"]
   },
   {
     "key": "060",
-    "text": "",
-    "categories": [
-      "cheeky"
-    ]
+    "text": "難怪大家在你身邊都分心——我現在也是。",
+    "categories": ["cheeky"]
   },
+
   {
     "key": "061",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "text": "你看起來像我應該避開的麻煩——但我偏不。",
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "062",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "text": "你的眼神承諾了談話不敢說出口的事。",
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "063",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "text": "這是在調情，還是在破壞我的判斷力？",
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "064",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "text": "你不危險，但我對你的想法很危險。",
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "065",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "text": "你身上有種氣息，讓所謂的「純潔」變得…可有可無。",
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "066",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "text": "你是帶副作用的分心，但我不想避開。",
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "067",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "text": "那個笑？直接歸類到「三思而後行，然後還是去做」。",
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "068",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "text": "你那種眼神會讓「惹點麻煩也值得」變得很合理。",
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "069",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "text": "你在時，我的念頭都乖不起來。",
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "070",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "text": "你是不發一語的「過來」。",
+    "categories": ["spicy", "cheeky"]
   },
+
   {
     "key": "071",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "text": "如果眼神能把人脫光，我早就出事了。",
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "072",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "text": "你在我的腦內擔任主角——我還在考慮拍續集。",
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "073",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "text": "老實說——我們之間的化學反應一點也不低調。",
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "074",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "text": "你不只是可愛——你是會帶來後果的白日夢。",
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "075",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "text": "你讓我想到所有事情，唯獨不是單純的那種。",
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "076",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "text": "如果心動是罪，我就是共犯。",
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "077",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "text": "你不只偷走我的目光，還順便帶走後續的思緒。",
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "078",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "text": "你像一個偽裝成巧合的誘惑。",
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "079",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "text": "你讓我想做點不太理智的選擇——因為對象太迷人。",
+    "categories": ["spicy", "cheeky"]
   },
   {
     "key": "080",
-    "text": "",
-    "categories": [
-      "spicy",
-      "cheeky"
-    ]
+    "text": "你的能量讓人很難忽視——也很難睡得著。",
+    "categories": ["spicy", "cheeky"]
   }
 ]
