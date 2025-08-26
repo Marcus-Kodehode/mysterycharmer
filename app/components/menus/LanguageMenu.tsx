@@ -29,6 +29,12 @@ const LANGS = [
     short: "SW",
     icon: "/images/icons/tz.png",
   },
+  {
+    code: "zh" as const,
+    label: "繁體中文",
+    short: "繁",
+    icon: "/images/icons/tw.png",
+  },
 ];
 
 export default function LanguageMenu() {

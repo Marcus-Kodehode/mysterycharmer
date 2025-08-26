@@ -1,241 +1,479 @@
 [
-  { "key": "001", "text": "You're the closest I've come to a sunrise in human form.",
-   "categories": ["classic"] },
-
-  { "key": "002", "text": "Something about you makes everything else slow down.",
-   "categories": ["classic"] },
-
-  { "key": "003", "text": "You have the kind of presence people notice—even without trying.",
-   "categories": ["classic"] },
-
-  { "key": "004", "text": "You're like a pause button I didn't know I needed.",
-   "categories": ["classic"] },
-
-  { "key": "005", "text": "Things feel a little calmer when you're around.",
-   "categories": ["classic"] },
-  { "key": "006", "text": "You remind me that the best things don't shout.",
-   "categories": ["classic"] },
-
-  { "key": "007", "text": "You make it easy to believe in timing.",
-   "categories": ["classic"] },
-
-  { "key": "008", "text": "Some people sparkle—you glow.",
-   "categories": ["classic"] },
-
-  { "key": "009", "text": "You're a kind of quiet that doesn't feel empty.",
-   "categories": ["classic"] },
-
-  { "key": "010", "text": "You're the kind people write ridiculous love songs about.",
-   "categories": ["classic"] },
-
-  { "key": "011", "text": "There's something about your eyes that feels familiar—in the best way.",
-   "categories": ["classic"] },
-
-  { "key": "012", "text": "You remind me that real attraction starts with feeling safe.",
-   "categories": ["classic"] },
-
-  { "key": "013", "text": "You have a calm I could learn from.",
-   "categories": ["classic"] },
-
-  { "key": "014", "text": "It's hard not to smile when you do.",
-   "categories": ["classic"] },
-
-  { "key": "015", "text": "There's something very real about you—and it shows.",
-   "categories": ["classic"] },
-
-  { "key": "016", "text": "You're a reminder that people can be both beautiful and genuine.",
-   "categories": ["classic"] },
-
-  { "key": "017", "text": "You feel like coming home—without knowing why.",
-   "categories": ["classic"] },
-
-  { "key": "018", "text": "You're the best part of coincidence.",
-   "categories": ["classic"] },
-
-  { "key": "019", "text": "There's something effortlessly beautiful about you.",
-   "categories": ["classic"] },
-
-  { "key": "020", "text": "You're the quiet part in an otherwise noisy world.",
-   "categories": ["classic"] },
-
-
-  { "key": "021", "text": "You're like a good commit—small, but changes everything.",
-   "categories": ["nerdy"] },
-
-  { "key": "022", "text": "Zero bugs, just butterflies.",
-   "categories": ["nerdy"] },
-
-  { "key": "023", "text": "I thought I was stable, then you showed up and disrupted my entire code.",
-   "categories": ["nerdy"] },
-
-  { "key": "024", "text": "Are you an API? Because I want to connect to you 24/7.",
-   "categories": ["nerdy"] },
-
-  { "key": "025", "text": "You just spiked my heart rate like a stress test.",
-   "categories": ["nerdy"] },
-
-  { "key": "026", "text": "If we were an algorithm, we'd be optimized for attraction.",
-   "categories": ["nerdy"] },
-
-  { "key": "027", "text": "You're the unknown variable that makes my whole equation worth solving.",
-   "categories": ["nerdy"] },
-
-  { "key": "028", "text": "I tried debugging my feelings, then realized it's just you.",
-   "categories": ["nerdy"] },
-
-  { "key": "029", "text": "You must be a breakpoint, because you stop my train of thought completely.",
-   "categories": ["nerdy"] },
-
-  { "key": "030", "text": "Are you an input? Because every time you appear, I get output I wasn't prepared for.",
-   "categories": ["nerdy"] },
-   
-  { "key": "031", "text": "You just overclocked my mental CPU.",
-   "categories": ["nerdy"] },
-
-  { "key": "032", "text": "I don't need AI to know you're a good choice.",
-   "categories": ["nerdy"] },
-
-  { "key": "033", "text": "You're like a perfect merge—everything fits.",
-   "categories": ["nerdy"] },
-
-  { "key": "034", "text": "Are you Wi-Fi? Because I feel connected just by seeing you.",
-   "categories": ["nerdy"] },
-
-  { "key": "035", "text": "Something about you triggers my whole system—in a good way.",
-   "categories": ["nerdy"] },
-
-  { "key": "036", "text": "I tried caching my feelings, but my heart updates in real time.",
-   "categories": ["nerdy"] },
-  { "key": "037", "text": "We'd make a solid pull request—compatible, clean, and a little hot.",
-   "categories": ["nerdy"] },
-
-  { "key": "038", "text": "You're the only bug I hope never gets fixed.",
-   "categories": ["nerdy"] },
-
-  { "key": "039", "text": "If love were a matrix, you'd be 1 in every dimension.",
-   "categories": ["nerdy"] },
-
-  { "key": "040", "text": "I don't know what code you're running, but you made me crash beautifully.",
-   "categories": ["nerdy"] },
-
-    { "key": "041", "text": "Your smile is a concentration test I never pass.",
-     "categories": ["cheeky"] },
-
-  { "key": "042", "text": "If I'm staring, it's only because I'm trying to understand how you're possible.",
-   "categories": ["cheeky"] },
-
-  { "key": "043", "text": "You make it unnecessarily hard to pretend I'm busy with anything else.",
-   "categories": ["cheeky"] },
-
-  { "key": "044", "text": "It's almost rude how good you look right now.",
-   "categories": ["cheeky"] },
-
-  { "key": "045", "text": "I don't think you realize how much chaos you cause in my head.",
-   "categories": ["cheeky"] },
-
-  { "key": "046", "text": "You should come with a 'do not get too attached' sign.",
-   "categories": ["cheeky"] },
-
-  { "key": "047", "text": "It shouldn't be legal to look that good and that unbothered at the same time.",
-   "categories": ["cheeky"] },
-
-  { "key": "048", "text": "You know it's not fair to look back at me like that, right?",
-   "categories": ["cheeky"] },
-
-  { "key": "049", "text": "You should probably be invoiced for all the thoughts you steal.",
-   "categories": ["cheeky"] },
-
-  { "key": "050", "text": "You're just enough to make me lose my train of thought.",
-   "categories": ["cheeky"] },
-
-  { "key": "051", "text": "You're borderline illegally charming—I should be taking notes.",
-   "categories": ["cheeky"] },
-
-  { "key": "052", "text": "You're the kind of person people pretend they didn't notice—and fail.",
-   "categories": ["cheeky"] },
-
-  { "key": "053", "text": "I tried holding eye contact, but my brain said nope.",
-   "categories": ["cheeky"] },
-
-  { "key": "054", "text": "You're proof that stealing attention is an actual thing.",
-   "categories": ["cheeky"] },
-
-  { "key": "055", "text": "You make it very hard to focus on what I was actually going to say.",
-   "categories": ["cheeky"] },
-
-  { "key": "056", "text": "Could you stop being so attractive? I'm trying to behave.",
-   "categories": ["cheeky"] },
-
-  { "key": "057", "text": "You look like a distraction I'll happily regret.",
-   "categories": ["cheeky"] },
-
-  { "key": "058", "text": "You're unsettlingly cute—it should count as trouble.",
-   "categories": ["cheeky"] },
-
-  { "key": "059", "text": "That smile is a warning sign in disguise.",
-   "categories": ["cheeky"] },
-
-  { "key": "060", "text": "I see why people lose focus around you. I'm one of them now.",
-   "categories": ["cheeky"] },
-
-
-  { "key": "061", "text": "You look like trouble I should definitely avoid—but won't.",
-   "categories": ["spicy", "cheeky"] },
-
-  { "key": "062", "text": "Your eyes promise things the conversation won't dare to say.",
-   "categories": ["spicy", "cheeky"] },
-
-  { "key": "063", "text": "Is this flirting, or are you just sabotaging my judgment?",
-   "categories": ["spicy", "cheeky"] },
-
-  { "key": "064", "text": "You're not dangerous—but my thoughts are around you.",
-   "categories": ["spicy", "cheeky"] },
-
-  { "key": "065", "text": "Something about you makes innocence feel… optional.",
-   "categories": ["spicy", "cheeky"] },
-
-  { "key": "066", "text": "You're a distraction with side effects I don't want to avoid.",
-   "categories": ["spicy", "cheeky"] },
-
-  { "key": "067", "text": "That smile? Straight into the category 'think twice—do it anyway.'",
-   "categories": ["spicy", "cheeky"] },
-
-  { "key": "068", "text": "You have that look that makes staying in trouble sound reasonable.",
-   "categories": ["spicy", "cheeky"] },
-
-  { "key": "069", "text": "My thoughts don't behave themselves when you're around.",
-   "categories": ["spicy", "cheeky"] },
-
-  { "key": "070", "text": "You're a 'come here' without saying a word.",
-   "categories": ["spicy", "cheeky"] },
-   
-  { "key": "071", "text": "If looks could undress, I'd already be in trouble.",
-   "categories": ["spicy", "cheeky"] },
-
-  { "key": "072", "text": "You have the lead role in my thoughts—and I'm considering a sequel.",
-   "categories": ["spicy", "cheeky"] },
-
-  { "key": "073", "text": "Let's be honest—the chemistry here isn't exactly subtle.",
-   "categories": ["spicy", "cheeky"] },
-
-  { "key": "074", "text": "You're not just cute—you're daydreams with consequences.",
-   "categories": ["spicy", "cheeky"] },
-
-  { "key": "075", "text": "You make me think about everything except innocent things.",
-   "categories": ["spicy", "cheeky"] },
-
-  { "key": "076", "text": "If attraction were a crime, I'd be an accomplice.",
-   "categories": ["spicy", "cheeky"] },
-
-  { "key": "077", "text": "You're not just stealing my glance—you take the thoughts after, too.",
-   "categories": ["spicy", "cheeky"] },
-
-  { "key": "078", "text": "You feel like a temptation disguised as coincidence.",
-   "categories": ["spicy", "cheeky"] },
-
-  { "key": "079", "text": "You make me want to make bad decisions with excellent company.",
-   "categories": ["spicy", "cheeky"] },
-
-  { "key": "080", "text": "You give the kind of energy that's impossible to ignore—or sleep through.",
-   "categories": ["spicy", "cheeky"] }
+  {
+    "key": "001",
+    "text": "You're the closest I've come to a sunrise in human form.",
+    "categories": ["classic"]
+  },
+
+  {
+    "key": "002",
+    "text": "Something about you makes everything else slow down.",
+    "categories": ["classic"]
+  },
+
+  {
+    "key": "003",
+    "text": "You have the kind of presence people notice—even without trying.",
+    "categories": ["classic"]
+  },
+
+  {
+    "key": "004",
+    "text": "You're like a pause button I didn't know I needed.",
+    "categories": ["classic"]
+  },
+
+  {
+    "key": "005",
+    "text": "Things feel a little calmer when you're around.",
+    "categories": ["classic"]
+  },
+  {
+    "key": "006",
+    "text": "You remind me that the best things don't shout.",
+    "categories": ["classic"]
+  },
+
+  {
+    "key": "007",
+    "text": "You make it easy to believe in timing.",
+    "categories": ["classic"]
+  },
+
+  {
+    "key": "008",
+    "text": "Some people sparkle—you glow.",
+    "categories": ["classic"]
+  },
+
+  {
+    "key": "009",
+    "text": "You're a kind of quiet that doesn't feel empty.",
+    "categories": ["classic"]
+  },
+
+  {
+    "key": "010",
+    "text": "You're the kind people write ridiculous love songs about.",
+    "categories": ["classic"]
+  },
+
+  {
+    "key": "011",
+    "text": "There's something about your eyes that feels familiar—in the best way.",
+    "categories": ["classic"]
+  },
+
+  {
+    "key": "012",
+    "text": "You remind me that real attraction starts with feeling safe.",
+    "categories": ["classic"]
+  },
+
+  {
+    "key": "013",
+    "text": "You have a calm I could learn from.",
+    "categories": ["classic"]
+  },
+
+  {
+    "key": "014",
+    "text": "It's hard not to smile when you do.",
+    "categories": ["classic"]
+  },
+
+  {
+    "key": "015",
+    "text": "There's something very real about you—and it shows.",
+    "categories": ["classic"]
+  },
+
+  {
+    "key": "016",
+    "text": "You're a reminder that people can be both beautiful and genuine.",
+    "categories": ["classic"]
+  },
+
+  {
+    "key": "017",
+    "text": "You feel like coming home—without knowing why.",
+    "categories": ["classic"]
+  },
+
+  {
+    "key": "018",
+    "text": "You're the best part of coincidence.",
+    "categories": ["classic"]
+  },
+
+  {
+    "key": "019",
+    "text": "There's something effortlessly beautiful about you.",
+    "categories": ["classic"]
+  },
+
+  {
+    "key": "020",
+    "text": "You're the quiet part in an otherwise noisy world.",
+    "categories": ["classic"]
+  },
+
+  {
+    "key": "021",
+    "text": "You're like a good commit—small, but changes everything.",
+    "categories": ["nerdy"]
+  },
+
+  {
+    "key": "022",
+    "text": "Zero bugs, just butterflies.",
+    "categories": ["nerdy"]
+  },
+
+  {
+    "key": "023",
+    "text": "I thought I was stable, then you showed up and disrupted my entire code.",
+    "categories": ["nerdy"]
+  },
+
+  {
+    "key": "024",
+    "text": "Are you an API? Because I want to connect to you 24/7.",
+    "categories": ["nerdy"]
+  },
+
+  {
+    "key": "025",
+    "text": "You just spiked my heart rate like a stress test.",
+    "categories": ["nerdy"]
+  },
+
+  {
+    "key": "026",
+    "text": "If we were an algorithm, we'd be optimized for attraction.",
+    "categories": ["nerdy"]
+  },
+
+  {
+    "key": "027",
+    "text": "You're the unknown variable that makes my whole equation worth solving.",
+    "categories": ["nerdy"]
+  },
+
+  {
+    "key": "028",
+    "text": "I tried debugging my feelings, then realized it's just you.",
+    "categories": ["nerdy"]
+  },
+
+  {
+    "key": "029",
+    "text": "You must be a breakpoint, because you stop my train of thought completely.",
+    "categories": ["nerdy"]
+  },
+
+  {
+    "key": "030",
+    "text": "Are you an input? Because every time you appear, I get output I wasn't prepared for.",
+    "categories": ["nerdy"]
+  },
+
+  {
+    "key": "031",
+    "text": "You just overclocked my mental CPU.",
+    "categories": ["nerdy"]
+  },
+
+  {
+    "key": "032",
+    "text": "I don't need AI to know you're a good choice.",
+    "categories": ["nerdy"]
+  },
+
+  {
+    "key": "033",
+    "text": "You're like a perfect merge—everything fits.",
+    "categories": ["nerdy"]
+  },
+
+  {
+    "key": "034",
+    "text": "Are you Wi-Fi? Because I feel connected just by seeing you.",
+    "categories": ["nerdy"]
+  },
+
+  {
+    "key": "035",
+    "text": "Something about you triggers my whole system—in a good way.",
+    "categories": ["nerdy"]
+  },
+
+  {
+    "key": "036",
+    "text": "I tried caching my feelings, but my heart updates in real time.",
+    "categories": ["nerdy"]
+  },
+  {
+    "key": "037",
+    "text": "We'd make a solid pull request—compatible, clean, and a little hot.",
+    "categories": ["nerdy"]
+  },
+
+  {
+    "key": "038",
+    "text": "You're the only bug I hope never gets fixed.",
+    "categories": ["nerdy"]
+  },
+
+  {
+    "key": "039",
+    "text": "If love were a matrix, you'd be 1 in every dimension.",
+    "categories": ["nerdy"]
+  },
+
+  {
+    "key": "040",
+    "text": "I don't know what code you're running, but you made me crash beautifully.",
+    "categories": ["nerdy"]
+  },
+
+  {
+    "key": "041",
+    "text": "Your smile is a concentration test I never pass.",
+    "categories": ["cheeky"]
+  },
+
+  {
+    "key": "042",
+    "text": "If I'm staring, it's only because I'm trying to understand how you're possible.",
+    "categories": ["cheeky"]
+  },
+
+  {
+    "key": "043",
+    "text": "You make it unnecessarily hard to pretend I'm busy with anything else.",
+    "categories": ["cheeky"]
+  },
+
+  {
+    "key": "044",
+    "text": "It's almost rude how good you look right now.",
+    "categories": ["cheeky"]
+  },
+
+  {
+    "key": "045",
+    "text": "I don't think you realize how much chaos you cause in my head.",
+    "categories": ["cheeky"]
+  },
+
+  {
+    "key": "046",
+    "text": "You should come with a 'do not get too attached' sign.",
+    "categories": ["cheeky"]
+  },
+
+  {
+    "key": "047",
+    "text": "It shouldn't be legal to look that good and that unbothered at the same time.",
+    "categories": ["cheeky"]
+  },
+
+  {
+    "key": "048",
+    "text": "You know it's not fair to look back at me like that, right?",
+    "categories": ["cheeky"]
+  },
+
+  {
+    "key": "049",
+    "text": "You should probably be invoiced for all the thoughts you steal.",
+    "categories": ["cheeky"]
+  },
+
+  {
+    "key": "050",
+    "text": "You're just enough to make me lose my train of thought.",
+    "categories": ["cheeky"]
+  },
+
+  {
+    "key": "051",
+    "text": "You're borderline illegally charming—I should be taking notes.",
+    "categories": ["cheeky"]
+  },
+
+  {
+    "key": "052",
+    "text": "You're the kind of person people pretend they didn't notice—and fail.",
+    "categories": ["cheeky"]
+  },
+
+  {
+    "key": "053",
+    "text": "I tried holding eye contact, but my brain said nope.",
+    "categories": ["cheeky"]
+  },
+
+  {
+    "key": "054",
+    "text": "You're proof that stealing attention is an actual thing.",
+    "categories": ["cheeky"]
+  },
+
+  {
+    "key": "055",
+    "text": "You make it very hard to focus on what I was actually going to say.",
+    "categories": ["cheeky"]
+  },
+
+  {
+    "key": "056",
+    "text": "Could you stop being so attractive? I'm trying to behave.",
+    "categories": ["cheeky"]
+  },
+
+  {
+    "key": "057",
+    "text": "You look like a distraction I'll happily regret.",
+    "categories": ["cheeky"]
+  },
+
+  {
+    "key": "058",
+    "text": "You're unsettlingly cute—it should count as trouble.",
+    "categories": ["cheeky"]
+  },
+
+  {
+    "key": "059",
+    "text": "That smile is a warning sign in disguise.",
+    "categories": ["cheeky"]
+  },
+
+  {
+    "key": "060",
+    "text": "I see why people lose focus around you. I'm one of them now.",
+    "categories": ["cheeky"]
+  },
+
+  {
+    "key": "061",
+    "text": "You look like trouble I should definitely avoid—but won't.",
+    "categories": ["spicy", "cheeky"]
+  },
+
+  {
+    "key": "062",
+    "text": "Your eyes promise things the conversation won't dare to say.",
+    "categories": ["spicy", "cheeky"]
+  },
+
+  {
+    "key": "063",
+    "text": "Is this flirting, or are you just sabotaging my judgment?",
+    "categories": ["spicy", "cheeky"]
+  },
+
+  {
+    "key": "064",
+    "text": "You're not dangerous—but my thoughts are around you.",
+    "categories": ["spicy", "cheeky"]
+  },
+
+  {
+    "key": "065",
+    "text": "Something about you makes innocence feel… optional.",
+    "categories": ["spicy", "cheeky"]
+  },
+
+  {
+    "key": "066",
+    "text": "You're a distraction with side effects I don't want to avoid.",
+    "categories": ["spicy", "cheeky"]
+  },
+
+  {
+    "key": "067",
+    "text": "That smile? Straight into the category 'think twice—do it anyway.'",
+    "categories": ["spicy", "cheeky"]
+  },
+
+  {
+    "key": "068",
+    "text": "You have that look that makes staying in trouble sound reasonable.",
+    "categories": ["spicy", "cheeky"]
+  },
+
+  {
+    "key": "069",
+    "text": "My thoughts don't behave themselves when you're around.",
+    "categories": ["spicy", "cheeky"]
+  },
+
+  {
+    "key": "070",
+    "text": "You're a 'come here' without saying a word.",
+    "categories": ["spicy", "cheeky"]
+  },
+
+  {
+    "key": "071",
+    "text": "If looks could undress, I'd already be in trouble.",
+    "categories": ["spicy", "cheeky"]
+  },
+
+  {
+    "key": "072",
+    "text": "You have the lead role in my thoughts—and I'm considering a sequel.",
+    "categories": ["spicy", "cheeky"]
+  },
+
+  {
+    "key": "073",
+    "text": "Let's be honest—the chemistry here isn't exactly subtle.",
+    "categories": ["spicy", "cheeky"]
+  },
+
+  {
+    "key": "074",
+    "text": "You're not just cute—you're daydreams with consequences.",
+    "categories": ["spicy", "cheeky"]
+  },
+
+  {
+    "key": "075",
+    "text": "You make me think about everything except innocent things.",
+    "categories": ["spicy", "cheeky"]
+  },
+
+  {
+    "key": "076",
+    "text": "If attraction were a crime, I'd be an accomplice.",
+    "categories": ["spicy", "cheeky"]
+  },
+
+  {
+    "key": "077",
+    "text": "You're not just stealing my glance—you take the thoughts after, too.",
+    "categories": ["spicy", "cheeky"]
+  },
+
+  {
+    "key": "078",
+    "text": "You feel like a temptation disguised as coincidence.",
+    "categories": ["spicy", "cheeky"]
+  },
+
+  {
+    "key": "079",
+    "text": "You make me want to make bad decisions with excellent company.",
+    "categories": ["spicy", "cheeky"]
+  },
+
+  {
+    "key": "080",
+    "text": "You give the kind of energy that's impossible to ignore—or sleep through.",
+    "categories": ["spicy", "cheeky"]
+  }
 ]

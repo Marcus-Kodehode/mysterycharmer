@@ -2,11 +2,27 @@ import type { Lang } from "./types";
 import type { Category } from "./types";
 
 type Keys =
-  | "ready" | "tagline" | "cta" | "copied"
-  | "history_title" | "favorites_title" | "clear" | "empty_history" | "empty_favorites"
-  | "category" | "history_nav" | "favorites_nav" | "fav_add" | "fav_remove" | "no_current"
-  | "cat_classic" | "cat_nerdy" | "cat_cheeky" | "cat_spicy"
-  | "language" | "close";       // ⬅️ legg til disse
+  | "ready"
+  | "tagline"
+  | "cta"
+  | "copied"
+  | "history_title"
+  | "favorites_title"
+  | "clear"
+  | "empty_history"
+  | "empty_favorites"
+  | "category"
+  | "history_nav"
+  | "favorites_nav"
+  | "fav_add"
+  | "fav_remove"
+  | "no_current"
+  | "cat_classic"
+  | "cat_nerdy"
+  | "cat_cheeky"
+  | "cat_spicy"
+  | "language"
+  | "close"; // ⬅️ legg til disse
 
 const UI: Record<Lang, Record<Keys, string>> = {
   no: {
@@ -112,6 +128,32 @@ const UI: Record<Lang, Record<Keys, string>> = {
     cat_spicy: "Kali 18+",
     language: "Lugha",
     close: "Funga",
+  },
+  zh: {
+    ready: "準備好來點魅力了嗎？",
+    tagline: "有品味的曖昧，一次一句。",
+    cta: "給我一句稱讚",
+    copied: "已複製！",
+
+    history_title: "歷史紀錄",
+    favorites_title: "收藏",
+    clear: "清除",
+    empty_history: "目前沒有紀錄。",
+    empty_favorites: "目前沒有收藏。",
+
+    category: "分類",
+    history_nav: "歷史",
+    favorites_nav: "收藏",
+    fav_add: "加入收藏",
+    fav_remove: "從收藏移除",
+    no_current: "目前沒有句子",
+
+    cat_classic: "經典",
+    cat_nerdy: "極客",
+    cat_cheeky: "俏皮",
+    cat_spicy: "火辣 18+",
+    language: "語言",
+    close: "關閉",
   },
 };
 
