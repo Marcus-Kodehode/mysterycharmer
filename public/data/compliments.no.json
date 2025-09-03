@@ -398,5 +398,414 @@
     "key": "080",
     "text": "Du gir den typen energi som ikke lar seg ignorere – eller sove fra.",
     "categories": ["spicy", "cheeky"]
-  }
+  },
+
+  [
+    {
+      "key": "081",
+      "text": "Du har den effekten som får en dag til å snu – uten å gjøre noe stort.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "082",
+      "text": "Det er noe med måten du er på som får verden til å puste roligere.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "083",
+      "text": "Du har en slags naturlig trygghet rundt deg – og det merkes.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "084",
+      "text": "Du er som den setningen som setter hele boka i perspektiv.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "085",
+      "text": "Med deg føles det ekte – sånn på ordentlig ekte.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "086",
+      "text": "Noen mennesker forstyrrer. Du bare forankrer.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "087",
+      "text": "Du har det sjeldne nærværet som gjør stillhet komfortabel.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "088",
+      "text": "Blikket ditt føles som å slippe skuldrene ned litt.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "089",
+      "text": "Du minner meg om hvor fint det kan være å lande et sted – eller i noen.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "090",
+      "text": "Du er så rolig at man nesten glemmer hvor intenst tilstede du er.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "091",
+      "text": "Noe med deg får alt til å føles litt mer ekte og mindre hastverk.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "092",
+      "text": "Du har den typen tilstedeværelse som gjør at tiden ikke føles bortkastet.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "093",
+      "text": "Du er ikke bare lett å være rundt – du er vanskelig å glemme etterpå.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "094",
+      "text": "Du får det enkle til å kjennes stort.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "095",
+      "text": "Det er noe med stemmen din som gjør alt mindre bråkete.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "096",
+      "text": "Du er den typen som gjør godt uten å gjøre stort vesen av det.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "097",
+      "text": "Det fine med deg er at du ikke prøver å være noe – du bare er.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "098",
+      "text": "Du har den effekten som gjør at man tenker litt mer med hjertet.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "099",
+      "text": "Ting lander litt mykere når du er i nærheten.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "100",
+      "text": "Du gjør hverdagsøyeblikk til noe det er verdt å huske.",
+      "categories": ["classic"]
+    }
+  ],
+  [
+    {
+      "key": "101",
+      "text": "Du er som en bug jeg ikke vil fikse – bare stirre på og bli fascinert av.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "102",
+      "text": "Hver gang du dukker opp, får hele systemet mitt høy latency.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "103",
+      "text": "Du er som en dark mode – plutselig er alt mer behagelig.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "104",
+      "text": "Hvis blikk kunne kompilere følelser, hadde vi vært production ready.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "105",
+      "text": "Jeg trodde jeg hadde god RAM, helt til du overbelastet hele systemet mitt.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "106",
+      "text": "Du er som et pålogget dev-miljø – og jeg er helt klar for testing.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "107",
+      "text": "Jeg visste ikke at tiltrekning kunne trigges av en så ren syntaks som deg.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "108",
+      "text": "Du gjør tankene mine like ustabile som en dårlig skrevet while-loop.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "109",
+      "text": "Du er som en ny feature i changelogen til livet mitt.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "110",
+      "text": "Det er noe med deg som føles som en perfekt commit – ryddig, gjennomtenkt og akkurat det som trengs.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "111",
+      "text": "Du er ikke bare søt – du er semantisk korrekt og objektivt attraktiv.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "112",
+      "text": "Hadde vi vært en database, ville vi hatt en nydelig relasjon.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "113",
+      "text": "Er du en terminal? For du har full kontroll over hele inputten min.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "114",
+      "text": "Du fikk akkurat hjernen min til å kjøre uendelig rekursjon på ‘hvorfor er du så attraktiv?’",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "115",
+      "text": "Du er som en token med ubegrenset tilgang til tankene mine.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "116",
+      "text": "Jeg trodde jeg var async, men du får meg til å respondere synkront – hver gang.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "117",
+      "text": "Du fikk nettopp hjernen min til å crashloade uten advarsel.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "118",
+      "text": "Du er mer tilfredsstillende enn en grønn test-suite etter en lang kveld.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "119",
+      "text": "Er du en compiler? For du gjør alt jeg prøver å si litt klarere.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "120",
+      "text": "Jeg visste ikke at kjærlighet kunne uttrykkes i binær – før jeg møtte deg.",
+      "categories": ["nerdy"]
+    }
+  ],
+  [
+    {
+      "key": "121",
+      "text": "Du er grunnen til at jeg glemmer hva jeg egentlig skulle si.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "122",
+      "text": "Du burde egentlig leveres med et varsel om bivirkninger.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "123",
+      "text": "Du ser ut som et kompliment jeg ikke burde si høyt – men gjør det likevel.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "124",
+      "text": "Du er den typen distraksjon jeg helst ikke vil unngå.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "125",
+      "text": "Det burde være en regel mot å være så søt og så vanskelig å ignorere.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "126",
+      "text": "Det er nesten som du prøver å få meg ut av balanse. Og det funker.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "127",
+      "text": "Du gjør det nesten umulig å late som jeg har selvkontroll.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "128",
+      "text": "Du er akkurat passe mye kaos til at det føles fristende.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "129",
+      "text": "Du er den typen blikk man burde late som man ikke så – men aldri klarer.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "130",
+      "text": "Du gjør det mistenkelig lett å glemme at jeg pleide å være flink til å fokusere.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "131",
+      "text": "Jeg hadde en plan for dagen, så dukket du opp og ødela den på den beste måten.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "132",
+      "text": "Du er som en liten glitch i systemet mitt – og jeg elsker det.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "133",
+      "text": "Du er grunnen til at jeg må skrive meldingen to ganger – fordi jeg stirrer på deg først.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "134",
+      "text": "Hvis du fortsetter å se sånn på meg, må jeg rapportere deg til flørt-politiet.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "135",
+      "text": "Du er ikke engang i nærheten av diskret, og jeg elsker det.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "136",
+      "text": "Jeg prøvde å se kul ut, men så kom du og ødela det med det smilet.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "137",
+      "text": "Du har det blikket som gjør at man begynner å skrive dumme meldinger. Som denne.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "138",
+      "text": "Hvis dette var en test i selvkontroll, stryker jeg med stil.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "139",
+      "text": "Du får det til å virke som en god idé å være litt upassende.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "140",
+      "text": "Bare så du vet det: jeg skylder på deg hvis hjernen min tar lunsjpause neste gang vi snakker.",
+      "categories": ["cheeky"]
+    }
+  ],
+  [
+    {
+      "key": "141",
+      "text": "Du har den energien som får meg til å tenke på alt annet enn småprat.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "142",
+      "text": "Du gir meg lyst til å komme med dårlige unnskyldninger for å bli igjen litt lenger.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "143",
+      "text": "Du er ikke farlig, men du gjør tankene mine det.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "144",
+      "text": "Blikket ditt føles som en invitasjon med fine print jeg ignorerer med vilje.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "145",
+      "text": "Du har det smilet som får meg til å glemme hva som er lurt.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "146",
+      "text": "Du gir den typen blikk som ikke handler om å snakke mer.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "147",
+      "text": "Du ser ut som grunnen til at jeg ikke sover i natt.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "148",
+      "text": "Vi burde ikke, men hele kroppen min stemmer for likevel.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "149",
+      "text": "Det er ikke bare øynene dine som er intense – det er alt ved deg.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "150",
+      "text": "Du har den typen tiltrekning som skrur av fornuft og skrur på alt annet.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "151",
+      "text": "Du sier ikke mye, men kroppen din gjør mer enn nok snakk.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "152",
+      "text": "Jeg lover å være snill… til du sier noe annet.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "153",
+      "text": "Du trigger impulser jeg vanligvis holder i sjakk. Vanligvis.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "154",
+      "text": "Du er definisjonen på det blikket som får folk til å miste klær i hodet.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "155",
+      "text": "Hvis det er deg jeg tenker på nå, burde jeg logge av.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "156",
+      "text": "Du er ikke en distraksjon – du er hele grunnen til tankespinnet.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "157",
+      "text": "Du får meg til å vurdere hvor stille et rom kan bli… og hva som skjer etter det.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "158",
+      "text": "Vi trenger ikke si så mye. Vi skjønner begge hva dette egentlig er.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "159",
+      "text": "Du er ikke bare varm – du er 'må finne på noe'-varm.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "160",
+      "text": "Du gir den typen energi som ikke hører hjemme i offentlige rom.",
+      "categories": ["spicy"]
+    }
+  ]
 ]
