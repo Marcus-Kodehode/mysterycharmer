@@ -44,7 +44,6 @@ export default function MobileMenu({
 
   const [mounted, setMounted] = useState(false);
   const [openCat, setOpenCat] = useState(false);
-  const [openLang, setOpenLang] = useState(false);
 
   useEffect(() => {
     setMounted(true);
@@ -72,15 +71,11 @@ export default function MobileMenu({
 
   // Rydd dropdowns når menyen lukkes
   useEffect(() => {
-    if (!open) {
-      setOpenCat(false);
-      setOpenLang(false);
-    }
+    if (!open) setOpenCat(false);
   }, [open]);
 
   if (!open || !mounted) return null;
 
-  const activeLang = LANGS.find((l) => l.code === lang)!;
   const activeCat = CATS.find((c) => c.value === category)!;
 
   const overlay = (
@@ -89,7 +84,7 @@ export default function MobileMenu({
       aria-modal="true"
       role="dialog"
     >
-      {/* Bakgrunn – solid + subtil brand-gradient */}
+      {/* Bakgrunn – solid + subtil brand-gradient (klikk bakgrunn lukker) */}
       <button
         onClick={onClose}
         aria-label={t(lang, "close")}
@@ -97,9 +92,9 @@ export default function MobileMenu({
       />
       <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(900px_600px_at_50%_-10%,hsl(var(--brand-600)/.28),transparent_50%)]" />
 
-      {/* Innhold – under headeren (som har høyere z) */}
+      {/* Innhold */}
       <div className="relative h-full pointer-events-none">
-        {/* Topplinje (Close) */}
+        {/* Close-knapp oppe til høyre */}
         <div className="absolute top-0 left-0 right-0 flex items-center justify-end p-4">
           <button
             className="pointer-events-auto btn btn-ghost px-4 py-2 text-sm"
@@ -109,12 +104,12 @@ export default function MobileMenu({
           </button>
         </div>
 
-        {/* Stack av elementer */}
-        <div className="h-full max-w-sm mx-auto px-6 py-14 flex flex-col items-stretch justify-center gap-4 pointer-events-auto">
+        {/* Meny-stack */}
+        <div className="h-full max-w-sm mx-auto px-6 pt-16 pb-28 flex flex-col items-stretch justify-center gap-4 pointer-events-auto">
           {/* LOGO2 over knappene */}
           <div className="flex flex-col items-center -mt-2 mb-2">
             <Image
-              src="/images/icons/logo2.png" // hovedlogoen din
+              src="/images/icons/logo2.png"
               alt="mysterycharmer"
               width={168}
               height={168}
@@ -127,10 +122,7 @@ export default function MobileMenu({
           <div className="relative">
             <button
               className="relative w-full px-4 py-3 rounded-xl text-base font-medium bg-rose-800/70 hover:bg-rose-800 transition flex items-center justify-center"
-              onClick={() => {
-                setOpenCat((v) => !v);
-                setOpenLang(false);
-              }}
+              onClick={() => setOpenCat((v) => !v)}
               aria-haspopup="menu"
               aria-expanded={openCat}
               title={t(lang, "category")}
@@ -157,7 +149,7 @@ export default function MobileMenu({
                     onClick={() => {
                       setCategory(item.value);
                       onClose();
-                    }} /* Bytt cat og lukk menyen */
+                    }}
                   >
                     <span aria-hidden>{item.emoji}</span>
                     <span className="text-sm">
@@ -169,33 +161,26 @@ export default function MobileMenu({
             )}
           </div>
 
-          {/* HISTORIKK */}
+          {/* Historikk */}
           <Link
             href="/history"
             onClick={onClose}
             className="px-4 py-3 rounded-xl text-base font-medium text-center bg-rose-800/70 hover:bg-rose-800 transition"
           >
             🕘 <span className="ml-1">{t(lang, "history_nav")}</span>
-            {history.length > 0 && (
-              <span className="ml-2 text-xs text-zinc-100">
-                ({history.length})
-              </span>
-            )}
+            {/* teller */}
           </Link>
 
-          {/* FAVORITTER (liste) */}
+          {/* Favoritter (liste) */}
           <Link
             href="/favorites"
             onClick={onClose}
             className="px-4 py-3 rounded-xl text-base font-medium text-center bg-rose-800/70 hover:bg-rose-800 transition"
           >
             ⭐ <span className="ml-1">{t(lang, "favorites_nav")}</span>
-            {favCount > 0 && (
-              <span className="ml-2 text-xs text-zinc-100">({favCount})</span>
-            )}
           </Link>
 
-          {/* FAVORITT-TOGGLE (gjeldende linje) */}
+          {/* Favoritt-toggle for gjeldende linje */}
           <button
             onClick={() => {
               toggleFavorite();
@@ -219,60 +204,41 @@ export default function MobileMenu({
               : t(lang, "no_current")}
           </button>
 
-          {/* SPRÅK – trigger + dropdown (bytt språk uten å lukke menyen) */}
-          <div className="relative mt-2">
-            <button
-              className="relative w-full inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl border border-white/15 bg-white/5 hover:bg-white/10 transition"
-              onClick={() => {
-                setOpenLang((v) => !v);
-                setOpenCat(false);
-              }}
-              aria-haspopup="menu"
-              aria-expanded={openLang}
-              title={t(lang, "language")}
+          {/* SPRÅK – kompakt flagg-toggle (ikke dropdown) */}
+          <div className="mt-2">
+            <div
+              className="mx-auto w-full max-w-xs rounded-full bg-white/5 ring-1 ring-white/10 p-1
+               flex items-center justify-center gap-1 overflow-x-auto"
             >
-              <span className="inline-flex items-center gap-2">
-                <Image
-                  src={activeLang.icon}
-                  alt={activeLang.label}
-                  width={20}
-                  height={14}
-                  className="rounded-sm"
-                />
-                <span className="text-sm">{activeLang.label}</span>
-              </span>
-              <span className="absolute right-4" aria-hidden>
-                ▾
-              </span>
-            </button>
-
-            {openLang && (
-              <div
-                role="menu"
-                className="mt-2 rounded-xl border border-white/10 bg-rose-900/60 backdrop-blur p-1"
-              >
-                {LANGS.map((L) => (
+              {LANGS.map((L) => {
+                const active = L.code === lang;
+                return (
                   <button
                     key={L.code}
-                    role="menuitem"
-                    className={`w-full text-left px-3 py-2 rounded-lg hover:bg-white/10 flex items-center gap-2 ${L.code === lang ? "bg-white/10" : ""}`}
-                    onClick={() => {
-                      setLang(L.code); // behold menyen åpen
-                      setOpenLang(false); // lukk kun dropdown
-                    }}
+                    type="button"
+                    onClick={() => setLang(L.code)} // menyen forblir åpen
+                    aria-pressed={active}
+                    aria-label={L.label}
+                    className={[
+                      "h-8 w-8 rounded-full overflow-hidden flex items-center justify-center",
+                      "ring-1 transition",
+                      active
+                        ? "ring-rose-300/60 bg-rose-800/40"
+                        : "ring-white/10 hover:bg-white/10 opacity-70 hover:opacity-100",
+                    ].join(" ")}
                   >
                     <Image
                       src={L.icon}
-                      alt={L.label}
-                      width={18}
-                      height={12}
-                      className="rounded-sm"
+                      alt=""
+                      width={20}
+                      height={20}
+                      className="rounded-full"
+                      priority={false}
                     />
-                    <span className="text-sm">{L.label}</span>
                   </button>
-                ))}
-              </div>
-            )}
+                );
+              })}
+            </div>
           </div>
 
           {/* LOGO1 nederst */}
@@ -291,6 +257,5 @@ export default function MobileMenu({
     </div>
   );
 
-  // Portal så den dekker hele viewporten
   return createPortal(overlay, document.body);
 }
