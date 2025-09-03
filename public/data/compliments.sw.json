@@ -473,5 +473,411 @@
     "key": "080",
     "text": "Unatoa aina ya nishati isiyowezekana kuipuuzia—wala kuilalia.",
     "categories": ["spicy", "cheeky"]
-  }
+  },
+
+  [
+    {
+      "key": "081",
+      "text": "Una athari inayogeuza siku—bila kufanya jambo kubwa.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "082",
+      "text": "Kuna kitu katika jinsi ulivyo kinachoufanya ulimwengu upumue kwa urahisi.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "083",
+      "text": "Una utulivu wa asili—na unaonekana.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "084",
+      "text": "Wewe ni kama mstari unaoipa hadithi nzima maana.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "085",
+      "text": "Ukiwa nawe mambo yanahisi kuwa halisi—halisi kabisa.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "086",
+      "text": "Wengine huvuruga; wewe unatuliza.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "087",
+      "text": "Una uwepo adimu unaofanya ukimya uwe wa kustarehesha.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "088",
+      "text": "Mtazamo wako hunifanya nilegeze mabega kidogo.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "089",
+      "text": "Unanikumbusha ilivyo tamu kupata pa kutua—au mtu wa kutulizana naye.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "090",
+      "text": "Umetulia sana kiasi kwamba ni rahisi kusahau ulivyo na uwepo mkali.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "091",
+      "text": "Kuna kitu kwako kinachofanya kila kitu kihisi halisi zaidi na kisicho na haraka.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "092",
+      "text": "Uwepo wako huufanya muda usihisi kupotezwa.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "093",
+      "text": "Si rahisi tu kuwa karibu nawe—ni vigumu kukusahau baadaye.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "094",
+      "text": "Unafanya vilivyo rahisi vihisi vikubwa.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "095",
+      "text": "Kuna kitu kwenye sauti yako kinachopunguza kelele za kila kitu.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "096",
+      "text": "Wewe ni wa aina inayofanya mema bila makelele.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "097",
+      "text": "Kilicho kizuri kukuhusu ni kwamba hujaribu kuwa chochote—wewe tu upo.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "098",
+      "text": "Una athari inayowafanya watu wafikiri zaidi kwa moyo.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "099",
+      "text": "Mambo hutua kwa upole zaidi ukiwa karibu.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "100",
+      "text": "Unafanya nyakati za kawaida ziwe za kukumbukwa.",
+      "categories": ["classic"]
+    },
+
+    {
+      "key": "101",
+      "text": "Wewe ni kama hitilafu nisiyotaka kuitengeneza—nataka tu kuiangalia na kushangaa.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "102",
+      "text": "Kila unapojitokeza, mfumo wangu wote hupata ucheleweshaji mkubwa.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "103",
+      "text": "Wewe ni kama dark mode—ghafla kila kitu kinakuwa cha kupendeza zaidi.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "104",
+      "text": "Kama macho yangeweza kukusanya hisia, tungekuwa tayari kwa production.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "105",
+      "text": "Nilidhani nina RAM ya kutosha hadi ulipozidisha mzigo wa mfumo wangu wote.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "106",
+      "text": "Wewe ni kama dev environment iliyoanzishwa—niko tayari kabisa kujaribu.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "107",
+      "text": "Sikujua mvuto unaweza kuwashwa na sintaksia safi kama yako.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "108",
+      "text": "Unayafanya mawazo yangu yasiwe thabiti kama while-loop iliyoandikwa vibaya.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "109",
+      "text": "Wewe ni kama kipengele kipya kwenye changelog ya maisha yangu.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "110",
+      "text": "Kuna kitu kwako kinachohisi kama commit kamilifu—safi, cha kufikirika, na hasa kinachohitajika.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "111",
+      "text": "Wewe si mzuri tu—wewe ni sahihi kisemantiki na unavutia bila shaka.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "112",
+      "text": "Kama tungalikuwa hifadhidata, tungekuwa na uhusiano mzuri.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "113",
+      "text": "Je, wewe ni terminal? Maana una udhibiti kamili wa input yangu.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "114",
+      "text": "Umeituma tu akili yangu kwenye recursion isiyoisha ya ‘kwa nini unavutia hivi?’",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "115",
+      "text": "Wewe ni kama token yenye ufikiaji usio na kikomo wa mawazo yangu.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "116",
+      "text": "Nilidhani niko async, lakini wewe hunifanya nijibu kwa sync—kila mara.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "117",
+      "text": "Ume-crash akili yangu bila onyo.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "118",
+      "text": "Unaridhisha zaidi kuliko test suite ya kijani baada ya usiku mrefu.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "119",
+      "text": "Je, wewe ni compiler? Maana unafanya ninachojaribu kusema kuwa wazi zaidi.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "120",
+      "text": "Sikujua upendo unaweza kuandikwa kwa binary—mpaka nilipokutana nawe.",
+      "categories": ["nerdy"]
+    },
+
+    {
+      "key": "121",
+      "text": "Wewe ndiye sababu ninasahau nilichotaka kusema kweli.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "122",
+      "text": "Kweli unastahili kuja na onyo la madhara ya pembeni.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "123",
+      "text": "Unaonekana kama pongezi nisiyotakiwa kuisema wazi—lakini nitaisema tu.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "124",
+      "text": "Wewe ni aina ya usumbufu nisiyotaka kuuepuka.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "125",
+      "text": "Ingefaa kuwe na sheria dhidi ya kuwa mtamu kiasi hicho na mgumu kupuuzwa.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "126",
+      "text": "Ni kama unajaribu kunitoa mchezoni—na inafanya kazi.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "127",
+      "text": "Unafanya iwe karibu haiwezekani kujifanya nina kujidhibiti.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "128",
+      "text": "Una kiwango sahihi cha vurugu ili kuwa jaribu.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "129",
+      "text": "Wewe ni aina ya mtazamo watu hujifanya hawakuona—lakini hushindwa kabisa.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "130",
+      "text": "Unafanya iwe rahisi ajabu kusahau kuwa niliwahi kuwa mzuri wa kuzingatia.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "131",
+      "text": "Nilikuwa na mpango wa siku; halafu ukaonekana ukaubomoa kwa njia bora kabisa.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "132",
+      "text": "Wewe ni kama hitilafu ndogo kwenye mfumo wangu—na naipenda.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "133",
+      "text": "Wewe ndiyo sababu nahitaji kuiandika upya meseji—maana nilikuwa nakutazama kwanza.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "134",
+      "text": "Ukiendelea kunitazama hivyo, nitakuripoti kwa polisi wa kutongoza.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "135",
+      "text": "Huna usiri hata kidogo—na napenda hivyo.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "136",
+      "text": "Nilijaribu kuonekana niko poa; kisha ukaingia ukaharibu yote kwa hilo tabasamu.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "137",
+      "text": "Una lile jicho linalowafanya watu waanze kuandika meseji za kipuuzi. Kama hii.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "138",
+      "text": "Kama huu ungekuwa mtihani wa kujidhibiti, ningefeli kwa madaha.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "139",
+      "text": "Unafanya ionekane kwamba kuwa na utundu kidogo ni wazo zuri.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "140",
+      "text": "Ili ujue tu: nitakulaumu ikiwa ubongo wangu utachukua mapumziko ya mchana tutakapoongea tena.",
+      "categories": ["cheeky"]
+    },
+
+    {
+      "key": "141",
+      "text": "Una ile nguvu inayonifanya nifikirie chochote isipokuwa porojo.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "142",
+      "text": "Unanifanya nitafute visingizio vibaya vya kubaki kidogo zaidi.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "143",
+      "text": "Wewe si hatari, lakini unafanya mawazo yangu yawe hivyo.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "144",
+      "text": "Mtazamo wako ni kama mwaliko wenye maandishi madogo ninayoamua kuyapuuza.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "145",
+      "text": "Una lile tabasamu linalonifanya nisahau kilicho busara.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "146",
+      "text": "Unatoa lile tazamo lisilo la kuongea zaidi.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "147",
+      "text": "Unaonekana kuwa sababu ya mimi kutolala usiku wa leo.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "148",
+      "text": "Hatupaswi—lakini kila sehemu yangu inapiga kura ya ndiyo.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "149",
+      "text": "Si macho yako tu yaliyo makali—ni kila kitu kukuhusu.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "150",
+      "text": "Una mvuto unaozima hoja na kuwasha kila kitu kingine.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "151",
+      "text": "Husemi mengi, lakini mwili wako unaongea vya kutosha.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "152",
+      "text": "Naahidi kuwa mzuri… hadi utakaposema vinginevyo.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "153",
+      "text": "Unachochea misukumo ninayoizuia kawaida. Kawaida.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "154",
+      "text": "Wewe ndiye tafsiri ya lile tazamo linalowafanya watu wavue nguo kwenye fikra zao.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "155",
+      "text": "Kama ni wewe ninayemfikiria sasa, huenda inabidi ni-logout.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "156",
+      "text": "Wewe si distraksioni—ndiyo sababu nzima ya mzunguko wa mawazo.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "157",
+      "text": "Unanifanya nijiulize chumba kinaweza kunyamaza kiasi gani… na nini hutokea baada ya hapo.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "158",
+      "text": "Hatuhitaji kusema mengi. Sote tunajua hili ni nini hasa.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "159",
+      "text": "Wewe si moto tu—wewe ni ‘lazima nibuni kitu’ moto.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "160",
+      "text": "Unatoa aina ya nishati isiyofaa kabisa hadharani.",
+      "categories": ["spicy"]
+    }
+  ]
 ]

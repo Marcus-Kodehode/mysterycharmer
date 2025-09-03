@@ -477,89 +477,408 @@
     "categories": ["spicy", "cheeky"]
   },
   [
-  { "key": "081", "text": "You have the kind of effect that turns a day around—without doing anything big.", "categories": ["classic"] },
-  { "key": "082", "text": "Something about the way you are makes the world breathe easier.", "categories": ["classic"] },
-  { "key": "083", "text": "You carry a natural steadiness about you—and it shows.", "categories": ["classic"] },
-  { "key": "084", "text": "You're like the line that puts the whole book into perspective.", "categories": ["classic"] },
-  { "key": "085", "text": "With you it feels real—really real.", "categories": ["classic"] },
-  { "key": "086", "text": "Some people disrupt. You ground.", "categories": ["classic"] },
-  { "key": "087", "text": "You have that rare presence that makes silence comfortable.", "categories": ["classic"] },
-  { "key": "088", "text": "Your gaze feels like letting my shoulders drop a little.", "categories": ["classic"] },
-  { "key": "089", "text": "You remind me how good it can feel to land somewhere—or in someone.", "categories": ["classic"] },
-  { "key": "090", "text": "You're so calm it's almost easy to forget how intensely present you are.", "categories": ["classic"] },
-  { "key": "091", "text": "Something about you makes everything feel a bit more real and a lot less rushed.", "categories": ["classic"] },
-  { "key": "092", "text": "You have the kind of presence that makes time never feel wasted.", "categories": ["classic"] },
-  { "key": "093", "text": "You're not just easy to be around—you’re hard to forget after.", "categories": ["classic"] },
-  { "key": "094", "text": "You make the simple feel big.", "categories": ["classic"] },
-  { "key": "095", "text": "There's something in your voice that makes everything less noisy.", "categories": ["classic"] },
-  { "key": "096", "text": "You're the kind who does good without making a fuss about it.", "categories": ["classic"] },
-  { "key": "097", "text": "The lovely thing about you is you’re not trying to be anything—you just are.", "categories": ["classic"] },
-  { "key": "098", "text": "You have an effect that makes people think a little more with their heart.", "categories": ["classic"] },
-  { "key": "099", "text": "Things land a little softer when you’re around.", "categories": ["classic"] },
-  { "key": "100", "text": "You turn everyday moments into something worth remembering.", "categories": ["classic"] },
+    {
+      "key": "081",
+      "text": "You have the kind of effect that turns a day around—without doing anything big.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "082",
+      "text": "Something about the way you are makes the world breathe easier.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "083",
+      "text": "You carry a natural steadiness about you—and it shows.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "084",
+      "text": "You're like the line that puts the whole book into perspective.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "085",
+      "text": "With you it feels real—really real.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "086",
+      "text": "Some people disrupt. You ground.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "087",
+      "text": "You have that rare presence that makes silence comfortable.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "088",
+      "text": "Your gaze feels like letting my shoulders drop a little.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "089",
+      "text": "You remind me how good it can feel to land somewhere—or in someone.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "090",
+      "text": "You're so calm it's almost easy to forget how intensely present you are.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "091",
+      "text": "Something about you makes everything feel a bit more real and a lot less rushed.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "092",
+      "text": "You have the kind of presence that makes time never feel wasted.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "093",
+      "text": "You're not just easy to be around—you’re hard to forget after.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "094",
+      "text": "You make the simple feel big.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "095",
+      "text": "There's something in your voice that makes everything less noisy.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "096",
+      "text": "You're the kind who does good without making a fuss about it.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "097",
+      "text": "The lovely thing about you is you’re not trying to be anything—you just are.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "098",
+      "text": "You have an effect that makes people think a little more with their heart.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "099",
+      "text": "Things land a little softer when you’re around.",
+      "categories": ["classic"]
+    },
+    {
+      "key": "100",
+      "text": "You turn everyday moments into something worth remembering.",
+      "categories": ["classic"]
+    },
 
-  { "key": "101", "text": "You're like a bug I don't want to fix—just stare at and be fascinated by.", "categories": ["nerdy"] },
-  { "key": "102", "text": "Every time you show up, my whole system gets high latency.", "categories": ["nerdy"] },
-  { "key": "103", "text": "You're like dark mode—suddenly everything’s more comfortable.", "categories": ["nerdy"] },
-  { "key": "104", "text": "If looks could compile feelings, we'd be production ready.", "categories": ["nerdy"] },
-  { "key": "105", "text": "I thought I had plenty of RAM until you overloaded my whole system.", "categories": ["nerdy"] },
-  { "key": "106", "text": "You're like a dev environment spun up—and I'm so ready to test.", "categories": ["nerdy"] },
-  { "key": "107", "text": "I didn’t know attraction could be triggered by syntax as clean as yours.", "categories": ["nerdy"] },
-  { "key": "108", "text": "You make my thoughts as unstable as a badly written while-loop.", "categories": ["nerdy"] },
-  { "key": "109", "text": "You're like a new feature in my life’s changelog.", "categories": ["nerdy"] },
-  { "key": "110", "text": "Something about you feels like a perfect commit—tidy, thoughtful, exactly what's needed.", "categories": ["nerdy"] },
-  { "key": "111", "text": "You're not just cute—you’re semantically correct and objectively attractive.", "categories": ["nerdy"] },
-  { "key": "112", "text": "If we were a database, we’d have a beautiful relationship.", "categories": ["nerdy"] },
-  { "key": "113", "text": "Are you a terminal? Because you’ve got full control over my input.", "categories": ["nerdy"] },
-  { "key": "114", "text": "You just sent my brain into infinite recursion on ‘why are you so attractive?’", "categories": ["nerdy"] },
-  { "key": "115", "text": "You’re like a token with unlimited access to my thoughts.", "categories": ["nerdy"] },
-  { "key": "116", "text": "I thought I was async, but you make me respond synchronously—every time.", "categories": ["nerdy"] },
-  { "key": "117", "text": "You just crashed my brain without warning.", "categories": ["nerdy"] },
-  { "key": "118", "text": "You're more satisfying than a green test suite after a long night.", "categories": ["nerdy"] },
-  { "key": "119", "text": "Are you a compiler? Because you make everything I'm trying to say clearer.", "categories": ["nerdy"] },
-  { "key": "120", "text": "I didn’t know love could be expressed in binary—until I met you.", "categories": ["nerdy"] },
+    {
+      "key": "101",
+      "text": "You're like a bug I don't want to fix—just stare at and be fascinated by.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "102",
+      "text": "Every time you show up, my whole system gets high latency.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "103",
+      "text": "You're like dark mode—suddenly everything’s more comfortable.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "104",
+      "text": "If looks could compile feelings, we'd be production ready.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "105",
+      "text": "I thought I had plenty of RAM until you overloaded my whole system.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "106",
+      "text": "You're like a dev environment spun up—and I'm so ready to test.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "107",
+      "text": "I didn’t know attraction could be triggered by syntax as clean as yours.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "108",
+      "text": "You make my thoughts as unstable as a badly written while-loop.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "109",
+      "text": "You're like a new feature in my life’s changelog.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "110",
+      "text": "Something about you feels like a perfect commit—tidy, thoughtful, exactly what's needed.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "111",
+      "text": "You're not just cute—you’re semantically correct and objectively attractive.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "112",
+      "text": "If we were a database, we’d have a beautiful relationship.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "113",
+      "text": "Are you a terminal? Because you’ve got full control over my input.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "114",
+      "text": "You just sent my brain into infinite recursion on ‘why are you so attractive?’",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "115",
+      "text": "You’re like a token with unlimited access to my thoughts.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "116",
+      "text": "I thought I was async, but you make me respond synchronously—every time.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "117",
+      "text": "You just crashed my brain without warning.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "118",
+      "text": "You're more satisfying than a green test suite after a long night.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "119",
+      "text": "Are you a compiler? Because you make everything I'm trying to say clearer.",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "120",
+      "text": "I didn’t know love could be expressed in binary—until I met you.",
+      "categories": ["nerdy"]
+    },
 
-  { "key": "121", "text": "You’re the reason I forget what I was actually going to say.", "categories": ["cheeky"] },
-  { "key": "122", "text": "You really should come with a side-effects warning.", "categories": ["cheeky"] },
-  { "key": "123", "text": "You look like a compliment I shouldn’t say out loud—and I’m going to anyway.", "categories": ["cheeky"] },
-  { "key": "124", "text": "You’re the kind of distraction I don’t want to avoid.", "categories": ["cheeky"] },
-  { "key": "125", "text": "There should be a rule against being that cute and that hard to ignore.", "categories": ["cheeky"] },
-  { "key": "126", "text": "It’s almost like you’re trying to throw me off balance. And it works.", "categories": ["cheeky"] },
-  { "key": "127", "text": "You make it nearly impossible to pretend I have self-control.", "categories": ["cheeky"] },
-  { "key": "128", "text": "You’re just the right amount of chaos to be tempting.", "categories": ["cheeky"] },
-  { "key": "129", "text": "You’re the kind of look people pretend they didn’t notice—and never manage to.", "categories": ["cheeky"] },
-  { "key": "130", "text": "You make it suspiciously easy to forget I used to be good at focusing.", "categories": ["cheeky"] },
-  { "key": "131", "text": "I had a plan for the day; then you showed up and ruined it in the best way.", "categories": ["cheeky"] },
-  { "key": "132", "text": "You’re like a tiny glitch in my system—and I love it.", "categories": ["cheeky"] },
-  { "key": "133", "text": "You're the reason I have to rewrite the message—because I was staring first.", "categories": ["cheeky"] },
-  { "key": "134", "text": "If you keep looking at me like that, I’ll have to report you to the flirt police.", "categories": ["cheeky"] },
-  { "key": "135", "text": "You’re nowhere near discreet—and I love it.", "categories": ["cheeky"] },
-  { "key": "136", "text": "I tried to look cool; then you showed up and wrecked it with that smile.", "categories": ["cheeky"] },
-  { "key": "137", "text": "You have the kind of look that makes people start typing dumb messages. Like this one.", "categories": ["cheeky"] },
-  { "key": "138", "text": "If this were a self-control test, I’d fail with style.", "categories": ["cheeky"] },
-  { "key": "139", "text": "You make it seem like being a little inappropriate is a good idea.", "categories": ["cheeky"] },
-  { "key": "140", "text": "Just so you know: I’m blaming you if my brain takes a lunch break next time we talk.", "categories": ["cheeky"] },
+    {
+      "key": "121",
+      "text": "You’re the reason I forget what I was actually going to say.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "122",
+      "text": "You really should come with a side-effects warning.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "123",
+      "text": "You look like a compliment I shouldn’t say out loud—and I’m going to anyway.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "124",
+      "text": "You’re the kind of distraction I don’t want to avoid.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "125",
+      "text": "There should be a rule against being that cute and that hard to ignore.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "126",
+      "text": "It’s almost like you’re trying to throw me off balance. And it works.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "127",
+      "text": "You make it nearly impossible to pretend I have self-control.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "128",
+      "text": "You’re just the right amount of chaos to be tempting.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "129",
+      "text": "You’re the kind of look people pretend they didn’t notice—and never manage to.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "130",
+      "text": "You make it suspiciously easy to forget I used to be good at focusing.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "131",
+      "text": "I had a plan for the day; then you showed up and ruined it in the best way.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "132",
+      "text": "You’re like a tiny glitch in my system—and I love it.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "133",
+      "text": "You're the reason I have to rewrite the message—because I was staring first.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "134",
+      "text": "If you keep looking at me like that, I’ll have to report you to the flirt police.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "135",
+      "text": "You’re nowhere near discreet—and I love it.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "136",
+      "text": "I tried to look cool; then you showed up and wrecked it with that smile.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "137",
+      "text": "You have the kind of look that makes people start typing dumb messages. Like this one.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "138",
+      "text": "If this were a self-control test, I’d fail with style.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "139",
+      "text": "You make it seem like being a little inappropriate is a good idea.",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "140",
+      "text": "Just so you know: I’m blaming you if my brain takes a lunch break next time we talk.",
+      "categories": ["cheeky"]
+    },
 
-  { "key": "141", "text": "You have the kind of energy that makes me think about anything but small talk.", "categories": ["spicy"] },
-  { "key": "142", "text": "You make me want to invent bad excuses to stay a little longer.", "categories": ["spicy"] },
-  { "key": "143", "text": "You're not dangerous, but you make my thoughts that way.", "categories": ["spicy"] },
-  { "key": "144", "text": "Your look feels like an invitation with fine print I’m choosing to ignore.", "categories": ["spicy"] },
-  { "key": "145", "text": "You have the smile that makes me forget what’s wise.", "categories": ["spicy"] },
-  { "key": "146", "text": "You give the kind of look that isn’t about talking more.", "categories": ["spicy"] },
-  { "key": "147", "text": "You look like the reason I won’t sleep tonight.", "categories": ["spicy"] },
-  { "key": "148", "text": "We shouldn’t—but every part of me votes yes anyway.", "categories": ["spicy"] },
-  { "key": "149", "text": "It isn’t just your eyes that are intense—it’s everything about you.", "categories": ["spicy"] },
-  { "key": "150", "text": "You have the kind of pull that turns off reason and turns on everything else.", "categories": ["spicy"] },
-  { "key": "151", "text": "You don’t say much, but your body does more than enough talking.", "categories": ["spicy"] },
-  { "key": "152", "text": "I promise to be good… until you say otherwise.", "categories": ["spicy"] },
-  { "key": "153", "text": "You trigger impulses I usually keep in check. Usually.", "categories": ["spicy"] },
-  { "key": "154", "text": "You are the definition of that look that makes people lose clothes in their imagination.", "categories": ["spicy"] },
-  { "key": "155", "text": "If it’s you I’m thinking about right now, I should probably log off.", "categories": ["spicy"] },
-  { "key": "156", "text": "You’re not a distraction—you’re the whole reason for the spiral.", "categories": ["spicy"] },
-  { "key": "157", "text": "You make me wonder how quiet a room can get… and what happens after.", "categories": ["spicy"] },
-  { "key": "158", "text": "We don’t have to say much. We both know what this really is.", "categories": ["spicy"] },
-  { "key": "159", "text": "You’re not just hot—you’re ‘gotta think of something’ hot.", "categories": ["spicy"] },
-  { "key": "160", "text": "You give off the kind of energy that doesn’t belong in public.", "categories": ["spicy"] }
-]
-
+    {
+      "key": "141",
+      "text": "You have the kind of energy that makes me think about anything but small talk.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "142",
+      "text": "You make me want to invent bad excuses to stay a little longer.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "143",
+      "text": "You're not dangerous, but you make my thoughts that way.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "144",
+      "text": "Your look feels like an invitation with fine print I’m choosing to ignore.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "145",
+      "text": "You have the smile that makes me forget what’s wise.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "146",
+      "text": "You give the kind of look that isn’t about talking more.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "147",
+      "text": "You look like the reason I won’t sleep tonight.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "148",
+      "text": "We shouldn’t—but every part of me votes yes anyway.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "149",
+      "text": "It isn’t just your eyes that are intense—it’s everything about you.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "150",
+      "text": "You have the kind of pull that turns off reason and turns on everything else.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "151",
+      "text": "You don’t say much, but your body does more than enough talking.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "152",
+      "text": "I promise to be good… until you say otherwise.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "153",
+      "text": "You trigger impulses I usually keep in check. Usually.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "154",
+      "text": "You are the definition of that look that makes people lose clothes in their imagination.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "155",
+      "text": "If it’s you I’m thinking about right now, I should probably log off.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "156",
+      "text": "You’re not a distraction—you’re the whole reason for the spiral.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "157",
+      "text": "You make me wonder how quiet a room can get… and what happens after.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "158",
+      "text": "We don’t have to say much. We both know what this really is.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "159",
+      "text": "You’re not just hot—you’re ‘gotta think of something’ hot.",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "160",
+      "text": "You give off the kind of energy that doesn’t belong in public.",
+      "categories": ["spicy"]
+    }
+  ]
 ]

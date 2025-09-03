@@ -392,5 +392,407 @@
     "key": "080",
     "text": "你的能量讓人很難忽視——也很難睡得著。",
     "categories": ["spicy", "cheeky"]
-  }
+  },
+
+  [
+    {
+      "key": "081",
+      "text": "你有種力量，能讓一天整個扭轉—不必做什麼大事。",
+      "categories": ["classic"]
+    },
+    {
+      "key": "082",
+      "text": "你身上有種氣質，讓世界跟著慢慢吐口氣。",
+      "categories": ["classic"]
+    },
+    {
+      "key": "083",
+      "text": "你自帶一種自然的安定感—而且看得出來。",
+      "categories": ["classic"]
+    },
+    {
+      "key": "084",
+      "text": "你就像一句話，把整本書都看清楚了。",
+      "categories": ["classic"]
+    },
+    {
+      "key": "085",
+      "text": "和你在一起的感覺很真—真的很真。",
+      "categories": ["classic"]
+    },
+    {
+      "key": "086",
+      "text": "有些人只會打擾；你會讓人安定。",
+      "categories": ["classic"]
+    },
+    {
+      "key": "087",
+      "text": "你有種少見的存在，讓沉默變得舒服。",
+      "categories": ["classic"]
+    },
+    {
+      "key": "088",
+      "text": "你的眼神，像是讓肩膀鬆下來一點。",
+      "categories": ["classic"]
+    },
+    {
+      "key": "089",
+      "text": "你提醒我，落腳—或落在一個人心上—其實很美好。",
+      "categories": ["classic"]
+    },
+    {
+      "key": "090",
+      "text": "你平靜到讓人差點忘了你有多在場。",
+      "categories": ["classic"]
+    },
+    {
+      "key": "091",
+      "text": "你身上有種東西，讓一切更真實，也不那麼匆忙。",
+      "categories": ["classic"]
+    },
+    {
+      "key": "092",
+      "text": "你的存在，讓時間不再像是在被浪費。",
+      "categories": ["classic"]
+    },
+    {
+      "key": "093",
+      "text": "不只相處起來輕鬆—還很難被忘記。",
+      "categories": ["classic"]
+    },
+    { "key": "094", "text": "你把簡單變得有份量。", "categories": ["classic"] },
+    {
+      "key": "095",
+      "text": "你的聲音，讓世界安靜了一點。",
+      "categories": ["classic"]
+    },
+    {
+      "key": "096",
+      "text": "你是那種做善事不張揚的人。",
+      "categories": ["classic"]
+    },
+    {
+      "key": "097",
+      "text": "你最迷人的地方，是你不刻意成為誰—你就是你。",
+      "categories": ["classic"]
+    },
+    {
+      "key": "098",
+      "text": "你會讓人多用一點心去思考。",
+      "categories": ["classic"]
+    },
+    {
+      "key": "099",
+      "text": "你在的時候，事情都落地得更輕。",
+      "categories": ["classic"]
+    },
+    {
+      "key": "100",
+      "text": "你把日常片刻，變成值得記住的畫面。",
+      "categories": ["classic"]
+    },
+
+    {
+      "key": "101",
+      "text": "你像個我不想修的 bug—只想一直看、一直著迷。",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "102",
+      "text": "每次你出現，我整個系統都變高延遲。",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "103",
+      "text": "你就像深色模式—突然一切都舒服多了。",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "104",
+      "text": "如果眼神能編譯情感，我們早就可以上線。",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "105",
+      "text": "我以為 RAM 夠大，直到你把我的系統整個塞爆。",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "106",
+      "text": "你像剛啟動的開發環境—我已經迫不及待想測試。",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "107",
+      "text": "沒想到乾淨到這種程度的語法也能觸發心動。",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "108",
+      "text": "你讓我的思緒像壞掉的 while 迴圈一樣不穩。",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "109",
+      "text": "你就像我人生 changelog 上的全新功能。",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "110",
+      "text": "你給我的感覺像完美的 commit—乾淨、周到、剛剛好。",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "111",
+      "text": "你不只是可愛—你語意正確、客觀上也很有魅力。",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "112",
+      "text": "如果我們是資料庫，我們的關聯一定超級漂亮。",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "113",
+      "text": "你是終端機嗎？因為你完全控制了我的輸入。",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "114",
+      "text": "你讓我的大腦進入『為什麼你這麼迷人』的無限遞迴。",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "115",
+      "text": "你像一枚擁有無限制存取權的 token，直通我的腦袋。",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "116",
+      "text": "我以為自己很 async，但遇到你就會同步回應—每一次。",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "117",
+      "text": "你剛剛讓我的腦直接當機，毫無預警。",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "118",
+      "text": "你比熬夜後看到全綠測試還叫人滿足。",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "119",
+      "text": "你是編譯器嗎？因為你讓我想說的話更清楚。",
+      "categories": ["nerdy"]
+    },
+    {
+      "key": "120",
+      "text": "我原本不相信愛能用二進位表達—直到遇見你。",
+      "categories": ["nerdy"]
+    },
+
+    {
+      "key": "121",
+      "text": "你就是我忽然忘詞的原因。",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "122",
+      "text": "老實說，你應該附上副作用警語。",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "123",
+      "text": "你看起來像一句不該脫口而出的讚美—但我還是會說。",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "124",
+      "text": "你是那種我並不想迴避的分心。",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "125",
+      "text": "應該立法：不准又可愛又難以忽視。",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "126",
+      "text": "你好像故意要讓我失去平衡—而且的確成功。",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "127",
+      "text": "有你在，要假裝我很自制幾乎不可能。",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "128",
+      "text": "你是剛剛好的混亂—剛好足夠讓人心動。",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "129",
+      "text": "你是那種讓人假裝沒看到—但根本做不到的眼神。",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "130",
+      "text": "你讓我很可疑地忘了我曾經很會專心。",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "131",
+      "text": "我本來今天有計畫，然後你出現，把它用最好的方式打亂了。",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "132",
+      "text": "你像我系統裡的小小 glitch—而我超愛。",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "133",
+      "text": "我得把訊息重打一遍—因為我先看呆了。",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "134",
+      "text": "再這樣看我，我可能得向調情警察報案喔。",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "135",
+      "text": "你一點也不含蓄—我就喜歡這樣。",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "136",
+      "text": "我本來想裝酷，你出現後那個笑容把一切都毀了。",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "137",
+      "text": "你有那種會讓人開始打蠢訊息的眼神。就像這則。",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "138",
+      "text": "如果這是自制力測驗，我會優雅地不及格。",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "139",
+      "text": "你讓『有點不乖』看起來是個好主意。",
+      "categories": ["cheeky"]
+    },
+    {
+      "key": "140",
+      "text": "先說好：下次聊天我腦袋放空，我會怪你。",
+      "categories": ["cheeky"]
+    },
+
+    {
+      "key": "141",
+      "text": "你帶著一股讓我無心寒暄的小惡魔能量。",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "142",
+      "text": "你讓我很想編藉口多待一會兒。",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "143",
+      "text": "你本人不危險，但我的念頭會。",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "144",
+      "text": "你的眼神像一張寫滿細則的邀請—而我偏偏選擇忽略。",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "145",
+      "text": "你的笑讓我忘了什麼叫理智。",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "146",
+      "text": "你給的那個眼神，完全不是在說『再多聊聊』。",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "147",
+      "text": "你看起來像今晚讓我睡不著的理由。",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "148",
+      "text": "我們不該這樣—但我全身都投贊成票。",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "149",
+      "text": "不只你的眼睛強烈—你整個人都很致命。",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "150",
+      "text": "你有種吸力，會關掉理性，打開其他一切。",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "151",
+      "text": "你話不多，但你的肢體語言說得已經夠多了。",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "152",
+      "text": "我保證會乖……直到你說不必。",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "153",
+      "text": "你喚醒了我通常會壓著的衝動。通常啦。",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "154",
+      "text": "你就是那種會讓人腦內把衣服都脫掉的眼神本體。",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "155",
+      "text": "如果我現在想的人是你，那我可能該下線了。",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "156",
+      "text": "你不是干擾—你是我腦內風暴的全部原因。",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "157",
+      "text": "你讓我開始想：房間能安靜到什麼程度……以及之後會發生什麼。",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "158",
+      "text": "我們不用說太多，彼此都懂這是怎麼回事。",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "159",
+      "text": "你不只是火辣—你是『得想點辦法』的那種火辣。",
+      "categories": ["spicy"]
+    },
+    {
+      "key": "160",
+      "text": "你釋放的能量，根本不適合在公共場合出現。",
+      "categories": ["spicy"]
+    }
+  ]
 ]
