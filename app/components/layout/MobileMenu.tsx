@@ -18,7 +18,7 @@ const CATS: { value: Category; emoji: string }[] = [
 const LANGS: { code: Lang; label: string; icon: string }[] = [
   { code: "no", label: "Norsk", icon: "/images/icons/no.png" },
   { code: "en", label: "English", icon: "/images/icons/en.png" },
-  { code: "es", label: "Español", icon: "/images/icons/es.png" },
+  { code: "es", label: "Español (MX)", icon: "/images/icons/es.png" },
   { code: "sw", label: "Kiswahili", icon: "/images/icons/tz.png" },
   { code: "zh", label: "繁體中文", icon: "/images/icons/tw.png" },
 ];

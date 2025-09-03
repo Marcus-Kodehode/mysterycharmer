@@ -1,40 +1,23 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
+import { useEffect, useRef, useState } from "react";
 import { useAppState } from "../core/AppState";
+import type { Lang } from "@/lib/types"; // ← viktig
 
-const LANGS = [
+type LangItem = { code: Lang; label: string; short: string; icon: string };
+
+const LANGS: readonly LangItem[] = [
+  { code: "no", label: "Norsk", short: "NO", icon: "/images/icons/no.png" },
+  { code: "en", label: "English", short: "EN", icon: "/images/icons/en.png" },
   {
-    code: "no" as const,
-    label: "Norsk",
-    short: "NO",
-    icon: "/images/icons/no.png",
-  },
-  {
-    code: "en" as const,
-    label: "English",
-    short: "EN",
-    icon: "/images/icons/en.png",
-  },
-  {
-    code: "es" as const,
-    label: "Español",
+    code: "es",
+    label: "Español (MX)",
     short: "ES",
     icon: "/images/icons/es.png",
   },
-  {
-    code: "sw" as const,
-    label: "Kiswahili",
-    short: "SW",
-    icon: "/images/icons/tz.png",
-  },
-  {
-    code: "zh" as const,
-    label: "繁體中文",
-    short: "繁",
-    icon: "/images/icons/tw.png",
-  },
+  { code: "sw", label: "Kiswahili", short: "SW", icon: "/images/icons/tz.png" },
+  { code: "zh", label: "繁體中文", short: "繁", icon: "/images/icons/tw.png" },
 ];
 
 export default function LanguageMenu() {
@@ -44,8 +27,7 @@ export default function LanguageMenu() {
 
   useEffect(() => {
     const onDoc = (e: MouseEvent) => {
-      if (!ref.current) return;
-      if (!ref.current.contains(e.target as Node)) setOpen(false);
+      if (!ref.current?.contains(e.target as Node)) setOpen(false);
     };
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") setOpen(false);
@@ -58,7 +40,8 @@ export default function LanguageMenu() {
     };
   }, []);
 
-  const current = LANGS.find((l) => l.code === lang)!;
+  // ← Beregn current INNE i komponenten, etter at vi har 'lang'
+  const current = LANGS.find((l) => l.code === lang) ?? LANGS[0];
 
   return (
     <div ref={ref} className="relative">
@@ -88,9 +71,7 @@ export default function LanguageMenu() {
             <button
               key={item.code}
               role="menuitem"
-              className={`w-full text-left px-3 py-2 rounded-lg hover:bg-white/10 flex items-center gap-2 ${
-                item.code === lang ? "bg-white/10" : ""
-              }`}
+              className={`w-full text-left px-3 py-2 rounded-lg hover:bg-white/10 flex items-center gap-2 ${item.code === lang ? "bg-white/10" : ""}`}
               onClick={() => {
                 setLang(item.code);
                 setOpen(false);
