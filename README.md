@@ -1,4 +1,10 @@
 <div align="center">
+  <p>
+    <img src="/public/images/MBlogo.png" alt="MysteryCharmer Logo" width="150" />
+  </p>
+  <p>
+    <img src="/public/images/mystery-logo.png" alt="MysteryCharmer Alt Logo" width="150" />
+  </p>
   
   # MysteryCharmer
   
