@@ -95,3 +95,17 @@ export default function Page() {
     </section>
   );
 }
+/*
+            .-=========-.
+         .-'             '-.
+       .'  ONE BUG TO FIND  '.
+      /   THEM — ONE FIX TO   \
+     ;   BRING THEM ALL — AND  ;
+     |    IN THE DARKNESS      |
+     ;        BIND THEM        ;
+      \                       /
+       '.                   .'
+         '-.           .-'
+            '-========-'
+   — Marcus
+*/
